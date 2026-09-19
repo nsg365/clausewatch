@@ -101,14 +101,6 @@ uvicorn clausewatch.api:app --port 8000
 streamlit run app/streamlit_app.py
 ```
 
-- **Sidebar** - upload a contract PDF (chunked, tagged and indexed live), choose which contracts to search,
-  and toggle the verifier off to compare against the raw draft.
-- **Ask tab** - the answer with inline `[n]` citations, each expanding to the quoted clause with contract,
-  section and page; a table of the verifier's per-claim verdicts; and the full agent trace with per-node timings.
-- **Risk flags tab** - ranked risk cards by severity with the quoted clause, plus the flags the verifier rejected.
-
-> Embedded Qdrant allows one process at a time. To run the API and the MCP server simultaneously, start Qdrant with `docker run -p 6333:6333 qdrant/qdrant` and set `CLAUSEWATCH_QDRANT_URL=http://localhost:6333` (then re-run `ingest`).
-
 ### Claude Desktop
 
 Add to `~/Library/Application Support/Claude/claude_desktop_config.json`:
