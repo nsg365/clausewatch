@@ -85,13 +85,27 @@ python -m clausewatch.cli ask "Can either party terminate the Biopure agency agr
 python -m clausewatch.cli risk path/to/new_contract.pdf       # ingest + risk scan
 python -m clausewatch.cli graph                               # print the LangGraph as mermaid
 
-# Web app
-uvicorn clausewatch.api:app --port 8000
-streamlit run app/streamlit_app.py
-
 # MCP server (stdio)
 python -m clausewatch.mcp_server
 ```
+
+### Web app
+
+The UI is a thin client over the API, so the two run in **separate terminals** (both need the venv active):
+
+```bash
+# terminal 1 - backend; wait for "Application startup complete"
+uvicorn clausewatch.api:app --port 8000
+
+# terminal 2 - UI, opens http://localhost:8501
+streamlit run app/streamlit_app.py
+```
+
+- **Sidebar** - upload a contract PDF (chunked, tagged and indexed live), choose which contracts to search,
+  and toggle the verifier off to compare against the raw draft.
+- **Ask tab** - the answer with inline `[n]` citations, each expanding to the quoted clause with contract,
+  section and page; a table of the verifier's per-claim verdicts; and the full agent trace with per-node timings.
+- **Risk flags tab** - ranked risk cards by severity with the quoted clause, plus the flags the verifier rejected.
 
 > Embedded Qdrant allows one process at a time. To run the API and the MCP server simultaneously, start Qdrant with `docker run -p 6333:6333 qdrant/qdrant` and set `CLAUSEWATCH_QDRANT_URL=http://localhost:6333` (then re-run `ingest`).
 
