@@ -1,0 +1,254 @@
+{
+ "question": "Which law governs the Kitov Pharma manufacturing agreement?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0"
+ ],
+ "clause_types": [
+  "governing_law"
+ ],
+ "search_query": "governing law of the agreement",
+ "answer": "The Kitov Pharma manufacturing agreement is governed by the laws of the State of Israel [1].",
+ "draft": {
+  "answer": "The Kitov Pharma manufacturing agreement is governed by the laws of the State of Israel [S1].",
+  "claims": [
+   {
+    "statement": "The agreement is governed by the laws of the State of Israel.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "This Agreement shall be interpreted and enforced exclusively under the laws of the State of Israel, without regard to the conflict of laws provisions thereof."
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0",
+   "contract_title": "KitovPharmaLtd - Manufacturing Agreement",
+   "section": "9 Intellectual Property Rights",
+   "page_start": 16,
+   "page_end": 17,
+   "chunk_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0::0061",
+   "quote": "This Agreement shall be interpreted and enforced exclusively under the laws of the State of Israel, without regard to the conflict of laws provisions thereof.",
+   "ref": "KitovPharmaLtd - Manufacturing Agreement, 9 Intellectual Property Rights, pp. 16-17"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {},
+ "contexts": [
+  "shall, in its reasonable judgment, decide the defense strategy, the means of proof, the choice of counsel, and the appeals. Neither\nParty shall settle and/or negotiate, or start conversations to seek a settlement or a negotiation, either in or out of court, any IP Claim\nwithout having obtained the prior written approval of the other Party. Both Parties shall collaborate on the necessary exchange of\ndocumentation and information available in order to be able for each Party to take action with respect to an IP Claim.\n9.3 All of the Kitov Product IP, including the Marketing Authorizations (but excluding any of Dexcel's Intellectual Property Rights), shall\nbe retained by Kitov at all times, and Dexcel shall have no rights with respect to the Kitov Product IP, except for any rights provided\nto it pursuant to the terms of this Agreement and the Development Agreement.\n10 Governing Law\u037e Venue\n10.1 This Agreement shall be interpreted and enforced exclusively under the laws of the State of Israel, without regard to the conflict of\nlaws provisions thereof.",
+  "Food and Drug Administration or any successor entity.\n1.17 \"Force Majeure\" shall mean an event beyond a Party's reasonable control which prevents such Party from performing its\nobligations hereunder, such events may include, but not be limited to, Acts of God (including fire, flood, earthquake, storm, hurricane\nor other natural disaster), war, invasion, act of foreign enemies, hostilities (regardless of whether war is declared), civil war, rebellion,\nrevolution, insurrection, military or usurped power or confiscation, terrorist activities, any extraordinary military operation which\nrequires a large military reserve mobilization, nationalization, governmental activities relating to emergency situations, blockage,\nembargo, strikes or lockouts.\n1.18 \"Human Trafficking\" shall mean the recruitment, transportation, transfer, harboring, or receipt of men, women and/or children by\nimproper means (such as force, abduction, fraud, or coercion) for an improper purpose including forced labor or sexual exploitation.",
+  "termination of this Agreement.\n1.34 \"Regulatory Authority\" shall mean, in a particular country or jurisdiction, any applicable governmental authority involved in\ngranting a Marketing Authorization in such country or jurisdiction, including, inter alia , the FDA and EMA.\n1.35 \"Specifications\" shall mean the pharmacochemical, manufacturing, stability and other specifications of a Product defined in such\nProduct's Marketing Authorization, subject to change from time to time as reasonably required to meet any requirements of the\nrelevant Health Authorities.\n1.36 \"Supply Commencement Date\" shall mean the date upon which Dexcel makes the first Delivery of the Product to Kitov pursuant to\nan Confirmed Order.\n1.37 \"Supply Price\" shall have the meaning set forth in Section 3.4.\n1.38 \"Term\" shall have the meaning set forth in Section 5.1.\n1.39 \"Trademark\" shall mean Kitov's trademark Consensi\u2122.\n1.40 \"Working Day\" shall mean a day excluding Friday and Saturday and, for the avoidance of doubt, excluding statutory holidays in the\nState of Israel.",
+  "7.8 Required Disclosure. Notwithstanding the provisions of this Section 7, the recipient Party may disclose the Confidential Information\nof the disclosing Party to the extent that such disclosure is reasonably necessary to:\n7.8.1 prosecute or defend litigation\u037e\n7.8.2 comply with applicable governmental laws and regulations (including, without limitation, the applicable laws, rules,\nregulations or requirements of a securities exchange or another similar regulatory body)\u037e or\n7.8.3 respond to a valid order, inquiry or request of, or make filings and submissions to, or correspond or communicate with, any\ngovernment authority.",
+  "1.9 \"Confirmed Order\" shall have the meaning set forth in Section 3.3.2.\n1.10 \"Control\" or \"Controlled\" shall mean possession of more than fifty percent (50%) of the share capital of a corporation or other\nbusiness entity, and/or the power to direct or cause the direction of the management and policies of a corporation or other entity\nwhether through the ownership of voting securities, by contract or otherwise.\n1.11 \"Delivery\" shall mean the time when the Product is placed at the disposal of Kitov at Dexcel's Facility based on an ****\n(Incoterms\u00ae 2010).\n1.12 \"Distributors\" shall mean any Person under contract with Kitov or any of its Affiliates for the distribution of the Product in a certain\nterritory or territories.\n1.13 \"Effective Date\" shall mean the date of signature of the last Party to execute this Agreement.\n1.14 \"EMA\" means the European Medicines Agency or any successor entity.\n1.15 \"Family Member\" shall mean ****.\n1.16 \"FDA\" means the U.S. Food and Drug Administration or any successor entity.",
+  "1 Definitions\nFor the purpose of this Agreement, the terms set forth in this clause, whether used in singular or plural form, shall mean, unless otherwise expressly\nprovided for in this Agreement or the context otherwise requires, the following:\n1.1 \"Affiliate\" of a Party shall mean any corporation or other business entity directly or indirectly Controlled by, under common Control\nwith, or in the Control of such Party.\n1.2 \"Anti-Corruption and Anti-Bribery Laws\" shall mean the United States Foreign Corrupt Practices Act of 1977, as amended, the\nBribery Act 2010 (2010 Chapter 23) of the Parliament of the United Kingdom, any rules or regulations under such acts, and any other\nanti-corruption or anti-bribery statutes, laws or regulations applicable to a Party.\n1.3 \"API\" shall mean the active pharmaceutical ingredients Celecoxib  and Amlodipine Besylate .\n1.4 \"Batch\" shall mean the defined quantity of the Product processed in a single process or series of processes in a manner designed to\nbe homogeneous. The Batch size for the Product is **** tablets."
+ ],
+ "sources": [
+  {
+   "chunk_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0::0061",
+   "contract_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0",
+   "contract_title": "KitovPharmaLtd - Manufacturing Agreement",
+   "section": "9 Intellectual Property Rights",
+   "page_start": 16,
+   "page_end": 17,
+   "clause_types": [
+    "exclusivity",
+    "governing_law",
+    "ip"
+   ],
+   "dense_rank": 24,
+   "sparse_rank": 1,
+   "rrf": 0.06056,
+   "rerank": 0.7868,
+   "label": "S1"
+  },
+  {
+   "chunk_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0::0007",
+   "contract_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0",
+   "contract_title": "KitovPharmaLtd - Manufacturing Agreement",
+   "section": "1 Definitions",
+   "page_start": 2,
+   "page_end": 3,
+   "clause_types": [],
+   "dense_rank": 1,
+   "sparse_rank": null,
+   "rrf": 0.01639,
+   "rerank": 0.0211,
+   "label": "S2"
+  },
+  {
+   "chunk_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0::0011",
+   "contract_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0",
+   "contract_title": "KitovPharmaLtd - Manufacturing Agreement",
+   "section": "1 Definitions",
+   "page_start": 4,
+   "page_end": 4,
+   "clause_types": [
+    "governing_law",
+    "ip"
+   ],
+   "dense_rank": 2,
+   "sparse_rank": null,
+   "rrf": 0.03252,
+   "rerank": 0.0196,
+   "label": "S3"
+  },
+  {
+   "chunk_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0::0043",
+   "contract_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0",
+   "contract_title": "KitovPharmaLtd - Manufacturing Agreement",
+   "section": "7.8 Required Disclosure",
+   "page_start": 12,
+   "page_end": 12,
+   "clause_types": [
+    "confidentiality",
+    "indemnification"
+   ],
+   "dense_rank": 6,
+   "sparse_rank": 4,
+   "rrf": 0.03078,
+   "rerank": 0.0193,
+   "label": "S4"
+  },
+  {
+   "chunk_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0::0006",
+   "contract_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0",
+   "contract_title": "KitovPharmaLtd - Manufacturing Agreement",
+   "section": "1 Definitions",
+   "page_start": 2,
+   "page_end": 2,
+   "clause_types": [
+    "term"
+   ],
+   "dense_rank": 4,
+   "sparse_rank": null,
+   "rrf": 0.01562,
+   "rerank": 0.0169,
+   "label": "S5"
+  },
+  {
+   "chunk_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0::0003",
+   "contract_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0",
+   "contract_title": "KitovPharmaLtd - Manufacturing Agreement",
+   "section": "1 Definitions",
+   "page_start": 1,
+   "page_end": 2,
+   "clause_types": [],
+   "dense_rank": 8,
+   "sparse_rank": null,
+   "rrf": 0.01471,
+   "rerank": 0.0146,
+   "label": "S6"
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['governing_law'] | contracts=['kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0']",
+   "data": {
+    "reason": "The user asks for the governing law clause of the Kitov Pharma manufacturing agreement.",
+    "search_query": "governing law of the agreement",
+    "unknown_contract_ids": []
+   },
+   "ms": 996
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'governing law of the agreement'",
+   "data": {
+    "filters": {
+     "contracts": [
+      "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0"
+     ],
+     "clause_types": [
+      "governing_law"
+     ]
+    }
+   },
+   "ms": 158
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "KitovPharmaLtd - Manufacturing Agreement",
+      "section": "9 Intellectual Property Rights",
+      "score": 0.7868
+     },
+     {
+      "label": "S2",
+      "contract": "KitovPharmaLtd - Manufacturing Agreement",
+      "section": "1 Definitions",
+      "score": 0.0211
+     },
+     {
+      "label": "S3",
+      "contract": "KitovPharmaLtd - Manufacturing Agreement",
+      "section": "1 Definitions",
+      "score": 0.0196
+     },
+     {
+      "label": "S4",
+      "contract": "KitovPharmaLtd - Manufacturing Agreement",
+      "section": "7.8 Required Disclosure",
+      "score": 0.0193
+     },
+     {
+      "label": "S5",
+      "contract": "KitovPharmaLtd - Manufacturing Agreement",
+      "section": "1 Definitions",
+      "score": 0.0169
+     },
+     {
+      "label": "S6",
+      "contract": "KitovPharmaLtd - Manufacturing Agreement",
+      "section": "1 Definitions",
+      "score": 0.0146
+     }
+    ]
+   },
+   "ms": 2393
+  },
+  {
+   "node": "draft",
+   "message": "1 claims",
+   "data": {
+    "answer": "The Kitov Pharma manufacturing agreement is governed by the laws of the State of Israel [S1]."
+   },
+   "ms": 8743
+  },
+  {
+   "node": "answer",
+   "message": "verdict=unverified, 1 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 12.29,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1709,
+   "output_tokens": 140,
+   "total_tokens": 1849,
+   "output_token_details": {
+    "reasoning": 44
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "input_tokens": 1910,
+   "output_tokens": 347,
+   "total_tokens": 2257,
+   "output_token_details": {
+    "reasoning": 221
+   }
+  }
+ },
+ "llm_calls": 2
+}

@@ -1,0 +1,14 @@
+{
+ "id": "q19",
+ "type": "unanswerable",
+ "query_type": "clause_lookup",
+ "verdict": "off",
+ "latency_s": 38.84,
+ "tokens": 4171,
+ "routing_ok": true,
+ "n_citations": 0,
+ "citation_grounding": null,
+ "evidence_in_context": null,
+ "abstained": true,
+ "judge_model": "openai/gpt-oss-20b"
+}

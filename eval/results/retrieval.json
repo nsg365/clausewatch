@@ -1,0 +1,114 @@
+{
+ "k": 6,
+ "n_questions": 18,
+ "rows": [
+  {
+   "query": "router",
+   "scope": "scoped",
+   "retriever": "Dense only",
+   "evidence_recall@6": 0.889,
+   "mrr": 0.778,
+   "hit@1": 0.667
+  },
+  {
+   "query": "router",
+   "scope": "scoped",
+   "retriever": "BM25 only",
+   "evidence_recall@6": 1.0,
+   "mrr": 0.972,
+   "hit@1": 0.944
+  },
+  {
+   "query": "router",
+   "scope": "scoped",
+   "retriever": "Hybrid (RRF)",
+   "evidence_recall@6": 1.0,
+   "mrr": 0.872,
+   "hit@1": 0.778
+  },
+  {
+   "query": "router",
+   "scope": "scoped",
+   "retriever": "Hybrid + cross-encoder rerank",
+   "evidence_recall@6": 0.944,
+   "mrr": 0.917,
+   "hit@1": 0.889
+  },
+  {
+   "query": "router",
+   "scope": "scoped",
+   "retriever": "Hybrid + clause boost + rerank",
+   "evidence_recall@6": 0.944,
+   "mrr": 0.917,
+   "hit@1": 0.889
+  },
+  {
+   "query": "question",
+   "scope": "scoped",
+   "retriever": "Dense only",
+   "evidence_recall@6": 0.917,
+   "mrr": 0.838,
+   "hit@1": 0.778
+  },
+  {
+   "query": "question",
+   "scope": "scoped",
+   "retriever": "BM25 only",
+   "evidence_recall@6": 0.944,
+   "mrr": 0.88,
+   "hit@1": 0.833
+  },
+  {
+   "query": "question",
+   "scope": "scoped",
+   "retriever": "Hybrid (RRF)",
+   "evidence_recall@6": 1.0,
+   "mrr": 0.856,
+   "hit@1": 0.778
+  },
+  {
+   "query": "question",
+   "scope": "scoped",
+   "retriever": "Hybrid + cross-encoder rerank",
+   "evidence_recall@6": 0.917,
+   "mrr": 0.843,
+   "hit@1": 0.778
+  },
+  {
+   "query": "question",
+   "scope": "open",
+   "retriever": "Dense only",
+   "evidence_recall@6": 0.5,
+   "mrr": 0.431,
+   "hit@1": 0.389
+  },
+  {
+   "query": "question",
+   "scope": "open",
+   "retriever": "BM25 only",
+   "evidence_recall@6": 0.556,
+   "mrr": 0.349,
+   "hit@1": 0.222
+  },
+  {
+   "query": "question",
+   "scope": "open",
+   "retriever": "Hybrid (RRF)",
+   "evidence_recall@6": 0.611,
+   "mrr": 0.483,
+   "hit@1": 0.444
+  },
+  {
+   "query": "question",
+   "scope": "open",
+   "retriever": "Hybrid + cross-encoder rerank",
+   "evidence_recall@6": 0.611,
+   "mrr": 0.502,
+   "hit@1": 0.444
+  }
+ ],
+ "tagger": {
+  "recall": 0.524,
+  "precision_vs_cuad": 0.181
+ }
+}

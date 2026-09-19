@@ -1,0 +1,23 @@
+[
+ {
+  "contract": "ArmstrongFlooringInc - Intellectual Property Agreement",
+  "flags": 1,
+  "rejected_by_verifier": 2,
+  "cuad_checkable": 1,
+  "cuad_consistent": 1
+ },
+ {
+  "contract": "N2KINC - Sponsorship Agreement",
+  "flags": 1,
+  "rejected_by_verifier": 1,
+  "cuad_checkable": 1,
+  "cuad_consistent": 1
+ },
+ {
+  "contract": "WARNINGMANAGEMENTSERVICESINC - Endorsement Agreement",
+  "flags": 3,
+  "rejected_by_verifier": 0,
+  "cuad_checkable": 2,
+  "cuad_consistent": 1
+ }
+]

@@ -1,0 +1,329 @@
+{
+ "question": "Who can terminate the Anixa-OntoChem collaboration agreement without cause, and on how much notice?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "anixabiosciencesinc-06-09-2020-ex-10-1-collabora-143e8d"
+ ],
+ "clause_types": [
+  "termination"
+ ],
+ "search_query": "terminate without cause upon written notice",
+ "answer": "Anixa may terminate the collaboration agreement without cause by giving OntoChem at least thirty (30) days written notice. [1]",
+ "draft": {
+  "answer": "Anixa may terminate the collaboration agreement without cause by giving OntoChem at least thirty (30) days written notice. [S1]",
+  "claims": [
+   {
+    "statement": "Anixa can terminate the agreement without cause.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "This Agreement may be terminated by Anixa, without cause, upon at least thirty (30) days written notice to OntoChem."
+   },
+   {
+    "statement": "The required notice period for such termination is at least thirty (30) days.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "This Agreement may be terminated by Anixa, without cause, upon at least thirty (30) days written notice to OntoChem."
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "anixabiosciencesinc-06-09-2020-ex-10-1-collabora-143e8d",
+   "contract_title": "ANIXABIOSCIENCESINC - Collaboration Agreement",
+   "section": "4.2 Termination by Anixa",
+   "page_start": 5,
+   "page_end": 5,
+   "chunk_id": "anixabiosciencesinc-06-09-2020-ex-10-1-collabora-143e8d::0021",
+   "quote": "This Agreement may be terminated by Anixa, without cause, upon at least thirty (30) days written notice to OntoChem.",
+   "ref": "ANIXABIOSCIENCESINC - Collaboration Agreement, 4.2 Termination by Anixa, p. 5"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {
+  "verdict": "pass",
+  "decision": "accept",
+  "supported_ratio": 1.0,
+  "answers_question": true,
+  "claims": [
+   {
+    "statement": "Anixa can terminate the agreement without cause.",
+    "source_ids": [
+     "S1"
+    ],
+    "quote": "This Agreement may be terminated by Anixa, without cause, upon at least thirty (30) days written notice to OntoChem.",
+    "status": "supported",
+    "explanation": "Source S1 states the agreement may be terminated by Anixa without cause.",
+    "quote_verified": true
+   },
+   {
+    "statement": "The required notice period for such termination is at least thirty (30) days.",
+    "source_ids": [
+     "S1"
+    ],
+    "quote": "This Agreement may be terminated by Anixa, without cause, upon at least thirty (30) days written notice to OntoChem.",
+    "status": "supported",
+    "explanation": "Source S1 specifies the termination requires at least thirty (30) days written notice.",
+    "quote_verified": true
+   }
+  ],
+  "attempt": 0
+ },
+ "contexts": [
+  "4.2 Termination by Anixa. This Agreement may be terminated by Anixa, without cause, upon at least thirty (30) days\nwritten notice to OntoChem.",
+  "4.4 Termination for Cause. This Agreement may be terminated by either Party for material breach by the other Party,\nprovided that the terminating Party has given the breaching Party written notice of the breach and at least sixty (60) days to cure the\nbreach prior to the effective date of termination.",
+  "4.5 Effects of Termination. Promptly following expiration or termination of this Agreement, OntoChem will provide\nAnixa with an invoice (including reasonable supporting documentation) for any pre-approved out-of-pocket expenses (including non-\ncancellable commitments) incurred by OntoChem in performing the Research Plan and not yet reimbursed by Anixa, and Anixa will\npay such invoice within thirty (30) days after receipt thereof. In addition, if this Agreement is terminated prior to completion of the\nResearch Program, OntoChem will promptly furnish to Anixa any Deliverable or other work product generated to date and not\npreviously provided to Anixa, including work in process.",
+  "5.6 Return of Confidential Information. Upon expiration or termination of this Agreement, or upon written request,\neach Party will promptly return to the other Party, or upon written request of such other Party destroy, all materials containing such\nother Party's Confidential Information, provided, however, that the Recipient may retain in confidence (a) one archival copy of the\nConfidential Information of the Discloser in its legal files solely to permit the Recipient to determine compliance with this Agreement\nand (b) any portion of the Confidential Information of the Discloser which the Recipient is required by applicable law or regulation to\nretain. Notwithstanding the return or destruction of the materials described above, the Parties will continue to be subject to the terms\nof this Section 5.",
+  "9.6 Severability. If any one or more provisions of this Agreement will be found to be invalid or unenforceable in any\nrespect, the Parties will negotiate in good faith a valid and enforceable substitute provision that most nearly reflects the original intent\nof the Parties, and the validity and enforceability of the remaining provisions of this Agreement will not in any way be affected or\nimpaired thereby.\n9.7 Amendment\u037e Waiver. This Agreement may be amended or modified, and any of the terms of this Agreement may\nbe waived, only by a written instrument executed by each Party or, in the case of waiver, by the Party or Parties waiving compliance.\nThe delay or failure of either Party at any time or times to require performance of any provision will in no manner affect its rights at a\nlater time to enforce the same. No waiver by either Party of any condition or of the breach of any term contained in this Agreement,\nin any one or more instances, will be deemed to be, or considered as, a further or continuing waiver of any such condition or of the\nbreach of such term or any other term of this Agreement.",
+  "8.3 Indemnification Procedure. A Party (the \"Indemnitee \") that intends to claim indemnification under this Section 8\nwill promptly notify the other Party (the \" Indemnitor\") in writing of any claim, action or proceeding in respect of which the\nIndemnitee intends to claim such indemnification (each a \" Claim\"), and the Indemnitor will have the right to control the defense\nand/or settlement of such Claim, provided that the Indemnitee will have the right to participate, at its own expense, with counsel of its\nown choosing in the defense and/or settlement of such Claim. The Indemnitor will not, without the prior written consent of the\nIndemnitee, enter into any settlement or agree to any disposition of the applicable Claim that imposes any conditions or obligations on\nthe Indemnitee. The failure to deliver written notice to the Indemnitor within a reasonable period of time after the commencement of\nany such Claim will not relieve such Indemnitor of any liability to the Indemnitee under this Section 8 except to the extent such failure\nis prejudicial to the Indemnitor's ability to defend such Claim."
+ ],
+ "sources": [
+  {
+   "chunk_id": "anixabiosciencesinc-06-09-2020-ex-10-1-collabora-143e8d::0021",
+   "contract_id": "anixabiosciencesinc-06-09-2020-ex-10-1-collabora-143e8d",
+   "contract_title": "ANIXABIOSCIENCESINC - Collaboration Agreement",
+   "section": "4.2 Termination by Anixa",
+   "page_start": 5,
+   "page_end": 5,
+   "clause_types": [
+    "termination"
+   ],
+   "dense_rank": 2,
+   "sparse_rank": 1,
+   "rrf": 0.06504,
+   "rerank": 0.9644,
+   "label": "S1",
+   "supported": true
+  },
+  {
+   "chunk_id": "anixabiosciencesinc-06-09-2020-ex-10-1-collabora-143e8d::0024",
+   "contract_id": "anixabiosciencesinc-06-09-2020-ex-10-1-collabora-143e8d",
+   "contract_title": "ANIXABIOSCIENCESINC - Collaboration Agreement",
+   "section": "4.4 Termination for Cause",
+   "page_start": 5,
+   "page_end": 5,
+   "clause_types": [
+    "term",
+    "termination"
+   ],
+   "dense_rank": 1,
+   "sparse_rank": 2,
+   "rrf": 0.06504,
+   "rerank": 0.3242,
+   "label": "S2",
+   "supported": false
+  },
+  {
+   "chunk_id": "anixabiosciencesinc-06-09-2020-ex-10-1-collabora-143e8d::0025",
+   "contract_id": "anixabiosciencesinc-06-09-2020-ex-10-1-collabora-143e8d",
+   "contract_title": "ANIXABIOSCIENCESINC - Collaboration Agreement",
+   "section": "4.5 Effects of Termination",
+   "page_start": 5,
+   "page_end": 5,
+   "clause_types": [
+    "payment",
+    "termination"
+   ],
+   "dense_rank": 8,
+   "sparse_rank": 17,
+   "rrf": 0.05847,
+   "rerank": 0.0718,
+   "label": "S3",
+   "supported": false
+  },
+  {
+   "chunk_id": "anixabiosciencesinc-06-09-2020-ex-10-1-collabora-143e8d::0034",
+   "contract_id": "anixabiosciencesinc-06-09-2020-ex-10-1-collabora-143e8d",
+   "contract_title": "ANIXABIOSCIENCESINC - Collaboration Agreement",
+   "section": "5.6 Return of Confidential Information",
+   "page_start": 7,
+   "page_end": 7,
+   "clause_types": [
+    "confidentiality",
+    "termination"
+   ],
+   "dense_rank": 11,
+   "sparse_rank": 5,
+   "rrf": 0.06025,
+   "rerank": 0.0693,
+   "label": "S4",
+   "supported": false
+  },
+  {
+   "chunk_id": "anixabiosciencesinc-06-09-2020-ex-10-1-collabora-143e8d::0056",
+   "contract_id": "anixabiosciencesinc-06-09-2020-ex-10-1-collabora-143e8d",
+   "contract_title": "ANIXABIOSCIENCESINC - Collaboration Agreement",
+   "section": "9.6 Severability",
+   "page_start": 11,
+   "page_end": 11,
+   "clause_types": [
+    "amendment",
+    "term"
+   ],
+   "dense_rank": 13,
+   "sparse_rank": null,
+   "rrf": 0.0137,
+   "rerank": 0.0508,
+   "label": "S5",
+   "supported": false
+  },
+  {
+   "chunk_id": "anixabiosciencesinc-06-09-2020-ex-10-1-collabora-143e8d::0047",
+   "contract_id": "anixabiosciencesinc-06-09-2020-ex-10-1-collabora-143e8d",
+   "contract_title": "ANIXABIOSCIENCESINC - Collaboration Agreement",
+   "section": "8.3 Indemnification Procedure",
+   "page_start": 9,
+   "page_end": 9,
+   "clause_types": [
+    "indemnification"
+   ],
+   "dense_rank": 6,
+   "sparse_rank": 9,
+   "rrf": 0.02964,
+   "rerank": 0.0429,
+   "label": "S6",
+   "supported": false
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['termination'] | contracts=['anixabiosciencesinc-06-09-2020-ex-10-1-collabora-143e8d']",
+   "data": {
+    "reason": "The question asks for the parties able to terminate the collaboration agreement without cause and the required notice period, which is a specific termination clause inquiry.",
+    "search_query": "terminate without cause upon written notice",
+    "unknown_contract_ids": []
+   },
+   "ms": 1041
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'terminate without cause upon written notice'",
+   "data": {
+    "filters": {
+     "contracts": [
+      "anixabiosciencesinc-06-09-2020-ex-10-1-collabora-143e8d"
+     ],
+     "clause_types": [
+      "termination"
+     ]
+    }
+   },
+   "ms": 143
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "ANIXABIOSCIENCESINC - Collaboration Agreement",
+      "section": "4.2 Termination by Anixa",
+      "score": 0.9644
+     },
+     {
+      "label": "S2",
+      "contract": "ANIXABIOSCIENCESINC - Collaboration Agreement",
+      "section": "4.4 Termination for Cause",
+      "score": 0.3242
+     },
+     {
+      "label": "S3",
+      "contract": "ANIXABIOSCIENCESINC - Collaboration Agreement",
+      "section": "4.5 Effects of Termination",
+      "score": 0.0718
+     },
+     {
+      "label": "S4",
+      "contract": "ANIXABIOSCIENCESINC - Collaboration Agreement",
+      "section": "5.6 Return of Confidential Information",
+      "score": 0.0693
+     },
+     {
+      "label": "S5",
+      "contract": "ANIXABIOSCIENCESINC - Collaboration Agreement",
+      "section": "9.6 Severability",
+      "score": 0.0508
+     },
+     {
+      "label": "S6",
+      "contract": "ANIXABIOSCIENCESINC - Collaboration Agreement",
+      "section": "8.3 Indemnification Procedure",
+      "score": 0.0429
+     }
+    ]
+   },
+   "ms": 1440
+  },
+  {
+   "node": "draft",
+   "message": "2 claims",
+   "data": {
+    "answer": "Anixa may terminate the collaboration agreement without cause by giving OntoChem at least thirty (30) days written notice. [S1]"
+   },
+   "ms": 9063
+  },
+  {
+   "node": "verify",
+   "message": "2/2 claims supported, verdict=PASS -> ACCEPT",
+   "data": {
+    "claims": [
+     {
+      "statement": "Anixa can terminate the agreement without cause.",
+      "source_ids": [
+       "S1"
+      ],
+      "quote": "This Agreement may be terminated by Anixa, without cause, upon at least thirty (30) days written notice to OntoChem.",
+      "status": "supported",
+      "explanation": "Source S1 states the agreement may be terminated by Anixa without cause.",
+      "quote_verified": true
+     },
+     {
+      "statement": "The required notice period for such termination is at least thirty (30) days.",
+      "source_ids": [
+       "S1"
+      ],
+      "quote": "This Agreement may be terminated by Anixa, without cause, upon at least thirty (30) days written notice to OntoChem.",
+      "status": "supported",
+      "explanation": "Source S1 specifies the termination requires at least thirty (30) days written notice.",
+      "quote_verified": true
+     }
+    ],
+    "retry_query": ""
+   },
+   "ms": 8552
+  },
+  {
+   "node": "answer",
+   "message": "verdict=pass, 1 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 20.24,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1682,
+   "output_tokens": 167,
+   "total_tokens": 1849,
+   "output_token_details": {
+    "reasoning": 66
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "output_token_details": {
+    "reasoning": 562
+   },
+   "input_tokens": 2214,
+   "output_tokens": 849,
+   "total_tokens": 3063
+  }
+ },
+ "llm_calls": 3
+}

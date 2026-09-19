@@ -1,0 +1,288 @@
+{
+ "question": "How does renewal work in the Legacy Education Alliance development agreement?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432"
+ ],
+ "clause_types": [
+  "renewal"
+ ],
+ "search_query": "renewal terms",
+ "answer": "The agreement provides an initial five\u2011year term that automatically renews for successive five\u2011year terms unless either party gives prior written notice of termination at least 90 days before the end of the then\u2011current term [1]. The definition of \u201cTerm\u201d reiterates this renewal mechanism and additionally gives T&B the right to terminate after the first year if LEA fails to meet cash\u2011sales benchmarks [2].",
+ "draft": {
+  "answer": "The agreement provides an initial five\u2011year term that automatically renews for successive five\u2011year terms unless either party gives prior written notice of termination at least 90 days before the end of the then\u2011current term [S1]. The definition of \u201cTerm\u201d reiterates this renewal mechanism and additionally gives T&B the right to terminate after the first year if LEA fails to meet cash\u2011sales benchmarks [S2].",
+  "claims": [
+   {
+    "statement": "The initial term is five years and automatically renews for successive five\u2011year terms unless notice is given at least 90 days before the term ends.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "The Term shall commence upon the Effective Date and shall continue for an initial term of five (5) years. The Term shall automatically renew thereafter for successive 5-year terms unless either party provides prior written notice of termination not less than 90 days prior to the end of such five-year term."
+   },
+   {
+    "statement": "The definition of \u201cTerm\u201d repeats the renewal provision and adds that T&B may terminate after the first year if cash\u2011sales benchmarks are not met.",
+    "source_ids": [
+     "S2"
+    ],
+    "supporting_quote": "The term \"Term\" shall mean an initial term of five years, automatically renewable thereafter for successive 5-year terms unless either party provides prior written notice of termination not less than 90 days prior to the end of such five-year term; provided, however, T&B shall have the right to terminate the license after the first year of the Term if LEA does not conduct the Business so as to meet the Cash Sales benchmarks set by the parties for years two through five of the Term, as set forth in Section 3.3, below."
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432",
+   "contract_title": "LegacyEducationAllianceInc - Development Agreement",
+   "section": "11. Term and Termination",
+   "page_start": 9,
+   "page_end": 9,
+   "chunk_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432::0033",
+   "quote": "The Term shall commence upon the Effective Date and shall continue for an initial term of five (5) years. The Term shall automatically renew thereafter for successive 5-year terms unless either party provides prior written notice of termination not less than 90 days prior to the end of such five-year term.",
+   "ref": "LegacyEducationAllianceInc - Development Agreement, 11. Term and Termination, p. 9"
+  },
+  {
+   "n": 2,
+   "contract_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432",
+   "contract_title": "LegacyEducationAllianceInc - Development Agreement",
+   "section": "1. Definitions",
+   "page_start": 3,
+   "page_end": 3,
+   "chunk_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432::0008",
+   "quote": "The term \"Term\" shall mean an initial term of five years, automatically renewable thereafter for successive 5-year terms unless either party provides prior written notice of termination not less than 90 days prior to the end of such five-year term; provided, however, T&B shall have the right to terminate the license after the first year of the Term if LEA does not conduct the Business so as to meet the Cash Sales benchmarks set by the parties for years two through five of the Term, as set forth in Section 3.3, below.",
+   "ref": "LegacyEducationAllianceInc - Development Agreement, 1. Definitions, p. 3"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {},
+ "contexts": [
+  "11. Term and Termination.\n11.1 The Term shall commence upon the Effective Date and shall continue for an initial term of five (5) years. The Term shall automatically\nrenew thereafter for successive 5-year terms unless either party provides prior written notice of termination not less than 90 days prior to\nthe end of such five-year term.",
+  "1.10. The term \" Products\" shall mean any in-person remote (e.g., livestream of a live event, recording of a live event, and on-demand)\nproduct or service offerings in real estate investing strategies and techniques, asset protection, and entrepreneurship in any form of communication\nor media to one or more recipients, including, but not limited to, workshops, seminars, webinars, coaching, and mentorships, as may be offered by\nLEA in the conduct of the Business and for which a fee is charged by LEA.\n1.11. The term \"T&B Personality\" shall mean Tarek El Moussa.\n1.12 The term \"Term\" shall mean an initial term of five years, automatically renewable thereafter for successive 5-year terms unless either\nparty provides prior written notice of termination not less than 90 days prior to the end of such five-year term\u037e provided, however, T&B shall have\nthe right to terminate the license after the first year of the Term if LEA does not conduct the Business so as to meet the Cash Sales benchmarks set\nby the parties for years two through five of the Term, as set forth in Section 3.3, below.",
+  "misrepresents or conceals anything in his or her background that could be detrimental to the value of the endorsement being\nmade.\n11.3 Upon termination of the license hereunder, all rights and privileges in and to the Licensed Intellectual Property granted to the LEA\nherein shall automatically revert to T&B or its nominee, and the LEA shall immediately cease any use thereof.\n11.4. LEA shall, for a period of six (6) months (\"Sell-Off Period\") following the effective date of termination of the license granted by T&B\nhereunder, have the right to fulfill commitments made to customers during the Term. The provisions of this Agreement shall apply with full\nforce and effect during the Sell-Off Period. Upon expiration of the Sell-Off Period, LEA shall immediately cease and desist from using or\ndisplaying any forms of advertising containing any of the Licensed Marks.\n11.5 Sections 4.2\u037e 8 (Confidentiality)\u037e 10 (Warranties and Representations)\u037e 12 (Indemnification)\u037e and 14 (Miscellaneous) hereof shall\nsurvive the expiration or early termination (for any reason) of this Agreement.",
+  "14.11. Force Majeure. To the extent any event beyond the control of either party (such as an act of God, action of the elements, man-made\nor natural disaster, industry or supplier strike or other labor disturbance, or civil or military disturbance) shall prevent such party from performing\nany of its duties or obligations hereunder by the date provided or to be provided, the time for such performance shall be deemed extended for a\nperiod of time equivalent to the duration of such event\u037e provided, however, that the party so prevented from performing must give prompt written\nnotice to the other party of the nature of such event, the date when such event shall have taken place, and the date when the duration of such\nevent shall have terminated\u037e and further provided, however, that if performance shall be so prevented for a period of more than six months, the\nother party may terminate this Agreement by written notice of such termination, and thereafter neither party hereto shall be under any further\nliability or obligation to the other hereunder.\nIN WITNESS WHEREOF, the parties hereto have executed this Agreement as of the date and year written above.",
+  "publicly disclosed.\n4.2 LEA and T&B shall jointly own all jointly-created work product including, but not limited to, ideas, any and all concepts, designs,\nCustomer Data (including client lists) generated through the conduct of the Business, programs, software, reports, or other intellectual property\nand tangible work product, produced for the Business , regardless of whether such were incorporated into or used by the Business (collectively\n\"Work Product\"), shall be and remain the joint property of LEA and T&B when produced provided, however, (i) to the extent LEA has contributed\ndistinct and divisible work product to the Business during the Term (\" LEA Work Product\"), such LEA Work Product shall remain frozen for a\nperiod not to exceed 90 days, during which time T&B may acquire a license for the LEA Work Product by reimbursing LEA direct and verifiable\ncosts LEA incurred in producing the LEA Work Product during the Term and (ii) to the extent T&B has contributed distinct and divisible work\nproduct to the Business during the Term (\" T&B Work Product\"), such T&B Work Product shall remain frozen for a period not to exceed 90 days,\nduring which time LEA may acquire license for the T&B",
+  "9.2 Minimum Guaranteed Royalty: In consideration of the exclusivity rights granted to LEA, commencing with the seventh (7 th) month of\nthe Term and continuing each year of the Term thereafter, the minimum Royalties payable to T&B each month shall be the greater of the (i)\napplicable monthly Base Royalty and Marketing Royalty or (ii) $200,000.\n9.3 Base Royalties and Marketing Royalties shall be paid monthly to T&M within 15 days after the end of the applicable month. Payments\nwill be made in U.S. Dollars.\nCertain identified information has been excluded from this exhibit because it is both (i) not material and (ii) would be competitively harmful if\npublicly disclosed.\n9.4. For each Base Royalty and Marketing Royalty payment (collectively, \"Royalty Payment\"), LEA shall render to T&B, a written\nstatement, in such form as T&B may reasonably request, setting forth Cash Sales made during the period to which the Royalty Payment relates, and\nsuch other information as T&B may reasonably request to verify the Royalty Payments due hereunder."
+ ],
+ "sources": [
+  {
+   "chunk_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432::0033",
+   "contract_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432",
+   "contract_title": "LegacyEducationAllianceInc - Development Agreement",
+   "section": "11. Term and Termination",
+   "page_start": 9,
+   "page_end": 9,
+   "clause_types": [
+    "renewal",
+    "term",
+    "termination"
+   ],
+   "dense_rank": 1,
+   "sparse_rank": 1,
+   "rrf": 0.03279,
+   "rerank": 0.4869,
+   "label": "S1"
+  },
+  {
+   "chunk_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432::0008",
+   "contract_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432",
+   "contract_title": "LegacyEducationAllianceInc - Development Agreement",
+   "section": "1. Definitions",
+   "page_start": 3,
+   "page_end": 3,
+   "clause_types": [
+    "renewal",
+    "term",
+    "termination"
+   ],
+   "dense_rank": 8,
+   "sparse_rank": 2,
+   "rrf": 0.03083,
+   "rerank": 0.3105,
+   "label": "S2"
+  },
+  {
+   "chunk_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432::0035",
+   "contract_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432",
+   "contract_title": "LegacyEducationAllianceInc - Development Agreement",
+   "section": "11.2 The Agreement may be terminated",
+   "page_start": 10,
+   "page_end": 10,
+   "clause_types": [
+    "confidentiality",
+    "indemnification",
+    "ip",
+    "license",
+    "term",
+    "termination",
+    "warranty"
+   ],
+   "dense_rank": 2,
+   "sparse_rank": 20,
+   "rrf": 0.02863,
+   "rerank": 0.0441,
+   "label": "S3"
+  },
+  {
+   "chunk_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432::0051",
+   "contract_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432",
+   "contract_title": "LegacyEducationAllianceInc - Development Agreement",
+   "section": "14.11. Force Majeure",
+   "page_start": 13,
+   "page_end": 13,
+   "clause_types": [
+    "termination"
+   ],
+   "dense_rank": 18,
+   "sparse_rank": null,
+   "rrf": 0.01282,
+   "rerank": 0.0296,
+   "label": "S4"
+  },
+  {
+   "chunk_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432::0015",
+   "contract_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432",
+   "contract_title": "LegacyEducationAllianceInc - Development Agreement",
+   "section": "4. Conduct of the Business",
+   "page_start": 5,
+   "page_end": 5,
+   "clause_types": [
+    "ip",
+    "license"
+   ],
+   "dense_rank": 22,
+   "sparse_rank": 10,
+   "rrf": 0.02648,
+   "rerank": 0.0116,
+   "label": "S5"
+  },
+  {
+   "chunk_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432::0027",
+   "contract_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432",
+   "contract_title": "LegacyEducationAllianceInc - Development Agreement",
+   "section": "9.2 Minimum Guaranteed Royalty",
+   "page_start": 7,
+   "page_end": 8,
+   "clause_types": [
+    "exclusivity",
+    "minimum_commitment",
+    "payment"
+   ],
+   "dense_rank": 26,
+   "sparse_rank": 13,
+   "rrf": 0.02533,
+   "rerank": 0.0101,
+   "label": "S6"
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['renewal'] | contracts=['legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432']",
+   "data": {
+    "reason": "The user asks specifically about how renewal works in the Legacy Education Alliance development agreement, so we target the renewal clause of that contract.",
+    "search_query": "renewal terms",
+    "unknown_contract_ids": []
+   },
+   "ms": 819
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'renewal terms' [clause filter relaxed]",
+   "data": {
+    "filters": {
+     "contracts": [
+      "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432"
+     ],
+     "clause_types": [
+      "renewal"
+     ]
+    }
+   },
+   "ms": 380
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "11. Term and Termination",
+      "score": 0.4869
+     },
+     {
+      "label": "S2",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "1. Definitions",
+      "score": 0.3105
+     },
+     {
+      "label": "S3",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "11.2 The Agreement may be terminated",
+      "score": 0.0441
+     },
+     {
+      "label": "S4",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "14.11. Force Majeure",
+      "score": 0.0296
+     },
+     {
+      "label": "S5",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "4. Conduct of the Business",
+      "score": 0.0116
+     },
+     {
+      "label": "S6",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "9.2 Minimum Guaranteed Royalty",
+      "score": 0.0101
+     }
+    ]
+   },
+   "ms": 1931
+  },
+  {
+   "node": "draft",
+   "message": "2 claims",
+   "data": {
+    "answer": "The agreement provides an initial five\u2011year term that automatically renews for successive five\u2011year terms unless either party gives prior written notice of termination at least 90 days before the end of the then\u2011current term [S1]. The definition of \u201cTerm\u201d reiterates this renewal mechanism and additionally gives T&B the right to terminate after the first year if LEA fails to meet cash\u2011sales benchmarks [S2]."
+   },
+   "ms": 21512
+  },
+  {
+   "node": "answer",
+   "message": "verdict=unverified, 2 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 24.65,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1711,
+   "output_tokens": 143,
+   "total_tokens": 1854,
+   "output_token_details": {
+    "reasoning": 52
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "input_tokens": 1963,
+   "output_tokens": 1105,
+   "total_tokens": 3068,
+   "input_token_details": {
+    "cache_read": 256
+   },
+   "output_token_details": {
+    "reasoning": 701
+   }
+  }
+ },
+ "llm_calls": 2
+}

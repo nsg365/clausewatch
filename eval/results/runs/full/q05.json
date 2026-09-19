@@ -1,0 +1,369 @@
+{
+ "question": "What can a party do under the Kitov manufacturing agreement if the other party undergoes a change of control?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0"
+ ],
+ "clause_types": [
+  "termination"
+ ],
+ "search_query": "change of control termination rights",
+ "answer": "If the other party experiences a Change of Control, the party that is not subject to that Change of Control may terminate the Agreement, but must give six months\u2019 advance written notice and must notify the affected party of its decision to terminate within thirty days of the Change of Control notice [1]. Additionally, a Change of Control of Kitov is treated as an assignment, permitting Dexcel to terminate the Agreement as previously provided [2].",
+ "draft": {
+  "answer": "If the other party experiences a Change of Control, the party that is not subject to that Change of Control may terminate the Agreement, but must give six months\u2019 advance written notice and must notify the affected party of its decision to terminate within thirty days of the Change of Control notice [S1]. Additionally, a Change of Control of Kitov is treated as an assignment, permitting Dexcel to terminate the Agreement as previously provided [S2].",
+  "claims": [
+   {
+    "statement": "The party not subject to the Change of Control may terminate the Agreement.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "in the event of a Change of Control, the Party which was not subject to the Change of Control may terminate this Agreement upon six (6) months advance written notification."
+   },
+   {
+    "statement": "Termination requires six months advance written notice and the affected party must be notified within thirty days of the Change of Control notice.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "The affected Party is obligated to notify the other Party of its decision to terminate within thirty (30) days following notice of the Change of Control."
+   },
+   {
+    "statement": "A Change of Control of Kitov is considered an assignment, allowing Dexcel to terminate the Agreement as previously provided.",
+    "source_ids": [
+     "S2"
+    ],
+    "supporting_quote": "any merger, consolidation, or change of corporate structure following which there is a Change of Control of Kitov shall be considered as an assignment by Kitov, allowing Dexcel to terminate the Agreement as heretofore provided."
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0",
+   "contract_title": "KitovPharmaLtd - Manufacturing Agreement",
+   "section": "5.2 This Agreement may be terminated",
+   "page_start": 9,
+   "page_end": 9,
+   "chunk_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0::0032",
+   "quote": "in the event of a Change of Control, the Party which was not subject to the Change of Control may terminate this Agreement upon six (6) months advance written notification.",
+   "ref": "KitovPharmaLtd - Manufacturing Agreement, 5.2 This Agreement may be terminated, p. 9"
+  },
+  {
+   "n": 2,
+   "contract_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0",
+   "contract_title": "KitovPharmaLtd - Manufacturing Agreement",
+   "section": "11 Miscellaneous",
+   "page_start": 17,
+   "page_end": 17,
+   "chunk_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0::0063",
+   "quote": "any merger, consolidation, or change of corporate structure following which there is a Change of Control of Kitov shall be considered as an assignment by Kitov, allowing Dexcel to terminate the Agreement as heretofore provided.",
+   "ref": "KitovPharmaLtd - Manufacturing Agreement, 11 Miscellaneous, p. 17"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {
+  "verdict": "pass",
+  "decision": "accept",
+  "supported_ratio": 1.0,
+  "answers_question": true,
+  "claims": [
+   {
+    "statement": "The party not subject to the Change of Control may terminate the Agreement.",
+    "source_ids": [
+     "S1"
+    ],
+    "quote": "in the event of a Change of Control, the Party which was not subject to the Change of Control may terminate this Agreement upon six (6) months advance written notification.",
+    "status": "supported",
+    "explanation": "Source S1 states that the party not subject to the Change of Control may terminate the Agreement.",
+    "quote_verified": true
+   },
+   {
+    "statement": "Termination requires six months advance written notice and the affected party must be notified within thirty days of the Change of Control notice.",
+    "source_ids": [
+     "S1"
+    ],
+    "quote": "The affected Party is obligated to notify the other Party of its decision to terminate within thirty (30) days following notice of the Change of Control.",
+    "status": "supported",
+    "explanation": "Source S1 specifies termination requires six months advance written notice and the affected party must be notified within thirty days.",
+    "quote_verified": true
+   },
+   {
+    "statement": "A Change of Control of Kitov is considered an assignment, allowing Dexcel to terminate the Agreement as previously provided.",
+    "source_ids": [
+     "S2"
+    ],
+    "quote": "any merger, consolidation, or change of corporate structure following which there is a Change of Control of Kitov shall be considered as an assignment by Kitov, allowing Dexcel to terminate the Agreement as heretofore provided.",
+    "status": "supported",
+    "explanation": "Source S2 says a Change of Control of Kitov is treated as an assignment, permitting Dexcel to terminate the Agreement.",
+    "quote_verified": true
+   }
+  ],
+  "attempt": 0
+ },
+ "contexts": [
+  "5.3 in the event of a Change of Control, the Party which was not subject to the Change of Control may terminate this Agreement upon\nsix (6) months advance written notification. The affected Party is obligated to notify the other Party of its decision to terminate within\nthirty (30) days following notice of the Change of Control.",
+  "11 Miscellaneous\n11.1 The provisions of this Agreement shall be binding upon and inure to the benefit of the Parties hereto and their respective\nsuccessors and assigns. Notwithstanding the aforesaid, either Party shall be entitled to assign, delegate, and/or subcontract its\nrights and obligation under this Agreement, in whole or in part, to one or more of its Affiliates on prior written notice to the other\nParty. For purposes of this Agreement, any merger, consolidation, or change of corporate structure following which there is a\nChange of Control of Kitov shall be considered as an assignment by Kitov, allowing Dexcel to terminate the Agreement as heretofore\nprovided.",
+  "5.2 This Agreement may be terminated:\n5.2.1 by either Party, effective immediately upon written notice to the other Party, if (i) a receiver, trustee, or liquidator of the other\nParty is appointed for any of properties or assets of the other Party\u037e (ii) the other Party makes a general assignment for the\nbenefit of its creditors\u037e (iii) the other Party files a petition under the relevant statute for the bankruptcy or reorganization of\nthe other Party or any arrangement with its creditors or readjustment of its debt, or its dissolution or liquidation, or such a\npetition is filed against the other Party and is not dismissed within sixty (60) days thereafter\u037e or (iv) the other Party ceases\ndoing business generally or commences dissolution or liquidation proceedings\u037e\n5.2.2 in the event that a Party is in material breach of this Agreement or the Quality Agreement and fails to remedy such breach\nwithin thirty (30) calendar days from receipt of written notification of same, by the non-breaching Party\u037e\n5.2.3 by Dexcel, in the event that the provisions of Section 3.6.3 is applicable\u037e or\n5.3 in the event of a Change of Control, the Party which was not subject to the Change of Control may termi",
+  "The Batch size for the Product is **** tablets.\n1.5 \"cGMPs\" or \"Good Manufacturing Practice\" shall mean the part of quality assurance which ensures that the Product is consistently\nproduced and controlled to the quality standards appropriate to their intended use, the principles and guidelines of which are\nspecified in European Commission Directive 2003/94/EC and the FDA's current Good Manufacturing Practices, particularly 21 CFR \u00a7\n210 et seq., and 21 CFR \u00a7\u00a7 600-610, as both may be amended from time to time.\n1.6 \"Change of Control\" shall mean (i) any change, sale, merger, reorganization, or any other event or action that results in a third party,\nwhich is a material competitor to the other Party to this agreement, acquiring: (a) all or substantially all of the business or assets of a\nParty relating to this Agreement, (b) Control, directly or indirectly, of such Party (and/or any corporate entity that Controls, directly\nor indirectly, such Party), or (ii) any assignment or delegation of, sale or transfer of a Party's rights and obligations under this\nAgreement (or any part hereof) to a third party.",
+  "Change of Control of Kitov shall be considered as an assignment by Kitov, allowing Dexcel to terminate the Agreement as heretofore\nprovided.\n11.2 This Agreement (including all attachments hereto and the Quality Agreement), sets forth the entire agreement between the Parties\nrelating to the subject matter contained herein and may not be modified, amended or discharged except as expressly stated in this\nAgreement or by a written agreement signed by the Parties hereto, except that this Agreement shall not supersede or serve to amend\n(i) any separate confidentiality or non-disclosure agreement that may have been entered into by the Parties, or (ii) the Development\nAgreement, each of which shall remain in effect in accordance with its terms.",
+  "Agreement (or any part hereof) to a third party.\nNotwithstanding anything in the immediately preceding paragraph to the contrary, where the Party in question is Dexcel, any of the\nforegoing events or actions shall not be considered a Change of Control where any one or more of the relevant third party or parties\nreferred to in clause (i) above is (A) a Family Member, or (B) any entity Controlled by Mr. **** and/or a Family Member.\n1.7 \"Claims\" shall mean any demands, claims, actions, causes of action, assessments, losses, damages, injuries, liabilities, costs and\nexpenses (including, without limitation, reasonable attorneys' fees and expenses) filed, raised, initiated or made by any governmental\nauthority and/or third party.\n1.8 \"Confidential Information\" shall have the meaning set forth in Section 7.1.\n1.9 \"Confirmed Order\" shall have the meaning set forth in Section 3.3.2."
+ ],
+ "sources": [
+  {
+   "chunk_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0::0032",
+   "contract_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0",
+   "contract_title": "KitovPharmaLtd - Manufacturing Agreement",
+   "section": "5.2 This Agreement may be terminated",
+   "page_start": 9,
+   "page_end": 9,
+   "clause_types": [
+    "assignment",
+    "termination"
+   ],
+   "dense_rank": 1,
+   "sparse_rank": 1,
+   "rrf": 0.06557,
+   "rerank": 0.9724,
+   "label": "S1",
+   "supported": true
+  },
+  {
+   "chunk_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0::0063",
+   "contract_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0",
+   "contract_title": "KitovPharmaLtd - Manufacturing Agreement",
+   "section": "11 Miscellaneous",
+   "page_start": 17,
+   "page_end": 17,
+   "clause_types": [
+    "assignment"
+   ],
+   "dense_rank": 10,
+   "sparse_rank": 2,
+   "rrf": 0.03041,
+   "rerank": 0.8438,
+   "label": "S2",
+   "supported": true
+  },
+  {
+   "chunk_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0::0031",
+   "contract_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0",
+   "contract_title": "KitovPharmaLtd - Manufacturing Agreement",
+   "section": "5.2 This Agreement may be terminated",
+   "page_start": 9,
+   "page_end": 9,
+   "clause_types": [
+    "assignment"
+   ],
+   "dense_rank": 3,
+   "sparse_rank": 3,
+   "rrf": 0.03175,
+   "rerank": 0.6215,
+   "label": "S3",
+   "supported": false
+  },
+  {
+   "chunk_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0::0004",
+   "contract_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0",
+   "contract_title": "KitovPharmaLtd - Manufacturing Agreement",
+   "section": "1 Definitions",
+   "page_start": 2,
+   "page_end": 2,
+   "clause_types": [
+    "assignment"
+   ],
+   "dense_rank": 5,
+   "sparse_rank": 4,
+   "rrf": 0.03101,
+   "rerank": 0.3587,
+   "label": "S4",
+   "supported": false
+  },
+  {
+   "chunk_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0::0064",
+   "contract_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0",
+   "contract_title": "KitovPharmaLtd - Manufacturing Agreement",
+   "section": "11 Miscellaneous",
+   "page_start": 17,
+   "page_end": 17,
+   "clause_types": [
+    "amendment",
+    "assignment",
+    "confidentiality"
+   ],
+   "dense_rank": 4,
+   "sparse_rank": 5,
+   "rrf": 0.03101,
+   "rerank": 0.209,
+   "label": "S5",
+   "supported": false
+  },
+  {
+   "chunk_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0::0005",
+   "contract_id": "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0",
+   "contract_title": "KitovPharmaLtd - Manufacturing Agreement",
+   "section": "1 Definitions",
+   "page_start": 2,
+   "page_end": 2,
+   "clause_types": [
+    "confidentiality"
+   ],
+   "dense_rank": 15,
+   "sparse_rank": 6,
+   "rrf": 0.02848,
+   "rerank": 0.102,
+   "label": "S6",
+   "supported": false
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['termination'] | contracts=['kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0']",
+   "data": {
+    "reason": "The question asks what a party can do under the Kitov manufacturing agreement if the other party undergoes a change of control, which is a termination trigger clause.",
+    "search_query": "change of control termination rights",
+    "unknown_contract_ids": []
+   },
+   "ms": 1439
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'change of control termination rights'",
+   "data": {
+    "filters": {
+     "contracts": [
+      "kitovpharmaltd-20190326-20-f-ex-4-15-11584449-ex-4f9ff0"
+     ],
+     "clause_types": [
+      "termination"
+     ]
+    }
+   },
+   "ms": 138
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "KitovPharmaLtd - Manufacturing Agreement",
+      "section": "5.2 This Agreement may be terminated",
+      "score": 0.9724
+     },
+     {
+      "label": "S2",
+      "contract": "KitovPharmaLtd - Manufacturing Agreement",
+      "section": "11 Miscellaneous",
+      "score": 0.8438
+     },
+     {
+      "label": "S3",
+      "contract": "KitovPharmaLtd - Manufacturing Agreement",
+      "section": "5.2 This Agreement may be terminated",
+      "score": 0.6215
+     },
+     {
+      "label": "S4",
+      "contract": "KitovPharmaLtd - Manufacturing Agreement",
+      "section": "1 Definitions",
+      "score": 0.3587
+     },
+     {
+      "label": "S5",
+      "contract": "KitovPharmaLtd - Manufacturing Agreement",
+      "section": "11 Miscellaneous",
+      "score": 0.209
+     },
+     {
+      "label": "S6",
+      "contract": "KitovPharmaLtd - Manufacturing Agreement",
+      "section": "1 Definitions",
+      "score": 0.102
+     }
+    ]
+   },
+   "ms": 1646
+  },
+  {
+   "node": "draft",
+   "message": "3 claims",
+   "data": {
+    "answer": "If the other party experiences a Change of Control, the party that is not subject to that Change of Control may terminate the Agreement, but must give six months\u2019 advance written notice and must notify the affected party of its decision to terminate within thirty days of the Change of Control notice [S1]. Additionally, a Change of Control of Kitov is treated as an assignment, permitting Dexcel to terminate the Agreement as previously provided [S2]."
+   },
+   "ms": 13751
+  },
+  {
+   "node": "verify",
+   "message": "3/3 claims supported, verdict=PASS -> ACCEPT",
+   "data": {
+    "claims": [
+     {
+      "statement": "The party not subject to the Change of Control may terminate the Agreement.",
+      "source_ids": [
+       "S1"
+      ],
+      "quote": "in the event of a Change of Control, the Party which was not subject to the Change of Control may terminate this Agreement upon six (6) months advance written notification.",
+      "status": "supported",
+      "explanation": "Source S1 states that the party not subject to the Change of Control may terminate the Agreement.",
+      "quote_verified": true
+     },
+     {
+      "statement": "Termination requires six months advance written notice and the affected party must be notified within thirty days of the Change of Control notice.",
+      "source_ids": [
+       "S1"
+      ],
+      "quote": "The affected Party is obligated to notify the other Party of its decision to terminate within thirty (30) days following notice of the Change of Control.",
+      "status": "supported",
+      "explanation": "Source S1 specifies termination requires six months advance written notice and the affected party must be notified within thirty days.",
+      "quote_verified": true
+     },
+     {
+      "statement": "A Change of Control of Kitov is considered an assignment, allowing Dexcel to terminate the Agreement as previously provided.",
+      "source_ids": [
+       "S2"
+      ],
+      "quote": "any merger, consolidation, or change of corporate structure following which there is a Change of Control of Kitov shall be considered as an assignment by Kitov, allowing Dexcel to terminate the Agreement as heretofore provided.",
+      "status": "supported",
+      "explanation": "Source S2 says a Change of Control of Kitov is treated as an assignment, permitting Dexcel to terminate the Agreement.",
+      "quote_verified": true
+     }
+    ],
+    "retry_query": ""
+   },
+   "ms": 16530
+  },
+  {
+   "node": "answer",
+   "message": "verdict=pass, 2 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 33.51,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1683,
+   "output_tokens": 154,
+   "total_tokens": 1837,
+   "output_token_details": {
+    "reasoning": 48
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "output_token_details": {
+    "reasoning": 1165
+   },
+   "input_tokens": 2676,
+   "output_tokens": 1718,
+   "input_token_details": {
+    "cache_read": 256
+   },
+   "total_tokens": 4394
+  }
+ },
+ "llm_calls": 3
+}

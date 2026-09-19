@@ -1,0 +1,39 @@
+# Python 3.11 / 3.12
+
+# Orchestration / LLM
+langchain>=1.0
+langchain-core>=1.0
+langgraph>=1.0
+langchain-groq>=1.1          # default provider (free tier)
+langchain-anthropic>=1.0     # optional provider
+
+# Retrieval
+langchain-qdrant>=1.0
+qdrant-client>=1.12
+langchain-huggingface>=1.0
+sentence-transformers>=3.0
+rank-bm25>=0.2.2
+
+# Ingestion
+pypdf>=5.0
+huggingface-hub>=0.25
+
+# Evaluation
+ragas==0.4.3
+langchain-community==0.4.1   # ragas 0.4.3 imports a module removed in langchain-community 0.4.2
+datasets>=2.20
+
+# Serving
+mcp>=2.2
+fastapi>=0.115
+uvicorn>=0.30
+python-multipart>=0.0.9
+streamlit>=1.38
+pandas>=2.0
+requests>=2.32
+
+# Config / dev
+pydantic>=2.7
+pydantic-settings>=2.4
+python-dotenv>=1.0
+pytest>=8.0

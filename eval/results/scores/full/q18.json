@@ -1,0 +1,20 @@
+{
+ "id": "q18",
+ "type": "comparison",
+ "query_type": "comparison",
+ "verdict": "pass",
+ "latency_s": 61.35,
+ "tokens": 9748,
+ "routing_ok": true,
+ "n_citations": 2,
+ "citation_grounding": 1.0,
+ "evidence_in_context": 1.0,
+ "judges": {
+  "faithfulness": "openai/gpt-oss-20b",
+  "context_precision": "qwen/qwen3.8-27b"
+ },
+ "faithfulness": 0.5,
+ "answer_relevancy": 0.9054090506935472,
+ "context_precision": 0.49999999995,
+ "judge_model": "qwen/qwen3.8-27b"
+}

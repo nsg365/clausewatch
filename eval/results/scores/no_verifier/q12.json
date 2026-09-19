@@ -1,0 +1,19 @@
+{
+ "id": "q12",
+ "type": "clause_lookup",
+ "query_type": "clause_lookup",
+ "verdict": "off",
+ "latency_s": 6.74,
+ "tokens": 4567,
+ "routing_ok": true,
+ "n_citations": 1,
+ "citation_grounding": 1.0,
+ "evidence_in_context": 1.0,
+ "judges": {
+  "faithfulness": "openai/gpt-oss-20b"
+ },
+ "faithfulness": 1.0,
+ "answer_relevancy": null,
+ "context_precision": null,
+ "judge_model": "openai/gpt-oss-20b"
+}

@@ -1,0 +1,238 @@
+{
+ "question": "What royalty rate does Dynamex pay under its transportation services agreement?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b"
+ ],
+ "clause_types": [
+  "payment"
+ ],
+ "search_query": "royalty rate",
+ "answer": "The provided excerpts do not contain the royalty rate that Dynamex pays under its transportation services agreement.",
+ "draft": {
+  "answer": "The provided excerpts do not contain the royalty rate that Dynamex pays under its transportation services agreement.",
+  "claims": [],
+  "insufficient_context": true,
+  "missing_information": "Royalty rate clause is not present in the supplied contract excerpts."
+ },
+ "citations": [],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {},
+ "contexts": [
+  "5.6    Interest, at the prime rate then charged to commercial customers by the\n       Canadian Imperil Bank of Commerce (Toronto Main Branch), shall be\n       payable on all amounts overdue for thirty (30) days or more.",
+  "6.3    A party shall, for any loss, damage or delay to Freight while in its\n       care, custody or control, forthwith pay to the other Party the actual\n       damages suffered by such other Party. Such liability shall not exceed the\n       other Party's contractual liability to its customers. The Parties\n       acknowledge that their contract of carriage with their customers provides\n       that liability for loss, damage or delay, including liability for\n       consequential loss, is limited to Four Dollars and Forty One Cents\n       ($4.41) per kilogram or Two Dollars ($2.00) per pound unless a higher\n       value has been declared for insurance purposes.",
+  "during the Default Month for each shipment below the performance\n        commitment.\n        For example, if the defaulting Party, in a Default Month, provided\n        services at an eighty five percent (85%) level and the average yield for\n        the Default Month of the Party not in default is ten dollars ($10.00)\n        and the total number of shipments handled by the defaulting Party\n        pursuant to this Agreement is one hundred (100), then the penalty would\n        be equal to 5 x[(Performance Commitment - Actual Performance Level) x #\n        of shipments] x average yield or 5 x [(90-85) x 100] x 10 = $250.00.",
+  "1985, Chapter E-15,\n               as amended from time to time.\n       (b)     In the event that \"GST\" or any other value added or sales taxes\n               are applicable at any time during the Term of this Agreement:\n                    (i)    Either party shall be liable for the same, if \n                           applicable\u037e\n                    (ii)   Either Party shall identify such tax separately on \n                           each invoice\u037e and\n                    (iii)  Either Party's GST registration number shall \n                           appear on each invoice.",
+  "9.1    Each Party shall purchase and maintain, at its own expense, the\n       following insurance coverages:\n       (a)     cargo liability insurance, subject to a combined single limit of\n               not less than One Hundred Thousand dollars ($100,000.00)\n               inclusive per occurrence. The other Party shall be named as an\n               additional insured and the policy shall contain a cross\n               liability clause\u037e\n       (b)     automobile, non-owned automobile, fleet, comprehensive general,\n               public and property liability insurance with a limit of not less\n               than Two Million dollars ($2,000,000.00) inclusive of bodily\n               injury and property damage for any one occurrence arising out of\n               one (1) cause. The policy shall cover all non-air operations,\n               non-owned automobile, contractual liability and liability\n               specifically assumed under this Agreement. The other party shall\n               be named as an additional insured and the policy shall contain a\n               cross liability clause\u037e",
+  "5.7    Any discrepancy in an invoice which is discovered by either Party may\n       result in the issuance of a debit note or credit note by the appropriate\n       Party, and notwithstanding any prior payment, the same shall be \n       accompanied by supporting documentation. Payment shall be made by the \n       appropriate Party net fifteen (15) days from receipt and acceptance of \n       the documentation.\n5.8    (a)     The Parties acknowledge and agree that the Services to be\n               provided hereunder constitute the supply of freight\n               transportation services in the course of the continuous\n               movement of freight, also referred to as interlining.\n               Accordingly, the Services under this Agreement are zero-rated\n               for the purposes of the Goods and Services Tax (hereinafter \n               referred to as \"GST\") pursuant to Section 1 of Part VII of\n               Schedule VI of the Excise Tax Act, R.S.C. 1985, Chapter E-15,\n               as amended from time to time."
+ ],
+ "sources": [
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0024",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "5.6 Interest, at the prime rate then charged to commercial customers by the",
+   "page_start": 4,
+   "page_end": 4,
+   "clause_types": [],
+   "dense_rank": 1,
+   "sparse_rank": 1,
+   "rrf": 0.03279,
+   "rerank": 0.0056,
+   "label": "S1"
+  },
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0029",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "6.3 A party shall, for any loss, damage or delay to Freight while in its",
+   "page_start": 4,
+   "page_end": 4,
+   "clause_types": [
+    "insurance",
+    "liability"
+   ],
+   "dense_rank": 3,
+   "sparse_rank": null,
+   "rrf": 0.01587,
+   "rerank": 0.0052,
+   "label": "S2"
+  },
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0059",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "18.0 PERFORMANCE PENALTIES",
+   "page_start": 7,
+   "page_end": 8,
+   "clause_types": [
+    "liquidated_damages"
+   ],
+   "dense_rank": 2,
+   "sparse_rank": null,
+   "rrf": 0.01613,
+   "rerank": 0.0014,
+   "label": "S3"
+  },
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0026",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "5.7 Any discrepancy in an invoice which is discovered by either Party may",
+   "page_start": 4,
+   "page_end": 4,
+   "clause_types": [
+    "payment",
+    "term"
+   ],
+   "dense_rank": 5,
+   "sparse_rank": null,
+   "rrf": 0.03151,
+   "rerank": 0.0012,
+   "label": "S4"
+  },
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0034",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "9.1 Each Party shall purchase and maintain, at its own expense, the",
+   "page_start": 5,
+   "page_end": 5,
+   "clause_types": [
+    "insurance",
+    "liability"
+   ],
+   "dense_rank": 11,
+   "sparse_rank": null,
+   "rrf": 0.01408,
+   "rerank": 0.0012,
+   "label": "S5"
+  },
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0025",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "5.7 Any discrepancy in an invoice which is discovered by either Party may",
+   "page_start": 4,
+   "page_end": 4,
+   "clause_types": [
+    "payment"
+   ],
+   "dense_rank": 4,
+   "sparse_rank": null,
+   "rrf": 0.03202,
+   "rerank": 0.001,
+   "label": "S6"
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['payment'] | contracts=['dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b']",
+   "data": {
+    "reason": "The question asks for the royalty rate specified in Dynamex\u2019s Transportation Services Agreement, which is a payment-related clause.",
+    "search_query": "royalty rate",
+    "unknown_contract_ids": []
+   },
+   "ms": 650
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'royalty rate'",
+   "data": {
+    "filters": {
+     "contracts": [
+      "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b"
+     ],
+     "clause_types": [
+      "payment"
+     ]
+    }
+   },
+   "ms": 127
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "5.6 Interest, at the prime rate then charged to commercial customers by the",
+      "score": 0.0056
+     },
+     {
+      "label": "S2",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "6.3 A party shall, for any loss, damage or delay to Freight while in its",
+      "score": 0.0052
+     },
+     {
+      "label": "S3",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "18.0 PERFORMANCE PENALTIES",
+      "score": 0.0014
+     },
+     {
+      "label": "S4",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "5.7 Any discrepancy in an invoice which is discovered by either Party may",
+      "score": 0.0012
+     },
+     {
+      "label": "S5",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "9.1 Each Party shall purchase and maintain, at its own expense, the",
+      "score": 0.0012
+     },
+     {
+      "label": "S6",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "5.7 Any discrepancy in an invoice which is discovered by either Party may",
+      "score": 0.001
+     }
+    ]
+   },
+   "ms": 1076
+  },
+  {
+   "node": "draft",
+   "message": "0 claims | model reports insufficient context",
+   "data": {
+    "answer": "The provided excerpts do not contain the royalty rate that Dynamex pays under its transportation services agreement."
+   },
+   "ms": 11762
+  },
+  {
+   "node": "answer",
+   "message": "verdict=unverified, 0 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 13.62,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1713,
+   "output_tokens": 123,
+   "total_tokens": 1836,
+   "output_token_details": {
+    "reasoning": 31
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "input_tokens": 1574,
+   "output_tokens": 231,
+   "total_tokens": 1805,
+   "input_token_details": {
+    "cache_read": 256
+   },
+   "output_token_details": {
+    "reasoning": 159
+   }
+  }
+ },
+ "llm_calls": 2
+}

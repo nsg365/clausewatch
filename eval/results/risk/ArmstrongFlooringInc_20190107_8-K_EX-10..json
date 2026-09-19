@@ -1,0 +1,110 @@
+{
+ "contract_id": "armstrongflooringinc-20190107-8-k-ex-10-2-114717-63a4d1",
+ "answer": "**Top 1 risk flags for ArmstrongFlooringInc - Intellectual Property Agreement** (2 candidate flag(s) rejected by the verifier)\n\n1. **Broad IP assignment** (HIGH, confidence 0.95) - The clause mandates a blanket assignment of all of Arizona's IP to the Company without any limitation or license-back, matching the broad IP assignment risk pattern. [1]\n   > \"2.1 Assignment . Arizona agrees to assign and hereby assigns its entire right, title and interest in and to the Arizona Assigned IP to the Company.\"\n   > - ArmstrongFlooringInc - Intellectual Property Agreement, 2.1 Assignment, p. 5",
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "armstrongflooringinc-20190107-8-k-ex-10-2-114717-63a4d1",
+   "contract_title": "ArmstrongFlooringInc - Intellectual Property Agreement",
+   "section": "2.1 Assignment",
+   "page_start": 5,
+   "page_end": 5,
+   "chunk_id": "armstrongflooringinc-20190107-8-k-ex-10-2-114717-63a4d1::0013",
+   "quote": "2.1 Assignment . Arizona agrees to assign and hereby assigns its entire right, title and interest in and to the Arizona Assigned IP to the Company.",
+   "ref": "ArmstrongFlooringInc - Intellectual Property Agreement, 2.1 Assignment, p. 5"
+  }
+ ],
+ "risk_flags": [
+  {
+   "pattern_id": "broad_ip_assignment",
+   "name": "Broad IP assignment",
+   "severity": "high",
+   "confidence": 0.95,
+   "rationale": "The clause mandates a blanket assignment of all of Arizona's IP to the Company without any limitation or license-back, matching the broad IP assignment risk pattern.",
+   "quote": "2.1 Assignment . Arizona agrees to assign and hereby assigns its entire right, title and interest in and to the Arizona Assigned IP to the Company.",
+   "contract_id": "armstrongflooringinc-20190107-8-k-ex-10-2-114717-63a4d1",
+   "contract_title": "ArmstrongFlooringInc - Intellectual Property Agreement",
+   "chunk_id": "armstrongflooringinc-20190107-8-k-ex-10-2-114717-63a4d1::0013",
+   "section": "2.1 Assignment",
+   "page_start": 5,
+   "page_end": 5,
+   "quote_verified": true,
+   "status": "verified",
+   "verifier_note": "The clause explicitly states that Arizona assigns its entire right, title and interest in the Arizona Assigned IP to the Company, which is a blanket assignment of all IP without limitation, directly matching the broad IP assignment risk."
+  }
+ ],
+ "rejected_flags": [
+  {
+   "pattern_id": "uncapped_liability",
+   "name": "Unlimited / uncapped liability",
+   "severity": "high",
+   "confidence": 0.97,
+   "rationale": "The indemnification clause imposes unlimited liability for all losses, costs, and damages without any monetary cap, covering breach, gross negligence, and willful misconduct, which matches the unlimited/uncapped liability risk pattern.",
+   "quote": "Each Party (the \"Indemnifying Party\") agrees to indemnify, defend and hold harmless the other Party ... from and against any and all losses (including all costs, liabilities (including present and future damages), claims and expenses) incurred or suffered ... to the extent arising out of ... a breach by the Indemnifying Party of this Agreement; or any gross negligence or willful misconduct of the Indemnifying Party.",
+   "contract_id": "armstrongflooringinc-20190107-8-k-ex-10-2-114717-63a4d1",
+   "contract_title": "ArmstrongFlooringInc - Intellectual Property Agreement",
+   "chunk_id": "armstrongflooringinc-20190107-8-k-ex-10-2-114717-63a4d1::0038",
+   "section": "10.1 Indemnification",
+   "page_start": 9,
+   "page_end": 10,
+   "quote_verified": false,
+   "status": "rejected"
+  },
+  {
+   "pattern_id": "change_of_control",
+   "name": "Change-of-control trigger",
+   "severity": "medium",
+   "confidence": 0.95,
+   "rationale": "The clause makes assignments related to a sale or transfer of the business (a change of control) subject to the other party's prior written consent, creating a consent trigger for change-of-control events.",
+   "quote": "13.2 Assignment . Except as otherwise provided in this Agreement, ... neither this Agreement nor any of the rights, interests or obligations of any Party under this Agreement shall be assigned, in whole or in part, by operation of law or otherwise, by either Party without the prior written consent of the other Party; provided, however, that (a) either Party may assign any of the foregoing in connection with the sale or other transfer of the applicable business or assets of such Party or its Affiliates to which this Agreement relates...",
+   "contract_id": "armstrongflooringinc-20190107-8-k-ex-10-2-114717-63a4d1",
+   "contract_title": "ArmstrongFlooringInc - Intellectual Property Agreement",
+   "chunk_id": "armstrongflooringinc-20190107-8-k-ex-10-2-114717-63a4d1::0044",
+   "section": "13.2 Assignment",
+   "page_start": 11,
+   "page_end": 11,
+   "quote_verified": true,
+   "status": "rejected",
+   "verifier_note": "The clause requires prior written consent for assignments generally, but includes an explicit exception allowing either party to assign in connection with a sale or transfer of the business. This exception means the assignment related to a change of control is not subject to the consent requirement, contrary to the stated risk."
+  }
+ ],
+ "trace": [
+  {
+   "node": "risk_scan",
+   "message": "scanned 10 patterns x 1 contract(s): 3 candidate flags",
+   "data": {
+    "candidates": [
+     "uncapped_liability",
+     "broad_ip_assignment",
+     "change_of_control"
+    ]
+   },
+   "ms": 132390
+  },
+  {
+   "node": "verify",
+   "message": "1/3 risk flags verified (quote match + judge)",
+   "data": {},
+   "ms": 439675
+  },
+  {
+   "node": "verify",
+   "message": "REJECTED flag uncapped_liability: quote not found in armstrongflooringinc-20190107-8-k-ex-10-2-114717-63a4d1::0038",
+   "data": {},
+   "ms": 439675
+  },
+  {
+   "node": "verify",
+   "message": "REJECTED flag change_of_control: The clause requires prior written consent for assignments generally, but includes an explicit exception allowing either party to assign in connection with a sale or transfer of the business. This exception means the assignment related to a change of control is not subject to the consent requirement, contrary to the stated risk.",
+   "data": {},
+   "ms": 439675
+  },
+  {
+   "node": "answer",
+   "message": "1 risk flags returned",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "contract_title": "ArmstrongFlooringInc - Intellectual Property Agreement"
+}

@@ -1,0 +1,459 @@
+{
+ "question": "What royalty rate does Dynamex pay under its transportation services agreement?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b"
+ ],
+ "clause_types": [
+  "payment"
+ ],
+ "search_query": "royalty rate",
+ "answer": "I could not find verifiable support for this in the indexed contracts. Missing: The royalty rate clause is not present in the supplied source excerpts.",
+ "draft": {
+  "answer": "The provided excerpts do not contain the royalty rate that Dynamex pays under the transportation services agreement.",
+  "claims": [],
+  "insufficient_context": true,
+  "missing_information": "The royalty rate clause is not present in the supplied source excerpts."
+ },
+ "citations": [],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {
+  "verdict": "insufficient",
+  "decision": "accept",
+  "supported_ratio": 0.0,
+  "answers_question": false,
+  "claims": [],
+  "attempt": 2
+ },
+ "contexts": [
+  "6.3    A party shall, for any loss, damage or delay to Freight while in its\n       care, custody or control, forthwith pay to the other Party the actual\n       damages suffered by such other Party. Such liability shall not exceed the\n       other Party's contractual liability to its customers. The Parties\n       acknowledge that their contract of carriage with their customers provides\n       that liability for loss, damage or delay, including liability for\n       consequential loss, is limited to Four Dollars and Forty One Cents\n       ($4.41) per kilogram or Two Dollars ($2.00) per pound unless a higher\n       value has been declared for insurance purposes.",
+  "5.7    Any discrepancy in an invoice which is discovered by either Party may\n       result in the issuance of a debit note or credit note by the appropriate\n       Party, and notwithstanding any prior payment, the same shall be \n       accompanied by supporting documentation. Payment shall be made by the \n       appropriate Party net fifteen (15) days from receipt and acceptance of \n       the documentation.\n5.8    (a)     The Parties acknowledge and agree that the Services to be\n               provided hereunder constitute the supply of freight\n               transportation services in the course of the continuous\n               movement of freight, also referred to as interlining.\n               Accordingly, the Services under this Agreement are zero-rated\n               for the purposes of the Goods and Services Tax (hereinafter \n               referred to as \"GST\") pursuant to Section 1 of Part VII of\n               Schedule VI of the Excise Tax Act, R.S.C. 1985, Chapter E-15,\n               as amended from time to time.",
+  "5.6    Interest, at the prime rate then charged to commercial customers by the\n       Canadian Imperil Bank of Commerce (Toronto Main Branch), shall be\n       payable on all amounts overdue for thirty (30) days or more.",
+  "3.9    Dynamex agrees not to provide sameday delivery services for any other\n       provider of next day or multiple day courier services. It is understood\n       and agreed that Dynamex, from time to time and upon request, may provide\n       pick-up and/or delivery services for other next-day or multiple day\n       courier service providers, as part of their next-day and multiple day\n       service commitment, provided Dynamex' services will not result in the\n       provision of same day service to the customer of the provider of\n       next-day or multiple day courier service.\n       Dynamex may continue to provide the same day service it currently\n       provides to Alltours customers, provided revenue to Dynamex from this\n       business does not exceed Five Thousand Dollars ($5,000.00) per month\n       provided there is no change in control, direct or indirect, in Alltours.",
+  "3.1     Subject to the terms and conditions hereinafter set out, Purolator\n        agrees to do the following:\n        i)     Offer sameday courier services to its customers under the\n               Purolator name and trade-mark\u037e\n        ii)    Tender to Dynamex all sameday courier service requests that it\n               receives\u037e\n        iii)   In connection with such sameday service requests, Purolator will\n               handle the customer request, will dispatch the pickup \n               request to Dynamex, will be responsible for billing the customer\n               for the service and collecting the revenue and provide such sales\n               and marketing service, in conjunction with Dynamex, as may be\n               necessary\u037e\n        iv)    Will provide its next day and multiple day transportation\n               services to Dynamex' customers as may be required from time to\n               time, such services to be provided in accordance with the\n               service standards set out in Schedule \"A\" attached hereto, which\n               service standards may be amended from time to time\u037e",
+  "18.0    PERFORMANCE PENALTIES\n18.1    In the event a Party has, in any twelve (12) month period, more than\n        three (3) Monthly Performance Failures, then the defaulting Party shall\n        pay a penalty to the Party not in default, which the Parties acknowledge\n        is a pre-estimation of damages suffered by the non-defaulting Party due\n        to the current month's Monthly Performance Failure (\"Default Month\").\n        For each Default Month, the Party in default shall pay a penalty equal\n        to five (5) times the Party not in default's corporate average yield\n        during the Default Month for each shipment below the performance\n        commitment.",
+  "3.2     Subject to the terms and conditions hereinafter set out, Dynamex agrees\n        to do the following:\n        i)     Offer overnight courier services to its customers under the\n               Dynamex name and trade-mark\u037e\n        ii)    Tender to Purolator all overnight courier service requests that\n               it receives\u037e\n        iii)   In connection with such overnight service requests, will handle\n               the customer request, will dispatch the pickup request to\n               Purolator, will be responsible for billing the customer for the \n               service and collecting the revenue and provide such sales and \n               marketing service, in conjunction with Purolator, as may be \n               necessary\u037e\n        iv)    Will provide its sameday transportation services to Purolator's\n               customers as may be required from time to time, such services to\n               be provided in accordance with the service standards set out\n               in Schedule \"B\" attached hereto, which service standards may be\n               amended from time to time\u037e\n        v)     In providing such sameday services, agrees to provide customer\n               serv",
+  "8.0    INDEMNIFICATION\n8.1    Each Party shall at all times indemnify and hold harmless the other, its\n       directors, officers, employees and any others for whom it may be\n       responsible in law, from and against all claims, including claims made\n       by the indemnifying Party's personnel under worker's compensation\n       legislation, demands, awards, judgments, actions and proceedings by\n       whomsoever made, brought or prosecuted in respect of loss of, damage to\n       or destruction of property (including loss or damage sustained by the\n       indemnifying party) or personal injury including death and from and\n       against any and all loss or, damage to or destruction of property,\n       expenses and costs (including legal fees and disbursements) suffered or\n       incurred by the indemnifying Party, its directors, officers, employees\n       and any others for whom it may be responsible in law, arising out of or\n       in any way connected with the indemnifying Party, its directors,\n       officers, employees and any others for whom it may be responsible in law,\n       arising out of or in any way connected with the indemnifying Party\n       provision of Services un"
+ ],
+ "sources": [
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0029",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "6.3 A party shall, for any loss, damage or delay to Freight while in its",
+   "page_start": 4,
+   "page_end": 4,
+   "clause_types": [
+    "insurance",
+    "liability"
+   ],
+   "dense_rank": 3,
+   "sparse_rank": 27,
+   "rrf": 0.02737,
+   "rerank": 0.0796,
+   "label": "S1",
+   "supported": false
+  },
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0025",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "5.7 Any discrepancy in an invoice which is discovered by either Party may",
+   "page_start": 4,
+   "page_end": 4,
+   "clause_types": [
+    "payment"
+   ],
+   "dense_rank": 1,
+   "sparse_rank": 20,
+   "rrf": 0.02889,
+   "rerank": 0.0119,
+   "label": "S2",
+   "supported": false
+  },
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0024",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "5.6 Interest, at the prime rate then charged to commercial customers by the",
+   "page_start": 4,
+   "page_end": 4,
+   "clause_types": [],
+   "dense_rank": 2,
+   "sparse_rank": 6,
+   "rrf": 0.03128,
+   "rerank": 0.0116,
+   "label": "S3",
+   "supported": false
+  },
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0013",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "3.9 Dynamex agrees not to provide sameday delivery services for any other",
+   "page_start": 2,
+   "page_end": 3,
+   "clause_types": [],
+   "dense_rank": null,
+   "sparse_rank": 8,
+   "rrf": 0.01471,
+   "rerank": 0.0105,
+   "label": "S4",
+   "supported": false
+  },
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0006",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "3.1 Subject to the terms and conditions hereinafter set out, Purolator",
+   "page_start": 1,
+   "page_end": 2,
+   "clause_types": [],
+   "dense_rank": 30,
+   "sparse_rank": 24,
+   "rrf": 0.02302,
+   "rerank": 0.0053,
+   "label": "S5",
+   "supported": false
+  },
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0058",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "18.0 PERFORMANCE PENALTIES",
+   "page_start": 7,
+   "page_end": 8,
+   "clause_types": [
+    "liquidated_damages"
+   ],
+   "dense_rank": 19,
+   "sparse_rank": 14,
+   "rrf": 0.02617,
+   "rerank": 0.004,
+   "label": "S6",
+   "supported": false
+  },
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0008",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "3.2 Subject to the terms and conditions hereinafter set out, Dynamex agrees",
+   "page_start": 2,
+   "page_end": 2,
+   "clause_types": [],
+   "dense_rank": 26,
+   "sparse_rank": 21,
+   "rrf": 0.02397,
+   "rerank": 0.0038,
+   "label": "S7",
+   "supported": false
+  },
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0031",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "8.0 INDEMNIFICATION",
+   "page_start": 4,
+   "page_end": 5,
+   "clause_types": [
+    "indemnification"
+   ],
+   "dense_rank": 10,
+   "sparse_rank": null,
+   "rrf": 0.01429,
+   "rerank": 0.0032,
+   "label": "S8",
+   "supported": false
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['payment'] | contracts=['dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b']",
+   "data": {
+    "reason": "The user asks for the royalty rate paid by Dynamex under its transportation services agreement, which is a payment-related clause.",
+    "search_query": "royalty rate",
+    "unknown_contract_ids": []
+   },
+   "ms": 947
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'royalty rate'",
+   "data": {
+    "filters": {
+     "contracts": [
+      "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b"
+     ],
+     "clause_types": [
+      "payment"
+     ]
+    }
+   },
+   "ms": 148
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "5.6 Interest, at the prime rate then charged to commercial customers by the",
+      "score": 0.0056
+     },
+     {
+      "label": "S2",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "6.3 A party shall, for any loss, damage or delay to Freight while in its",
+      "score": 0.0052
+     },
+     {
+      "label": "S3",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "18.0 PERFORMANCE PENALTIES",
+      "score": 0.0014
+     },
+     {
+      "label": "S4",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "5.7 Any discrepancy in an invoice which is discovered by either Party may",
+      "score": 0.0012
+     },
+     {
+      "label": "S5",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "9.1 Each Party shall purchase and maintain, at its own expense, the",
+      "score": 0.0012
+     },
+     {
+      "label": "S6",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "5.7 Any discrepancy in an invoice which is discovered by either Party may",
+      "score": 0.001
+     }
+    ]
+   },
+   "ms": 1131
+  },
+  {
+   "node": "draft",
+   "message": "0 claims | model reports insufficient context",
+   "data": {
+    "answer": ""
+   },
+   "ms": 6359
+  },
+  {
+   "node": "verify",
+   "message": "0/0 claims supported, verdict=INSUFFICIENT -> RETRY",
+   "data": {
+    "claims": [],
+    "retry_query": ""
+   },
+   "ms": 0
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 1: 30 candidates (dense+BM25, RRF) for 'What royalty rate does Dynamex pay under its transportation services agreement?'",
+   "data": {
+    "filters": {
+     "contracts": [
+      "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b"
+     ],
+     "clause_types": null
+    }
+   },
+   "ms": 100
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 8/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "6.3 A party shall, for any loss, damage or delay to Freight while in its",
+      "score": 0.0796
+     },
+     {
+      "label": "S2",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "5.7 Any discrepancy in an invoice which is discovered by either Party may",
+      "score": 0.0119
+     },
+     {
+      "label": "S3",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "5.6 Interest, at the prime rate then charged to commercial customers by the",
+      "score": 0.0116
+     },
+     {
+      "label": "S4",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "3.9 Dynamex agrees not to provide sameday delivery services for any other",
+      "score": 0.0105
+     },
+     {
+      "label": "S5",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "3.1 Subject to the terms and conditions hereinafter set out, Purolator",
+      "score": 0.0053
+     },
+     {
+      "label": "S6",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "18.0 PERFORMANCE PENALTIES",
+      "score": 0.004
+     },
+     {
+      "label": "S7",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "3.2 Subject to the terms and conditions hereinafter set out, Dynamex agrees",
+      "score": 0.0038
+     },
+     {
+      "label": "S8",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "8.0 INDEMNIFICATION",
+      "score": 0.0032
+     }
+    ]
+   },
+   "ms": 1254
+  },
+  {
+   "node": "draft",
+   "message": "0 claims | model reports insufficient context",
+   "data": {
+    "answer": ""
+   },
+   "ms": 18098
+  },
+  {
+   "node": "verify",
+   "message": "0/0 claims supported, verdict=INSUFFICIENT -> RETRY",
+   "data": {
+    "claims": [],
+    "retry_query": ""
+   },
+   "ms": 0
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 2: 30 candidates (dense+BM25, RRF) for 'What royalty rate does Dynamex pay under its transportation services agreement?'",
+   "data": {
+    "filters": {
+     "contracts": [
+      "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b"
+     ],
+     "clause_types": null
+    }
+   },
+   "ms": 107
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 8/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "6.3 A party shall, for any loss, damage or delay to Freight while in its",
+      "score": 0.0796
+     },
+     {
+      "label": "S2",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "5.7 Any discrepancy in an invoice which is discovered by either Party may",
+      "score": 0.0119
+     },
+     {
+      "label": "S3",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "5.6 Interest, at the prime rate then charged to commercial customers by the",
+      "score": 0.0116
+     },
+     {
+      "label": "S4",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "3.9 Dynamex agrees not to provide sameday delivery services for any other",
+      "score": 0.0105
+     },
+     {
+      "label": "S5",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "3.1 Subject to the terms and conditions hereinafter set out, Purolator",
+      "score": 0.0053
+     },
+     {
+      "label": "S6",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "18.0 PERFORMANCE PENALTIES",
+      "score": 0.004
+     },
+     {
+      "label": "S7",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "3.2 Subject to the terms and conditions hereinafter set out, Dynamex agrees",
+      "score": 0.0038
+     },
+     {
+      "label": "S8",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "8.0 INDEMNIFICATION",
+      "score": 0.0032
+     }
+    ]
+   },
+   "ms": 1315
+  },
+  {
+   "node": "draft",
+   "message": "0 claims | model reports insufficient context",
+   "data": {
+    "answer": "The provided excerpts do not contain the royalty rate that Dynamex pays under the transportation services agreement."
+   },
+   "ms": 17944
+  },
+  {
+   "node": "verify",
+   "message": "0/0 claims supported, verdict=INSUFFICIENT -> ACCEPT",
+   "data": {
+    "claims": [],
+    "retry_query": ""
+   },
+   "ms": 0
+  },
+  {
+   "node": "answer",
+   "message": "verdict=insufficient, 0 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 47.41,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1675,
+   "output_tokens": 176,
+   "total_tokens": 1851,
+   "output_token_details": {
+    "reasoning": 83
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "total_tokens": 6914,
+   "input_tokens": 6094,
+   "output_tokens": 820,
+   "output_token_details": {
+    "reasoning": 636
+   }
+  }
+ },
+ "llm_calls": 7
+}

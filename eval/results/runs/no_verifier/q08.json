@@ -1,0 +1,260 @@
+{
+ "question": "What minimum monthly fee applies under the BNL Financial outsourcing agreement?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "bnlfinancialcorp-03-30-2007-ex-10-8-outsourcing-f8650a"
+ ],
+ "clause_types": [
+  "minimum_commitment"
+ ],
+ "search_query": "minimum monthly fee",
+ "answer": "The agreement sets a minimum monthly fee of five thousand dollars ($5,000) per month [1].",
+ "draft": {
+  "answer": "The agreement sets a minimum monthly fee of five thousand dollars ($5,000) per month [S1].",
+  "claims": [
+   {
+    "statement": "The minimum monthly fee is $5,000 per month.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "The minimum monthly fee shall not be less than five thousand dollars ($5,000) per month (as applicable, \"Minimum Fee\")."
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "bnlfinancialcorp-03-30-2007-ex-10-8-outsourcing-f8650a",
+   "contract_title": "BNLFINANCIALCORP - Outsourcing Agreement",
+   "section": "5. PAYMENTS TO VIP",
+   "page_start": 4,
+   "page_end": 4,
+   "chunk_id": "bnlfinancialcorp-03-30-2007-ex-10-8-outsourcing-f8650a::0010",
+   "quote": "The minimum monthly fee shall not be less than five thousand dollars ($5,000) per month (as applicable, \"Minimum Fee\").",
+   "ref": "BNLFINANCIALCORP - Outsourcing Agreement, 5. PAYMENTS TO VIP, p. 4"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {},
+ "contexts": [
+  "5. PAYMENTS TO VIP.\n \n  A. For EDP Services provided pursuant to this Agreement, BNL will pay to VIP the charges set forth in the Payment Schedule attached hereto\nas Schedule B: provided however and notwithstanding anything to the contrary herein.  The minimum monthly fee shall not be less than\nfive thousand dollars  ($5,000) per month (as applicable, \"Minimum Fee\").\n \n  B. For any additional VIP Services provided hereunder, BNL will pay to VIP  the charges set charges set forth in the Payment Schedule\nattached hereto  as Schedule A.\n \n  C. The fees due hereunder are subject to the following  provisions:\n \n1. The fee for each new policy submitted into the VIP System is set forth in  Schedule B.\n \n2. VIP will process all policies that have thirteen (13) or more months expired from their  original policy date at the annual rates set forth in\nSchedule B. with a separate fee for each renewal base policy and each rider, for each plan,  prorated to the actual number of months\neach policy is represented to be in  force on the VIP System.",
+  "C. However, if, after the Initial Term, BNL terminates this Agreement during an  Extended Term by giving less than six (6) months notice, in\naddition to any  other sums due VIP under this Agreement, BNL shall pay to VIP a cancellation  fee equal to the greater of (i) the Minimum\nFee multiplied by the remaining number  of months in the then current term, (ii) the average of the monthly billings  for the six (6) month\nperiod immediately preceding the date upon which the notice  of termination is received by VIP from BNL multiplied by the remaining\nnumber of months in the then current term or (iii) thirty thousand dollars ($30, 000).\n \nE. From and after notice of termination is received by VIP, any new reports or other  services provided by VIP other than routine processing\nservices which have been done for BNL under this Agreement shall be deemed to be additional services  and shall be performed by VIP at\nVIP's then current rates for such termination services as specified on  Schedule A.\n \nF. Upon termination or expiration of this Agreement, BNL shall return all software and related manuals, if any, provided by VIP to BNL during the\nterm of this Agreement.",
+  "D. Any sum due VIP hereunder for which a time for payment is not otherwise  specified will be due and payable within ten (10) days after the\ndate of  the postmark for an invoice therefor from VIP. If BNL fails to pay  any amount due within ten (10) days from the date of the\npostmark for the invoice, late charges of 1-1/2% per month, or the maximum amount allowable by law, whichever is less, shall also become\npayable by BNL to VIP.\n \n  E. In addition to the communication line and devices which BNL is authorized  to attach to the VIP System pursuant to paragraph 2 of this\nAgreement, BNL may, for the monthly fee(s) hereinafter set forth, attach additional  communication lines or the following devices to the VIP\nSystem. The monthly fee(s) for such additional lines) or devices is as  follows:\n \n1. each communication line and adapter $200,\n \n2. each visual station whether CRT, PC or similar device $25,\n3. each addressable printer under 299 lines per minute (\"LPM\") $25\n \n4. each addressable printer over 299 LPM $150.\n \nF. There are certain other expenses which are directly related to VIP's performance  of this Agreement that are directly billable by VIP and payable\nby BNL.",
+  "11. BNL LIMITATION OF LIABILITY. BNL shall have no liability with respect to its obligations under this agreement or  otherwise for\nconsequential, exemplary, special, indirect, incidental or punitive damages even if it has been advised of the possibility\nE - 12\n \nof such damages. in any event, other than claims covered by the next sentence, the  liability of BNL to VIP for any reason and upon any cause\nof action and claim in contract, tort or otherwise shall be limited to the amounts paid by BNL to  VIP in the twelve (12) month period prior to the\naccrual of the action or claim  for the specific service which is the subject of the action or claim (or, if such  accrual occurs during the first\ntwelve (12) months of the initial term, then the liability shall be limited to the minimum fees payable by BNL to VIP during the first twelve (12)\nmonths of the initial term) claims by VIP for the minimum fees and other fees and expenses owing by BNL under paragraphs 5, 15(a) and 15(c),\nor for a breach by BNL of VIP's proprietary rights as set forth in paragraph 13  are excluded from this paragraph II limitation except for the\nclaims excluded by the preceding sentence, this limitation applies t",
+  "Limitation of liability. VIP shall have no liability with respect to its obligations under this agreement or otherwise for consequential, exemplary,\nspecial, indirect, incidental or punitive damages even if it has been advised  of the possibility of such damages in any event, other than claims\ncovered by paragraph 8(b) or paragraph 6(a) of this agreement (which claims are excluded  from this paragraph 9(f) limitation), the liability of\nVIP to BNL for any reason and upon any cause of action or claim in contract, tort or otherwise shall  be limited to the amount paid by BNL to\nVIP in the twelve (12) month period prior to the accrual of the action or claim for the specific service which is the  subject of the action or claim\n(or, if such accrual occurs during the first  twelve (12) months of the initial term, then the liability shall be limited to the minimum fees payable\nby BNL to VIP during the first twelve (12) months of the initial term).",
+  "OF CATEGORY\n \nAll BNL Plans\n \nFee = $.305/per policy per month"
+ ],
+ "sources": [
+  {
+   "chunk_id": "bnlfinancialcorp-03-30-2007-ex-10-8-outsourcing-f8650a::0010",
+   "contract_id": "bnlfinancialcorp-03-30-2007-ex-10-8-outsourcing-f8650a",
+   "contract_title": "BNLFINANCIALCORP - Outsourcing Agreement",
+   "section": "5. PAYMENTS TO VIP",
+   "page_start": 4,
+   "page_end": 4,
+   "clause_types": [
+    "payment",
+    "renewal"
+   ],
+   "dense_rank": 1,
+   "sparse_rank": 1,
+   "rrf": 0.03279,
+   "rerank": 0.9961,
+   "label": "S1"
+  },
+  {
+   "chunk_id": "bnlfinancialcorp-03-30-2007-ex-10-8-outsourcing-f8650a::0034",
+   "contract_id": "bnlfinancialcorp-03-30-2007-ex-10-8-outsourcing-f8650a",
+   "contract_title": "BNLFINANCIALCORP - Outsourcing Agreement",
+   "section": "15. TERM",
+   "page_start": 12,
+   "page_end": 12,
+   "clause_types": [
+    "payment",
+    "term",
+    "termination"
+   ],
+   "dense_rank": 6,
+   "sparse_rank": 2,
+   "rrf": 0.03128,
+   "rerank": 0.8215,
+   "label": "S2"
+  },
+  {
+   "chunk_id": "bnlfinancialcorp-03-30-2007-ex-10-8-outsourcing-f8650a::0012",
+   "contract_id": "bnlfinancialcorp-03-30-2007-ex-10-8-outsourcing-f8650a",
+   "contract_title": "BNLFINANCIALCORP - Outsourcing Agreement",
+   "section": "5. PAYMENTS TO VIP",
+   "page_start": 5,
+   "page_end": 5,
+   "clause_types": [
+    "payment"
+   ],
+   "dense_rank": 3,
+   "sparse_rank": 3,
+   "rrf": 0.03175,
+   "rerank": 0.6029,
+   "label": "S3"
+  },
+  {
+   "chunk_id": "bnlfinancialcorp-03-30-2007-ex-10-8-outsourcing-f8650a::0026",
+   "contract_id": "bnlfinancialcorp-03-30-2007-ex-10-8-outsourcing-f8650a",
+   "contract_title": "BNLFINANCIALCORP - Outsourcing Agreement",
+   "section": "11. BNL LIMITATION OF LIABILITY",
+   "page_start": 9,
+   "page_end": 10,
+   "clause_types": [
+    "ip",
+    "liability",
+    "payment",
+    "term"
+   ],
+   "dense_rank": 14,
+   "sparse_rank": 6,
+   "rrf": 0.02867,
+   "rerank": 0.477,
+   "label": "S4"
+  },
+  {
+   "chunk_id": "bnlfinancialcorp-03-30-2007-ex-10-8-outsourcing-f8650a::0022",
+   "contract_id": "bnlfinancialcorp-03-30-2007-ex-10-8-outsourcing-f8650a",
+   "contract_title": "BNLFINANCIALCORP - Outsourcing Agreement",
+   "section": "9. VIP REPRESENTATIONS AND WARRANTIES",
+   "page_start": 8,
+   "page_end": 8,
+   "clause_types": [
+    "liability",
+    "term",
+    "warranty"
+   ],
+   "dense_rank": 17,
+   "sparse_rank": 7,
+   "rrf": 0.02791,
+   "rerank": 0.4679,
+   "label": "S5"
+  },
+  {
+   "chunk_id": "bnlfinancialcorp-03-30-2007-ex-10-8-outsourcing-f8650a::0053",
+   "contract_id": "bnlfinancialcorp-03-30-2007-ex-10-8-outsourcing-f8650a",
+   "contract_title": "BNLFINANCIALCORP - Outsourcing Agreement",
+   "section": "OF CATEGORY",
+   "page_start": 17,
+   "page_end": 17,
+   "clause_types": [],
+   "dense_rank": 2,
+   "sparse_rank": 4,
+   "rrf": 0.03175,
+   "rerank": 0.1825,
+   "label": "S6"
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['minimum_commitment'] | contracts=['bnlfinancialcorp-03-30-2007-ex-10-8-outsourcing-f8650a']",
+   "data": {
+    "reason": "The question seeks the specific minimum monthly fee clause in the BNL Financial outsourcing agreement.",
+    "search_query": "minimum monthly fee",
+    "unknown_contract_ids": []
+   },
+   "ms": 1011
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'minimum monthly fee' [clause filter relaxed]",
+   "data": {
+    "filters": {
+     "contracts": [
+      "bnlfinancialcorp-03-30-2007-ex-10-8-outsourcing-f8650a"
+     ],
+     "clause_types": [
+      "minimum_commitment"
+     ]
+    }
+   },
+   "ms": 87
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "BNLFINANCIALCORP - Outsourcing Agreement",
+      "section": "5. PAYMENTS TO VIP",
+      "score": 0.9961
+     },
+     {
+      "label": "S2",
+      "contract": "BNLFINANCIALCORP - Outsourcing Agreement",
+      "section": "15. TERM",
+      "score": 0.8215
+     },
+     {
+      "label": "S3",
+      "contract": "BNLFINANCIALCORP - Outsourcing Agreement",
+      "section": "5. PAYMENTS TO VIP",
+      "score": 0.6029
+     },
+     {
+      "label": "S4",
+      "contract": "BNLFINANCIALCORP - Outsourcing Agreement",
+      "section": "11. BNL LIMITATION OF LIABILITY",
+      "score": 0.477
+     },
+     {
+      "label": "S5",
+      "contract": "BNLFINANCIALCORP - Outsourcing Agreement",
+      "section": "9. VIP REPRESENTATIONS AND WARRANTIES",
+      "score": 0.4679
+     },
+     {
+      "label": "S6",
+      "contract": "BNLFINANCIALCORP - Outsourcing Agreement",
+      "section": "OF CATEGORY",
+      "score": 0.1825
+     }
+    ]
+   },
+   "ms": 1626
+  },
+  {
+   "node": "draft",
+   "message": "1 claims",
+   "data": {
+    "answer": "The agreement sets a minimum monthly fee of five thousand dollars ($5,000) per month [S1]."
+   },
+   "ms": 18544
+  },
+  {
+   "node": "answer",
+   "message": "verdict=unverified, 1 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 21.27,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1712,
+   "output_tokens": 163,
+   "total_tokens": 1875,
+   "output_token_details": {
+    "reasoning": 79
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "input_tokens": 1963,
+   "output_tokens": 385,
+   "total_tokens": 2348,
+   "output_token_details": {
+    "reasoning": 256
+   }
+  }
+ },
+ "llm_calls": 2
+}

@@ -1,0 +1,331 @@
+{
+ "question": "When does the initial term of the Papa John's endorsement agreement end, and can it be extended?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a"
+ ],
+ "clause_types": [
+  "term",
+  "renewal"
+ ],
+ "search_query": "initial term end date extendable",
+ "answer": "The initial term runs from the Effective Date (March\u202f15,\u202f2019) through March\u202f15,\u202f2022, and it can be extended for one additional year if the parties mutually agree in writing. [1]",
+ "draft": {
+  "answer": "The initial term runs from the Effective Date (March\u202f15,\u202f2019) through March\u202f15,\u202f2022, and it can be extended for one additional year if the parties mutually agree in writing. [S1]",
+  "claims": [
+   {
+    "statement": "The initial term ends on March\u202f15,\u202f2022.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "the initial term of this Agreement (\"Term\") is the Effective Date through March 15, 2022."
+   },
+   {
+    "statement": "The agreement may be extended for one year upon the parties' mutual written agreement.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "The Agreement may be extended for one (1) year upon the parties' mutual agreement in writing"
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a",
+   "contract_title": "PapaJohnsInternationalInc - Endorsement Agreement",
+   "section": "2. Term",
+   "page_start": 2,
+   "page_end": 2,
+   "chunk_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a::0004",
+   "quote": "the initial term of this Agreement (\"Term\") is the Effective Date through March 15, 2022.",
+   "ref": "PapaJohnsInternationalInc - Endorsement Agreement, 2. Term, p. 2"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {
+  "verdict": "pass",
+  "decision": "accept",
+  "supported_ratio": 1.0,
+  "answers_question": true,
+  "claims": [
+   {
+    "statement": "The initial term ends on March\u202f15,\u202f2022.",
+    "source_ids": [
+     "S1"
+    ],
+    "quote": "the initial term of this Agreement (\"Term\") is the Effective Date through March 15, 2022.",
+    "status": "supported",
+    "explanation": "Source S1 states the initial term runs through March 15, 2022, confirming the end date.",
+    "quote_verified": true
+   },
+   {
+    "statement": "The agreement may be extended for one year upon the parties' mutual written agreement.",
+    "source_ids": [
+     "S1"
+    ],
+    "quote": "The Agreement may be extended for one (1) year upon the parties' mutual agreement in writing",
+    "status": "supported",
+    "explanation": "Source S1 states the agreement may be extended for one (1) year upon the parties' mutual agreement in writing.",
+    "quote_verified": true
+   }
+  ],
+  "attempt": 0
+ },
+ "contexts": [
+  "2. Term. Unless earlier terminated in accordance with the provisions hereof, the initial term of this Agreement (\"Term\") is the Effective Date\nthrough March 15, 2022. The Agreement may be extended for one (1) year upon the parties' mutual agreement in writing, it being specifically\nunderstood the services to be performed by CELEBRITY (on behalf of ABG) and remuneration to ABG in connection with the same shall be\nnegotiated in good faith.",
+  "4. Services. To facilitate PAPA JOHN'S usage of the right and license to the Celebrity Endorsement with respect to the Products as\nprovided herein, d uring each Contract Year during the Term of the Agreement,  subject to CELEBRITY's prior personal and professional obligations,\nand further subject to advance scheduling reasonable acceptable to ABG and CELEBRITY and to confirmation with respect to scheduling dates,\ntimes, and locations, and subject to Section 5(C) below, ABG agrees to cause CELEBRITY to provide the services set forth below (\"Services\"). ABG\nshall require CELEBRITY to provide the Services in a professional manner, subject to the terms and conditions of this Agreement.\nA. At least eight (8) \"Service Days\", including but not limited to:",
+  "1. Definitions. As used herein, the terms set forth below shall be defined as follows:\nA. \"Celebrity Endorsement\" shall mean the right to use, subject to the provisions hereof, CELEBRITY's name (including\nvariations and derivations of the same), nickname, initials, autograph, voice, video or film portrayals, facsimile signature, photograph, trade name,\nlikeness and image or facsimile image , or means of endorsement (not including video) (individually and collectively, the \"Personality Rights\"), in\neach case, solely as Approved (as hereinafter defined) by ABG, in connection with the advertising, promotion and sale of Product s.\nB. \"Contract Year\" shall refer to the period commencing on the Effective Date and ending the day before the one year\nanniversary of the Effective Date, and each successive twelve (12) month period thereafter during the term of this Agreement.\nC.",
+  "ENDORSEMENT AGREEMENT\nTHIS ENDORSEMENT AGREEMENT (\"Agreement\") is made and entered into effective March 15, 2019 (the \"Effective Date\") by and\namong, on the one hand, ABG-Shaq, LLC, a Delaware limited liability company (\"ABG\") for the personal services of Shaquille O'Neal,\n(\"CELEBRITY\"), and, on the other hand, Papa John's Marketing Fund, Inc., a Kentucky corporation (\"PJMF\"), and Papa John's International, Inc.\n(\"PJI\") (PJMF and PJI are, individually and collectively, \"PAPA JOHN'S\"). ABG and PAPA JOHN'S may hereinafter be referred to individually as a\n\"Party\" or collectively as the \"Parties\".\nWITNESSETH:\nWHEREAS, CELEBRITY is recognized and known for his skills as an athlete, sports analyst, and celebrity personality\u037e\nWHEREAS, ABG, as successor in interest to CELEBRITY, is the exclusive rights holder throughout the world of certain rights to\nCELEBRITY'S name, image, and services, and has the authority to exploit such rights\u037e\nWHEREAS, PJMF is a corporation that pays for the national marketing of PJI and is licensed to use and sublicense its intellectual\nproperty\u037e\nWHEREAS, PAPA JOHN'S desires to acquire the right to use the Celebrity Endorsement (as defined below) in connection with",
+  "Counterparts. This Agreement may be executed in multiple counterparts, each of which shall be deemed an original,\nbut all of which together shall constitute one (1) agreement binding on all Parties hereto notwithstanding that all of the Parties hereto are not\nsignatories to the same counterpart. Each of the Parties agrees that an electronic signature evidencing a Party's execution of this Agreement shall\nbe effective as an original signature and may be used in lieu of the original for any purpose.\n[Signature Page Follows]\nIN WITNESS WHEREOF, the parties hereto have duly executed this Agreement effective the date first above written.\nPapa John's Marketing Fund, Inc. ABG-Shaq, LLC \nDate: 6/6/19 Date: June 11, 2019 \nBy: /s/ Steve Ritchie  By: Jay Dubiner \nTitle: President & CEO Title: General Counsel \nPapa John's International, Inc.\nDate: 6/6/19 \nBy: /s/ Steve Ritchie  \nTitle: President & CEO",
+  "as set forth in Section 5.A. above, determined by multiplying the Cash Payment for such Contract Year by a fraction, the numerator of which is the\nnumber of days elapsed in such Contract Year and the denominator of which is the total number of days in such Contract Year, and such amounts\nshall be immediately due as of the effective date of termination and paid to ABG.\nb. Termination by ABG. If this Agreement is terminated by ABG for any of the reasons provided in Section 7.B.\nabove, then any and all unpaid amounts under this Agreement for the eighteen (18) months following the effective date of termination (including,\nwithout limitation, any balance due of the Cash Payment as of the effective date of termination, in addition to any and all of the Cash Payments that\nwould have become payable during the next eighteen (18) months but for the termination) shall be immediately due as of the effective date of\ntermination and paid to ABG\u037e provided, however, that in the event there is less than eighteen (18) months remaining in the Term as of the effective\ndate of such termination, then any and all unpaid amounts under this Agreement for the balance of the Term (including, without limitati"
+ ],
+ "sources": [
+  {
+   "chunk_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a::0004",
+   "contract_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a",
+   "contract_title": "PapaJohnsInternationalInc - Endorsement Agreement",
+   "section": "2. Term",
+   "page_start": 2,
+   "page_end": 2,
+   "clause_types": [
+    "term"
+   ],
+   "dense_rank": 1,
+   "sparse_rank": 1,
+   "rrf": 0.06557,
+   "rerank": 0.9371,
+   "label": "S1",
+   "supported": true
+  },
+  {
+   "chunk_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a::0020",
+   "contract_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a",
+   "contract_title": "PapaJohnsInternationalInc - Endorsement Agreement",
+   "section": "4. Services",
+   "page_start": 6,
+   "page_end": 6,
+   "clause_types": [],
+   "dense_rank": null,
+   "sparse_rank": 10,
+   "rrf": 0.01429,
+   "rerank": 0.0643,
+   "label": "S2",
+   "supported": false
+  },
+  {
+   "chunk_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a::0002",
+   "contract_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a",
+   "contract_title": "PapaJohnsInternationalInc - Endorsement Agreement",
+   "section": "1. Definitions",
+   "page_start": 1,
+   "page_end": 2,
+   "clause_types": [
+    "term"
+   ],
+   "dense_rank": 22,
+   "sparse_rank": 2,
+   "rrf": 0.05854,
+   "rerank": 0.0393,
+   "label": "S3",
+   "supported": false
+  },
+  {
+   "chunk_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a::0000",
+   "contract_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a",
+   "contract_title": "PapaJohnsInternationalInc - Endorsement Agreement",
+   "section": "ENDORSEMENT AGREEMENT",
+   "page_start": 1,
+   "page_end": 1,
+   "clause_types": [
+    "exclusivity",
+    "license",
+    "parties",
+    "term"
+   ],
+   "dense_rank": null,
+   "sparse_rank": 21,
+   "rrf": 0.03993,
+   "rerank": 0.0376,
+   "label": "S4",
+   "supported": false
+  },
+  {
+   "chunk_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a::0077",
+   "contract_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a",
+   "contract_title": "PapaJohnsInternationalInc - Endorsement Agreement",
+   "section": "12. Miscellaneous",
+   "page_start": 22,
+   "page_end": 23,
+   "clause_types": [],
+   "dense_rank": 8,
+   "sparse_rank": 11,
+   "rrf": 0.02879,
+   "rerank": 0.0305,
+   "label": "S5",
+   "supported": false
+  },
+  {
+   "chunk_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a::0059",
+   "contract_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a",
+   "contract_title": "PapaJohnsInternationalInc - Endorsement Agreement",
+   "section": "7. Termination",
+   "page_start": 16,
+   "page_end": 16,
+   "clause_types": [
+    "payment",
+    "term",
+    "termination"
+   ],
+   "dense_rank": 2,
+   "sparse_rank": 4,
+   "rrf": 0.06376,
+   "rerank": 0.0258,
+   "label": "S6",
+   "supported": false
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['term', 'renewal'] | contracts=['papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a']",
+   "data": {
+    "reason": "The question asks about the duration of the initial term and whether it can be extended, which pertains to term and renewal clauses of the Papa John's endorsement agreement.",
+    "search_query": "initial term end date extendable",
+    "unknown_contract_ids": []
+   },
+   "ms": 3887
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'initial term end date extendable'",
+   "data": {
+    "filters": {
+     "contracts": [
+      "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a"
+     ],
+     "clause_types": [
+      "term",
+      "renewal"
+     ]
+    }
+   },
+   "ms": 16768
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "2. Term",
+      "score": 0.9371
+     },
+     {
+      "label": "S2",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "4. Services",
+      "score": 0.0643
+     },
+     {
+      "label": "S3",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "1. Definitions",
+      "score": 0.0393
+     },
+     {
+      "label": "S4",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "ENDORSEMENT AGREEMENT",
+      "score": 0.0376
+     },
+     {
+      "label": "S5",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "12. Miscellaneous",
+      "score": 0.0305
+     },
+     {
+      "label": "S6",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "7. Termination",
+      "score": 0.0258
+     }
+    ]
+   },
+   "ms": 10381
+  },
+  {
+   "node": "draft",
+   "message": "2 claims",
+   "data": {
+    "answer": "The initial term runs from the Effective Date (March\u202f15,\u202f2019) through March\u202f15,\u202f2022, and it can be extended for one additional year if the parties mutually agree in writing. [S1]"
+   },
+   "ms": 2714
+  },
+  {
+   "node": "verify",
+   "message": "2/2 claims supported, verdict=PASS -> ACCEPT",
+   "data": {
+    "claims": [
+     {
+      "statement": "The initial term ends on March\u202f15,\u202f2022.",
+      "source_ids": [
+       "S1"
+      ],
+      "quote": "the initial term of this Agreement (\"Term\") is the Effective Date through March 15, 2022.",
+      "status": "supported",
+      "explanation": "Source S1 states the initial term runs through March 15, 2022, confirming the end date.",
+      "quote_verified": true
+     },
+     {
+      "statement": "The agreement may be extended for one year upon the parties' mutual written agreement.",
+      "source_ids": [
+       "S1"
+      ],
+      "quote": "The Agreement may be extended for one (1) year upon the parties' mutual agreement in writing",
+      "status": "supported",
+      "explanation": "Source S1 states the agreement may be extended for one (1) year upon the parties' mutual agreement in writing.",
+      "quote_verified": true
+     }
+    ],
+    "retry_query": ""
+   },
+   "ms": 1129
+  },
+  {
+   "node": "answer",
+   "message": "verdict=pass, 1 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 34.9,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1680,
+   "output_tokens": 162,
+   "total_tokens": 1842,
+   "output_token_details": {
+    "reasoning": 57
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "output_tokens": 886,
+   "total_tokens": 3558,
+   "input_tokens": 2672,
+   "output_token_details": {
+    "reasoning": 543
+   },
+   "input_token_details": {
+    "cache_read": 256
+   }
+  }
+ },
+ "llm_calls": 3
+}

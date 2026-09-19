@@ -1,0 +1,120 @@
+{
+ "contract_id": "warningmanagementservicesinc-12-10-1999-ex-10-en-44a1a8",
+ "answer": "**Top 3 risk flags for WARNINGMANAGEMENTSERVICESINC - Endorsement Agreement** (0 candidate flag(s) rejected by the verifier)\n\n1. **One-sided indemnification** (HIGH, confidence 0.97) - The indemnity clause obligates only the Company to indemnify the other parties with no reciprocal indemnity, creating a one-sided indemnification risk. [1]\n   > \"Company agrees to protect, indemnify and save harmless Pey Dirt, Pey Dirt's agent and Manning, or any of them, from and against any and all expenses, damages, claims, suits, actions, judgments and costs whatsoever... arising out of... the negligence, actions, errors or omissions of Company...\"\n   > - WARNINGMANAGEMENTSERVICESINC - Endorsement Agreement, 16. Indemnity, p. 5\n2. **One-sided termination for convenience** (MEDIUM, confidence 0.93) - The clause grants Pey Dirt a unilateral right to terminate the agreement upon a corporate event affecting the Company, without providing a comparable termination right to the Company, constituting a one\u2011sided termination for convenience. [2]\n   > \"In the event of the merger or consolidation of Company with any other entity, Pey Dirt shall have the right to terminate the Contract Period by so notifying Company in writing on or before sixty (60) days after Pey Dirt has received notice of such merger or consolidation.\"\n   > - WARNINGMANAGEMENTSERVICESINC - Endorsement Agreement, 19. Assignment, p. 5\n3. **Restrictive non-compete / exclusivity** (MEDIUM, confidence 0.92) - The clause imposes an exclusivity obligation on the company, prohibiting the sale of the endorsed products outside the defined territory and allowing immediate termination for breach, which is a restrictive non\u2011compete/exclusivity restriction. [3]\n   > \"Company agrees that during the Contract Period it will use its best efforts actively and aggressively to (i) promote the sale of all Endorsed Products in the Contract Territory, and (ii) prevent the sale of any Endorsed Products outside the Contract Territory. Failure of Company to comply ... shall entitle Pey Dirt to revoke this license immediately.\"\n   > - WARNINGMANAGEMENTSERVICESINC - Endorsement Agreement, 2. Grant of Endorsement Rights, p. 1",
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "warningmanagementservicesinc-12-10-1999-ex-10-en-44a1a8",
+   "contract_title": "WARNINGMANAGEMENTSERVICESINC - Endorsement Agreement",
+   "section": "16. Indemnity",
+   "page_start": 5,
+   "page_end": 5,
+   "chunk_id": "warningmanagementservicesinc-12-10-1999-ex-10-en-44a1a8::0027",
+   "quote": "Company agrees to protect, indemnify and save harmless Pey Dirt, Pey Dirt's agent and Manning, or any of them, from and against any and all expenses, damages, claims, suits, actions, judgments and costs whatsoever... arising out of... the negligence, actions, errors or omissions of Company...",
+   "ref": "WARNINGMANAGEMENTSERVICESINC - Endorsement Agreement, 16. Indemnity, p. 5"
+  },
+  {
+   "n": 2,
+   "contract_id": "warningmanagementservicesinc-12-10-1999-ex-10-en-44a1a8",
+   "contract_title": "WARNINGMANAGEMENTSERVICESINC - Endorsement Agreement",
+   "section": "19. Assignment",
+   "page_start": 5,
+   "page_end": 5,
+   "chunk_id": "warningmanagementservicesinc-12-10-1999-ex-10-en-44a1a8::0030",
+   "quote": "In the event of the merger or consolidation of Company with any other entity, Pey Dirt shall have the right to terminate the Contract Period by so notifying Company in writing on or before sixty (60) days after Pey Dirt has received notice of such merger or consolidation.",
+   "ref": "WARNINGMANAGEMENTSERVICESINC - Endorsement Agreement, 19. Assignment, p. 5"
+  },
+  {
+   "n": 3,
+   "contract_id": "warningmanagementservicesinc-12-10-1999-ex-10-en-44a1a8",
+   "contract_title": "WARNINGMANAGEMENTSERVICESINC - Endorsement Agreement",
+   "section": "2. Grant of Endorsement Rights",
+   "page_start": 1,
+   "page_end": 1,
+   "chunk_id": "warningmanagementservicesinc-12-10-1999-ex-10-en-44a1a8::0005",
+   "quote": "Company agrees that during the Contract Period it will use its best efforts actively and aggressively to (i) promote the sale of all Endorsed Products in the Contract Territory, and (ii) prevent the sale of any Endorsed Products outside the Contract Territory. Failure of Company to comply ... shall entitle Pey Dirt to revoke this license immediately.",
+   "ref": "WARNINGMANAGEMENTSERVICESINC - Endorsement Agreement, 2. Grant of Endorsement Rights, p. 1"
+  }
+ ],
+ "risk_flags": [
+  {
+   "pattern_id": "one_sided_indemnification",
+   "name": "One-sided indemnification",
+   "severity": "high",
+   "confidence": 0.97,
+   "rationale": "The indemnity clause obligates only the Company to indemnify the other parties with no reciprocal indemnity, creating a one-sided indemnification risk.",
+   "quote": "Company agrees to protect, indemnify and save harmless Pey Dirt, Pey Dirt's agent and Manning, or any of them, from and against any and all expenses, damages, claims, suits, actions, judgments and costs whatsoever... arising out of... the negligence, actions, errors or omissions of Company...",
+   "contract_id": "warningmanagementservicesinc-12-10-1999-ex-10-en-44a1a8",
+   "contract_title": "WARNINGMANAGEMENTSERVICESINC - Endorsement Agreement",
+   "chunk_id": "warningmanagementservicesinc-12-10-1999-ex-10-en-44a1a8::0027",
+   "section": "16. Indemnity",
+   "page_start": 5,
+   "page_end": 5,
+   "quote_verified": true,
+   "status": "verified",
+   "verifier_note": "The indemnity provision explicitly requires the Company to indemnify and hold harmless Pey Dirt, its agent, and Manning for any claims arising from the Company's negligence or products, with no reciprocal indemnity obligation for those parties, confirming a one\u2011sided indemnification risk."
+  },
+  {
+   "pattern_id": "one_sided_termination",
+   "name": "One-sided termination for convenience",
+   "severity": "medium",
+   "confidence": 0.93,
+   "rationale": "The clause grants Pey Dirt a unilateral right to terminate the agreement upon a corporate event affecting the Company, without providing a comparable termination right to the Company, constituting a one\u2011sided termination for convenience.",
+   "quote": "In the event of the merger or consolidation of Company with any other entity, Pey Dirt shall have the right to terminate the Contract Period by so notifying Company in writing on or before sixty (60) days after Pey Dirt has received notice of such merger or consolidation.",
+   "contract_id": "warningmanagementservicesinc-12-10-1999-ex-10-en-44a1a8",
+   "contract_title": "WARNINGMANAGEMENTSERVICESINC - Endorsement Agreement",
+   "chunk_id": "warningmanagementservicesinc-12-10-1999-ex-10-en-44a1a8::0030",
+   "section": "19. Assignment",
+   "page_start": 5,
+   "page_end": 5,
+   "quote_verified": true,
+   "status": "verified",
+   "verifier_note": "The assignment section gives Pey Dirt the unilateral right to terminate the contract if the Company merges or consolidates with another entity, without granting a comparable termination right to the Company, supporting the one\u2011sided termination\u2011for\u2011convenience risk."
+  },
+  {
+   "pattern_id": "restrictive_non_compete",
+   "name": "Restrictive non-compete / exclusivity",
+   "severity": "medium",
+   "confidence": 0.92,
+   "rationale": "The clause imposes an exclusivity obligation on the company, prohibiting the sale of the endorsed products outside the defined territory and allowing immediate termination for breach, which is a restrictive non\u2011compete/exclusivity restriction.",
+   "quote": "Company agrees that during the Contract Period it will use its best efforts actively and aggressively to (i) promote the sale of all Endorsed Products in the Contract Territory, and (ii) prevent the sale of any Endorsed Products outside the Contract Territory. Failure of Company to comply ... shall entitle Pey Dirt to revoke this license immediately.",
+   "contract_id": "warningmanagementservicesinc-12-10-1999-ex-10-en-44a1a8",
+   "contract_title": "WARNINGMANAGEMENTSERVICESINC - Endorsement Agreement",
+   "chunk_id": "warningmanagementservicesinc-12-10-1999-ex-10-en-44a1a8::0005",
+   "section": "2. Grant of Endorsement Rights",
+   "page_start": 1,
+   "page_end": 1,
+   "quote_verified": true,
+   "status": "verified",
+   "verifier_note": "Section 2(b) obligates the Company to promote sales only within the defined Contract Territory and to prevent sales outside that territory, and allows Pey Dirt to revoke the license immediately for breach, establishing a restrictive exclusivity/non\u2011compete obligation."
+  }
+ ],
+ "rejected_flags": [],
+ "trace": [
+  {
+   "node": "risk_scan",
+   "message": "scanned 10 patterns x 1 contract(s): 3 candidate flags",
+   "data": {
+    "candidates": [
+     "one_sided_indemnification",
+     "one_sided_termination",
+     "restrictive_non_compete"
+    ]
+   },
+   "ms": 78931
+  },
+  {
+   "node": "verify",
+   "message": "3/3 risk flags verified (quote match + judge)",
+   "data": {},
+   "ms": 1632
+  },
+  {
+   "node": "answer",
+   "message": "3 risk flags returned",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "contract_title": "WARNINGMANAGEMENTSERVICESINC - Endorsement Agreement"
+}

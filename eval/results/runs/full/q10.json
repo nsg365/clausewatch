@@ -1,0 +1,293 @@
+{
+ "question": "How much notice is needed to terminate the Dynamex transportation services agreement without cause?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b"
+ ],
+ "clause_types": [
+  "termination"
+ ],
+ "search_query": "termination without cause notice period",
+ "answer": "The agreement can be terminated without cause by giving two (2) years written notice. [1]",
+ "draft": {
+  "answer": "The agreement can be terminated without cause by giving two (2) years written notice. [S1]",
+  "claims": [
+   {
+    "statement": "Termination without cause requires two years written notice.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "Either Party may terminate this Agreement, without cause, by giving two (2) years written notice."
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "19.1 Either Party may terminate this Agreement, without cause, by giving two",
+   "page_start": 8,
+   "page_end": 8,
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0060",
+   "quote": "Either Party may terminate this Agreement, without cause, by giving two (2) years written notice.",
+   "ref": "DYNAMEXINC - Transportation Services Agreement, 19.1 Either Party may terminate this Agreement, without cause, by giving two, p. 8"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {
+  "verdict": "pass",
+  "decision": "accept",
+  "supported_ratio": 1.0,
+  "answers_question": true,
+  "claims": [
+   {
+    "statement": "Termination without cause requires two years written notice.",
+    "source_ids": [
+     "S1"
+    ],
+    "quote": "Either Party may terminate this Agreement, without cause, by giving two (2) years written notice.",
+    "status": "supported",
+    "explanation": "The source text states that either party may terminate the agreement without cause by giving two (2) years written notice, directly supporting the claim.",
+    "quote_verified": true
+   }
+  ],
+  "attempt": 0
+ },
+ "contexts": [
+  "19.1    Either Party may terminate this Agreement, without cause, by giving two\n        (2) years written notice.",
+  "17.1   For the purposes of this Agreement, the following shall constitute\n       events of default by a Party (hereinafter referred to as \"Events of \n       Default\"):\n       (a)     if a petition is filed against it under any applicable bankruptcy\n               legislation and is not withdrawn or dismissed within sixty\n               (60) days thereafter\u037e\n       (b)     if a resolution is passed by it respecting the sale of all or\n               substantially all of its assets, or an order for the winding \n               up of its business is made, or it otherwise agrees to make a \n               bulk sale of it's assets\u037e\n       (c)     if it ceases or threatens to cease to carry on its business\u037e",
+  "5.7    Any discrepancy in an invoice which is discovered by either Party may\n       result in the issuance of a debit note or credit note by the appropriate\n       Party, and notwithstanding any prior payment, the same shall be \n       accompanied by supporting documentation. Payment shall be made by the \n       appropriate Party net fifteen (15) days from receipt and acceptance of \n       the documentation.\n5.8    (a)     The Parties acknowledge and agree that the Services to be\n               provided hereunder constitute the supply of freight\n               transportation services in the course of the continuous\n               movement of freight, also referred to as interlining.\n               Accordingly, the Services under this Agreement are zero-rated\n               for the purposes of the Goods and Services Tax (hereinafter \n               referred to as \"GST\") pursuant to Section 1 of Part VII of\n               Schedule VI of the Excise Tax Act, R.S.C. 1985, Chapter E-15,\n               as amended from time to time.",
+  "6.1    A Party shall be liable to the other for loss, damage or delay to\n       Freight due to its acts or omissions, including its negligence, and\n       those of its employees, agents and those for whom in law it is\n       responsible and occurring while Freight is in its care, custody or\n       control. For the purpose of this Agreement, Freight shall be considered\n       in the care, custody or control of a Party from the time it is tendered\n       to it by the other Party or the other Party's customer until the time of\n       its delivery to the other Party or the consignee, as intended. For\n       greater certainty, a Party shall not be liable hereunder if the Freight\n       is damaged solely as a result of improper packing.\n6.2    A Party shall, in the event of loss, damage or delay to Freight while in\n       its care, custody or control, immediately notify the other Party of the \n       loss or damage, carry out an investigation of the incident to determine\n       the cause of such loss, damage or delay and shall within",
+  "32.1    In the event this Agreement is terminated pursuant to the provisions of\n        paragraph 17, then the Party in default shall not enter into an\n        agreement with any other Party to provide services similar to those\n        provided herein or to provide its services similar to those provided for\n        herein without an agreement, for a period of six (6) months from the\n        effective date of termination.",
+  "17.2    Upon the occurrence of an Event of Default and in addition to any\n        rights or remedies available to it under this Agreement or at law or in\n        equity, the Party not in default may exercise any or all of the\n        following remedies:\n        (a)     terminate this Agreement, upon giving one hundred and twenty\n                (120) days written notice, otherwise upon written notice with\n                respect to 17.1 (g) and (h)\u037e\n        (b)     recover from the defaulting Party any and all monies then due\n                and to become due\u037e and\n        (c)     take possession, immediately, without demand or notice, without\n                any court order or other process of law, any and all of its\n                property (including bags and containers) and Freight received by\n                the defaulting Party under this Agreement."
+ ],
+ "sources": [
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0060",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "19.1 Either Party may terminate this Agreement, without cause, by giving two",
+   "page_start": 8,
+   "page_end": 8,
+   "clause_types": [],
+   "dense_rank": 1,
+   "sparse_rank": 1,
+   "rrf": 0.03279,
+   "rerank": 0.9039,
+   "label": "S1",
+   "supported": true
+  },
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0052",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "17.1 For the purposes of this Agreement, the following shall constitute",
+   "page_start": 7,
+   "page_end": 7,
+   "clause_types": [],
+   "dense_rank": 7,
+   "sparse_rank": null,
+   "rrf": 0.01493,
+   "rerank": 0.7269,
+   "label": "S2",
+   "supported": false
+  },
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0025",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "5.7 Any discrepancy in an invoice which is discovered by either Party may",
+   "page_start": 4,
+   "page_end": 4,
+   "clause_types": [
+    "payment"
+   ],
+   "dense_rank": 19,
+   "sparse_rank": null,
+   "rrf": 0.01266,
+   "rerank": 0.4591,
+   "label": "S3",
+   "supported": false
+  },
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0027",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "6.1 A Party shall be liable to the other for loss, damage or delay to",
+   "page_start": 4,
+   "page_end": 4,
+   "clause_types": [
+    "liability"
+   ],
+   "dense_rank": 30,
+   "sparse_rank": 18,
+   "rrf": 0.02393,
+   "rerank": 0.2913,
+   "label": "S4",
+   "supported": false
+  },
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0094",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "32.1 In the event this Agreement is terminated pursuant to the provisions of",
+   "page_start": 11,
+   "page_end": 11,
+   "clause_types": [
+    "term",
+    "termination"
+   ],
+   "dense_rank": 2,
+   "sparse_rank": 2,
+   "rrf": 0.06504,
+   "rerank": 0.2517,
+   "label": "S5",
+   "supported": false
+  },
+  {
+   "chunk_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b::0055",
+   "contract_id": "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b",
+   "contract_title": "DYNAMEXINC - Transportation Services Agreement",
+   "section": "17.2 Upon the occurrence of an Event of Default and in addition to any",
+   "page_start": 7,
+   "page_end": 7,
+   "clause_types": [],
+   "dense_rank": 3,
+   "sparse_rank": 3,
+   "rrf": 0.03175,
+   "rerank": 0.2183,
+   "label": "S6",
+   "supported": false
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['termination'] | contracts=['dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b']",
+   "data": {
+    "reason": "The question asks for the notice required to terminate the Dynamex transportation services agreement without cause, which is a termination clause inquiry.",
+    "search_query": "termination without cause notice period",
+    "unknown_contract_ids": []
+   },
+   "ms": 927
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'termination without cause notice period'",
+   "data": {
+    "filters": {
+     "contracts": [
+      "dynamexinc-06-06-1996-ex-10-4-transportation-ser-960f9b"
+     ],
+     "clause_types": [
+      "termination"
+     ]
+    }
+   },
+   "ms": 449
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "19.1 Either Party may terminate this Agreement, without cause, by giving two",
+      "score": 0.9039
+     },
+     {
+      "label": "S2",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "17.1 For the purposes of this Agreement, the following shall constitute",
+      "score": 0.7269
+     },
+     {
+      "label": "S3",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "5.7 Any discrepancy in an invoice which is discovered by either Party may",
+      "score": 0.4591
+     },
+     {
+      "label": "S4",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "6.1 A Party shall be liable to the other for loss, damage or delay to",
+      "score": 0.2913
+     },
+     {
+      "label": "S5",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "32.1 In the event this Agreement is terminated pursuant to the provisions of",
+      "score": 0.2517
+     },
+     {
+      "label": "S6",
+      "contract": "DYNAMEXINC - Transportation Services Agreement",
+      "section": "17.2 Upon the occurrence of an Event of Default and in addition to any",
+      "score": 0.2183
+     }
+    ]
+   },
+   "ms": 1302
+  },
+  {
+   "node": "draft",
+   "message": "1 claims",
+   "data": {
+    "answer": "The agreement can be terminated without cause by giving two (2) years written notice. [S1]"
+   },
+   "ms": 13576
+  },
+  {
+   "node": "verify",
+   "message": "1/1 claims supported, verdict=PASS -> ACCEPT",
+   "data": {
+    "claims": [
+     {
+      "statement": "Termination without cause requires two years written notice.",
+      "source_ids": [
+       "S1"
+      ],
+      "quote": "Either Party may terminate this Agreement, without cause, by giving two (2) years written notice.",
+      "status": "supported",
+      "explanation": "The source text states that either party may terminate the agreement without cause by giving two (2) years written notice, directly supporting the claim.",
+      "quote_verified": true
+     }
+    ],
+    "retry_query": ""
+   },
+   "ms": 6145
+  },
+  {
+   "node": "answer",
+   "message": "verdict=pass, 1 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 22.41,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1678,
+   "output_tokens": 131,
+   "total_tokens": 1809,
+   "output_token_details": {
+    "reasoning": 36
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "output_token_details": {
+    "reasoning": 383
+   },
+   "input_tokens": 2157,
+   "output_tokens": 588,
+   "total_tokens": 2745
+  }
+ },
+ "llm_calls": 3
+}

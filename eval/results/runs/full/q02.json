@@ -1,0 +1,425 @@
+{
+ "question": "What is the cap on ABG's and the celebrity's total liability in the Papa John's endorsement agreement?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a"
+ ],
+ "clause_types": [
+  "liability"
+ ],
+ "search_query": "maximum liability cap for parties and celebrity",
+ "answer": "The agreement caps ABG\u2019s and the celebrity\u2019s total liability at the amount actually received by ABG under the agreement, excluding any reimbursement of expenses [1].",
+ "draft": {
+  "answer": "The agreement caps ABG\u2019s and the celebrity\u2019s total liability at the amount actually received by ABG under the agreement, excluding any reimbursement of expenses [S6].",
+  "claims": [
+   {
+    "statement": "ABG\u2019s and the celebrity\u2019s total liability is limited to the amounts actually received by ABG, exclusive of expense reimbursements.",
+    "source_ids": [
+     "S6"
+    ],
+    "supporting_quote": "IN NO EVENT SHALL ABG'S, AUTHENTIC BRANDS GROUP LLC'S, AND CELEBRITY'S TOTAL LIABILITY UNDER THIS AGREEMENT EXCEED THE AMOUNTS ACTUALLY RECEIVED BY ABG (EXCLUSIVE OF REIUMBURSEMENT OF EXPENSES) HEREUNDER, REGARDLESS OF THE NUMBER OR TYPE OF CLAIMS."
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a",
+   "contract_title": "PapaJohnsInternationalInc - Endorsement Agreement",
+   "section": "8. Indemnification and Insurance",
+   "page_start": 19,
+   "page_end": 19,
+   "chunk_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a::0068",
+   "quote": "IN NO EVENT SHALL ABG'S, AUTHENTIC BRANDS GROUP LLC'S, AND CELEBRITY'S TOTAL LIABILITY UNDER THIS AGREEMENT EXCEED THE AMOUNTS ACTUALLY RECEIVED BY ABG (EXCLUSIVE OF REIUMBURSEMENT OF EXPENSES) HEREUNDER, REGARDLESS OF THE NUMBER OR TYPE OF CLAIMS.",
+   "ref": "PapaJohnsInternationalInc - Endorsement Agreement, 8. Indemnification and Insurance, p. 19"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {
+  "verdict": "pass",
+  "decision": "accept",
+  "supported_ratio": 1.0,
+  "answers_question": true,
+  "claims": [
+   {
+    "statement": "ABG\u2019s and the celebrity\u2019s total liability is limited to the amounts actually received by ABG, exclusive of expense reimbursements.",
+    "source_ids": [
+     "S6"
+    ],
+    "quote": "IN NO EVENT SHALL ABG'S, AUTHENTIC BRANDS GROUP LLC'S, AND CELEBRITY'S TOTAL LIABILITY UNDER THIS AGREEMENT EXCEED THE AMOUNTS ACTUALLY RECEIVED BY ABG (EXCLUSIVE OF REIUMBURSEMENT OF EXPENSES) HEREUNDER, REGARDLESS OF THE NUMBER OR TYPE OF CLAIMS.",
+    "status": "supported",
+    "explanation": "The agreement clause states that ABG's, Authentic Brands Group LLC's, and Celebrity's total liability shall not exceed the amounts actually received by ABG, exclusive of expense reimbursements.",
+    "quote_verified": true
+   }
+  ],
+  "attempt": 1
+ },
+ "contexts": [
+  "the same, and to cooperate with ABG, pursuant to this Section. PAPA JOHN'S hereby acknowledges that: (i) ABG and CELEBRITY have no\nobligation to take any action in connection with any Infringement Claim, and (ii) ABG and CELEBRITY shall incur no liability by reason of: (A)\nABG's or CELEBRITY's failure or refusal to take any such action against any Infringement Claim, or (B) any settlement relating to any Infringement\nClaim to which ABG or CELEBRITY may agree.",
+  "1. Affiliation announcement. For the announcement of the Affiliation between Papa John's and CELEBRITY, ABG\nshall require CELEBRITY to provide business and consumer PR interviews, including the following, all of which shall\nbe subject to ABG's Approval:\n(A) Two (2) broadcast television and three (3) print or online media interviews in New York City\u037e\n(B) Two (2) approved photos for release (one at a Papa John's Pizza restaurant\u037e one making pizza with\nCEO Steve Ritchie)\u037e\n(C) One (1) social media post\u037e\n(D) Quote for Press Release\u037e\n(E) Business headshot\u037e and\n(F) Business bio.\n2. During each Contract Year during the Term, ABG shall cause CELEBRITY to make himself available for sixty\n(60) total minutes of interview time promoting Papa John's, subject to CELEBRITY's prior personal and professional\nobligations, and further subject to advance scheduling reasonable acceptable to ABG and CELEBRITY.",
+  "ENDORSEMENT AGREEMENT\nTHIS ENDORSEMENT AGREEMENT (\"Agreement\") is made and entered into effective March 15, 2019 (the \"Effective Date\") by and\namong, on the one hand, ABG-Shaq, LLC, a Delaware limited liability company (\"ABG\") for the personal services of Shaquille O'Neal,\n(\"CELEBRITY\"), and, on the other hand, Papa John's Marketing Fund, Inc., a Kentucky corporation (\"PJMF\"), and Papa John's International, Inc.\n(\"PJI\") (PJMF and PJI are, individually and collectively, \"PAPA JOHN'S\"). ABG and PAPA JOHN'S may hereinafter be referred to individually as a\n\"Party\" or collectively as the \"Parties\".\nWITNESSETH:\nWHEREAS, CELEBRITY is recognized and known for his skills as an athlete, sports analyst, and celebrity personality\u037e\nWHEREAS, ABG, as successor in interest to CELEBRITY, is the exclusive rights holder throughout the world of certain rights to\nCELEBRITY'S name, image, and services, and has the authority to exploit such rights\u037e\nWHEREAS, PJMF is a corporation that pays for the national marketing of PJI and is licensed to use and sublicense its intellectual\nproperty\u037e\nWHEREAS, PAPA JOHN'S desires to acquire the right to use the Celebrity Endorsement (as defined below) in connection with",
+  "If ABG has not responded in writing prior to the expiration of an\nApproval Window, then the submission shall be deemed disapproved. ABG shall have the right, but not the obligation, to include PAPA JOHN'S,\nCelebrity's Endorsement of PAPA JOHN'S Products, and the existence of a partnership between ABG and PAPA JOHN'S in connection with\nCELEBRITY in Press Releases, subject to PAPA JOHN'S approval, such approval not to be unreasonably withheld.",
+  "or Section 7.E.b. of this Agreement, as set forth herein.\nB. The parties acknowledge and agree that all materials produced by or on behalf of PAPA JOHN'S in connection with\nthis Agreement and all elements thereof, including all advertising and promotional materials, trademarks, phrases, words, writing, dialogue, adlibs,\nmusic, titles or characters therein, but in all cases specifically excluding the Celebrity Endorsement and the Personality Rights (the \"Materials\"),\nshall be and remain the absolute and exclusive property of PAPA JOHN'S. Neither CELEBRITY nor ABG has any right, title, or interest, and agrees\nthat neither will claim any, in or to the Materials. Except as otherwise provided herein, all the results of ABG's provision of CELEBRITY'S Services\nhereunder, including, but not limited to, Materials (but in all cases specifically excluding the Celebrity Endorsement and the Personality Rights), will\nbe deemed a \"work made for hire\" under the provisions of the United States Copyright Act (17 U.S.C. Sec. 101) and will be owned by PAPA JOHN'S\nfor all purposes.",
+  "filing thereof. PAPA JOHN'S indemnification obligations hereunder shall not be limited by the amount of insurance requirements hereunder. ABG\nshall be entitled to its proportionate share of the insurance proceeds received by PAPA JOHN'S in respect to the Celebrity Endorsement and/or the\nPersonality Rights, and PAPA JOHN'S shall report and pay to ABG any such insurance proceeds at the same time as the next quarterly installment\nof the Cash Payment is due.\nG. LIMITATION OF LIABILITY. TO THE MAXIMUM EXTENT PERMISSIBLE UNDER APPLICABLE LAW, NEITHER\nABG NOR AUTHENTIC BRANDS GROUP LLC NOR CELEBRITY SHALL BE LIABLE TO PAPA JOHN'S FOR ANY CONSEQUENTIAL,\nINCIDENTAL, PUNITIVE, EXEMPLARY, OR SPECIAL DAMAGES, REGARDLESS OF THE FORM OR ACTION, WHETHER IN CONTRACT OR\nIN TORT, EVEN IF ABG OR AUTHENTIC BRANDS GROUP LLC HAS BEEN ADVISED OF THE POSSIBLITY OF SUCH DAMAGES OR LOSSES.\nIN NO EVENT SHALL ABG'S, AUTHENTIC BRANDS GROUP LLC'S, AND CELEBRITY'S TOTAL LIABILITY UNDER THIS AGREEMENT\nEXCEED THE AMOUNTS ACTUALLY RECEIVED BY ABG (EXCLUSIVE OF REIUMBURSEMENT OF EXPENSES) HEREUNDER, REGARDLESS\nOF THE NUMBER OR TYPE OF CLAIMS.",
+  "JOHN'S (including its designees) any right or license to use any of the Personality Rights. PAPA JOHN'S further acknowledges that ABG, as\nsuccessor in interest to CELEBRITY, is the sole and exclusive owner of a worldwide portfolio of Personality Rights, as well as other copyrights,\ntrademarks and other intellectual property rights related to CELEBRITY, and the rights of publicity, and other rights in and to the name, image,\nlikeness, persona, personality, voice, signature, and other indicia of, and rights of association and endorsement related to, CELEBRITY including,\nwithout limitation, pursuant to Section 43(a) of the United States Lanham Act (collectively, the \"Shaq Rights\"). PAPA JOHN'S further\nacknowledges and agrees that: (a) any and all use of the Shaq Rights and/or any intellectual property rights related to CELEBRITY (e.g.",
+  "6. Enforcement of Celebrity Endorsement and Personality Rights. ABG shall have the exclusive right, at ABG's\nsole cost and expense (excluding PAPA JOHN'S outside counsel fees and costs) and exercisable at ABG's sole discretion, to institute in its own\nname, and to control, with counsel of its own choosing, all claims, suits and/or actions against third parties relating to the Personality Rights, and\nother proprietary rights in and to the same (\"Infringement Claim\"), and ABG shall be entitled to receive and retain all amounts awarded, if any, as\ndamages, profits or otherwise, in connection with such Infringement Claims. PAPA JOHN'S shall assist ABG to ensure that third parties do not\nunlawfully infringe on the Personality Rights. PAPA JOHN'S shall promptly notify ABG of any such infringements of which PAPA JOHN'S\nbecomes aware. PAPA JOHN'S shall not take any action on account of, or in connection with, any Infringement Claim, other than to notify ABG of\nthe same, and to cooperate with ABG, pursuant to this Section."
+ ],
+ "sources": [
+  {
+   "chunk_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a::0018",
+   "contract_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a",
+   "contract_title": "PapaJohnsInternationalInc - Endorsement Agreement",
+   "section": "6. Enforcement of Celebrity Endorsement and Personality Rights",
+   "page_start": 5,
+   "page_end": 5,
+   "clause_types": [],
+   "dense_rank": 2,
+   "sparse_rank": 2,
+   "rrf": 0.03226,
+   "rerank": 0.5753,
+   "label": "S1",
+   "supported": false
+  },
+  {
+   "chunk_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a::0026",
+   "contract_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a",
+   "contract_title": "PapaJohnsInternationalInc - Endorsement Agreement",
+   "section": "1. Affiliation announcement",
+   "page_start": 7,
+   "page_end": 8,
+   "clause_types": [],
+   "dense_rank": 24,
+   "sparse_rank": 3,
+   "rrf": 0.02778,
+   "rerank": 0.4355,
+   "label": "S2",
+   "supported": false
+  },
+  {
+   "chunk_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a::0000",
+   "contract_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a",
+   "contract_title": "PapaJohnsInternationalInc - Endorsement Agreement",
+   "section": "ENDORSEMENT AGREEMENT",
+   "page_start": 1,
+   "page_end": 1,
+   "clause_types": [
+    "exclusivity",
+    "license",
+    "parties",
+    "term"
+   ],
+   "dense_rank": 19,
+   "sparse_rank": 4,
+   "rrf": 0.02828,
+   "rerank": 0.4091,
+   "label": "S3",
+   "supported": false
+  },
+  {
+   "chunk_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a::0015",
+   "contract_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a",
+   "contract_title": "PapaJohnsInternationalInc - Endorsement Agreement",
+   "section": "3. Legal Lines",
+   "page_start": 4,
+   "page_end": 4,
+   "clause_types": [],
+   "dense_rank": 29,
+   "sparse_rank": 13,
+   "rrf": 0.02493,
+   "rerank": 0.2356,
+   "label": "S4",
+   "supported": false
+  },
+  {
+   "chunk_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a::0007",
+   "contract_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a",
+   "contract_title": "PapaJohnsInternationalInc - Endorsement Agreement",
+   "section": "3. Grant of Endorsement",
+   "page_start": 2,
+   "page_end": 3,
+   "clause_types": [
+    "exclusivity",
+    "ip",
+    "license"
+   ],
+   "dense_rank": 23,
+   "sparse_rank": 23,
+   "rrf": 0.0241,
+   "rerank": 0.2223,
+   "label": "S5",
+   "supported": false
+  },
+  {
+   "chunk_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a::0068",
+   "contract_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a",
+   "contract_title": "PapaJohnsInternationalInc - Endorsement Agreement",
+   "section": "8. Indemnification and Insurance",
+   "page_start": 19,
+   "page_end": 19,
+   "clause_types": [
+    "exclusivity",
+    "indemnification",
+    "insurance",
+    "liability"
+   ],
+   "dense_rank": 1,
+   "sparse_rank": 1,
+   "rrf": 0.03279,
+   "rerank": 0.2125,
+   "label": "S6",
+   "supported": true
+  },
+  {
+   "chunk_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a::0032",
+   "contract_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a",
+   "contract_title": "PapaJohnsInternationalInc - Endorsement Agreement",
+   "section": "1. Affiliation announcement",
+   "page_start": 9,
+   "page_end": 9,
+   "clause_types": [
+    "exclusivity",
+    "ip"
+   ],
+   "dense_rank": 14,
+   "sparse_rank": null,
+   "rrf": 0.01351,
+   "rerank": 0.196,
+   "label": "S7",
+   "supported": false
+  },
+  {
+   "chunk_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a::0017",
+   "contract_id": "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a",
+   "contract_title": "PapaJohnsInternationalInc - Endorsement Agreement",
+   "section": "6. Enforcement of Celebrity Endorsement and Personality Rights",
+   "page_start": 5,
+   "page_end": 5,
+   "clause_types": [
+    "exclusivity",
+    "ip"
+   ],
+   "dense_rank": 4,
+   "sparse_rank": 16,
+   "rrf": 0.02878,
+   "rerank": 0.1768,
+   "label": "S8",
+   "supported": false
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['liability'] | contracts=['papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a']",
+   "data": {
+    "reason": "The question seeks the specific liability cap clause in the Papa John's endorsement agreement.",
+    "search_query": "maximum liability cap for parties and celebrity",
+    "unknown_contract_ids": []
+   },
+   "ms": 1167
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'maximum liability cap for parties and celebrity' [clause filter relaxed]",
+   "data": {
+    "filters": {
+     "contracts": [
+      "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a"
+     ],
+     "clause_types": [
+      "liability"
+     ]
+    }
+   },
+   "ms": 92
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "ENDORSEMENT AGREEMENT",
+      "score": 0.3924
+     },
+     {
+      "label": "S2",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "6. Enforcement of Celebrity Endorsement and Personality Rights",
+      "score": 0.2049
+     },
+     {
+      "label": "S3",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "4. Services",
+      "score": 0.1308
+     },
+     {
+      "label": "S4",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "1. Affiliation announcement",
+      "score": 0.0977
+     },
+     {
+      "label": "S5",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "10. Confidentiality and Non-Disparagement",
+      "score": 0.0629
+     },
+     {
+      "label": "S6",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "6. Warranties and Additional Covenants",
+      "score": 0.0341
+     }
+    ]
+   },
+   "ms": 1872
+  },
+  {
+   "node": "draft",
+   "message": "0 claims | model reports insufficient context",
+   "data": {
+    "answer": ""
+   },
+   "ms": 1035
+  },
+  {
+   "node": "verify",
+   "message": "0/0 claims supported, verdict=INSUFFICIENT -> RETRY",
+   "data": {
+    "claims": [],
+    "retry_query": ""
+   },
+   "ms": 0
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 1: 30 candidates (dense+BM25, RRF) for \"What is the cap on ABG's and the celebrity's total liability in the Papa John's endorsement agreement?\"",
+   "data": {
+    "filters": {
+     "contracts": [
+      "papajohnsinternationalinc-20190617-8-k-ex-10-1-1-d6d30a"
+     ],
+     "clause_types": null
+    }
+   },
+   "ms": 51
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 8/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "6. Enforcement of Celebrity Endorsement and Personality Rights",
+      "score": 0.5753
+     },
+     {
+      "label": "S2",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "1. Affiliation announcement",
+      "score": 0.4355
+     },
+     {
+      "label": "S3",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "ENDORSEMENT AGREEMENT",
+      "score": 0.4091
+     },
+     {
+      "label": "S4",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "3. Legal Lines",
+      "score": 0.2356
+     },
+     {
+      "label": "S5",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "3. Grant of Endorsement",
+      "score": 0.2223
+     },
+     {
+      "label": "S6",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "8. Indemnification and Insurance",
+      "score": 0.2125
+     },
+     {
+      "label": "S7",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "1. Affiliation announcement",
+      "score": 0.196
+     },
+     {
+      "label": "S8",
+      "contract": "PapaJohnsInternationalInc - Endorsement Agreement",
+      "section": "6. Enforcement of Celebrity Endorsement and Personality Rights",
+      "score": 0.1768
+     }
+    ]
+   },
+   "ms": 1356
+  },
+  {
+   "node": "draft",
+   "message": "1 claims",
+   "data": {
+    "answer": "The agreement caps ABG\u2019s and the celebrity\u2019s total liability at the amount actually received by ABG under the agreement, excluding any reimbursement of expenses [S6]."
+   },
+   "ms": 1863
+  },
+  {
+   "node": "verify",
+   "message": "1/1 claims supported, verdict=PASS -> ACCEPT",
+   "data": {
+    "claims": [
+     {
+      "statement": "ABG\u2019s and the celebrity\u2019s total liability is limited to the amounts actually received by ABG, exclusive of expense reimbursements.",
+      "source_ids": [
+       "S6"
+      ],
+      "quote": "IN NO EVENT SHALL ABG'S, AUTHENTIC BRANDS GROUP LLC'S, AND CELEBRITY'S TOTAL LIABILITY UNDER THIS AGREEMENT EXCEED THE AMOUNTS ACTUALLY RECEIVED BY ABG (EXCLUSIVE OF REIUMBURSEMENT OF EXPENSES) HEREUNDER, REGARDLESS OF THE NUMBER OR TYPE OF CLAIMS.",
+      "status": "supported",
+      "explanation": "The agreement clause states that ABG's, Authentic Brands Group LLC's, and Celebrity's total liability shall not exceed the amounts actually received by ABG, exclusive of expense reimbursements.",
+      "quote_verified": true
+     }
+    ],
+    "retry_query": ""
+   },
+   "ms": 4191
+  },
+  {
+   "node": "answer",
+   "message": "verdict=pass, 1 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 11.64,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1682,
+   "output_tokens": 162,
+   "total_tokens": 1844,
+   "output_token_details": {
+    "reasoning": 74
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "output_token_details": {
+    "reasoning": 763
+   },
+   "input_tokens": 5200,
+   "output_tokens": 1097,
+   "total_tokens": 6297
+  }
+ },
+ "llm_calls": 5
+}

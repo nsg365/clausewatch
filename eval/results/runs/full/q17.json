@@ -1,0 +1,375 @@
+{
+ "question": "Compare the termination-for-convenience rights in the Biocept collaboration agreement and the Driven Deliveries consulting agreement.",
+ "query_type": "comparison",
+ "target_contracts": [
+  "bioceptinc-08-19-2013-ex-10-collaboration-agreem-43e7a9",
+  "drivendeliveries-inc-05-22-2020-ex-10-4-consulti-b7ff74"
+ ],
+ "clause_types": [
+  "termination"
+ ],
+ "search_query": "termination for convenience upon written notice",
+ "answer": "The Biocept Collaboration Agreement permits termination for convenience by either party with a 120\u2011day written notice, and adds a shorter 30\u2011day notice right if a Change of Control occurs [1]. The Driven Deliveries Consulting Agreement allows either party to terminate with or without cause by providing 30\u2011day written notice [2]. Thus, the Biocept agreement requires a longer standard notice period (120 days vs. 30 days) and includes a special 30\u2011day notice trigger upon change of control, whereas the Driven Deliveries agreement has a uniform 30\u2011day notice and no change\u2011of\u2011control provision.",
+ "draft": {
+  "answer": "The Biocept Collaboration Agreement permits termination for convenience by either party with a 120\u2011day written notice, and adds a shorter 30\u2011day notice right if a Change of Control occurs [S1]. The Driven Deliveries Consulting Agreement allows either party to terminate with or without cause by providing 30\u2011day written notice [S4]. Thus, the Biocept agreement requires a longer standard notice period (120 days vs. 30 days) and includes a special 30\u2011day notice trigger upon change of control, whereas the Driven Deliveries agreement has a uniform 30\u2011day notice and no change\u2011of\u2011control provision.",
+  "claims": [
+   {
+    "statement": "Biocept agreement allows termination for convenience with 120 days written notice.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "\"Both parties shall have the right to terminate this Agreement at any time, for any or for no reason, upon one hundred twenty (120) days written notice to the other party.\""
+   },
+   {
+    "statement": "Biocept agreement allows termination for convenience with 30 days notice upon a Change of Control event.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "\"In the event a party undergoes a Change of Control Event ... the other party may terminate the Agreement upon thirty (30) days written notice to the party undergoing the Change of Control.\""
+   },
+   {
+    "statement": "Driven Deliveries agreement allows termination for convenience with 30 days written notice.",
+    "source_ids": [
+     "S4"
+    ],
+    "supporting_quote": "\"Either Party may terminate this Agreement, with or without cause, upon giving the other party thirty (30) days prior written notice of such termination...\""
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "bioceptinc-08-19-2013-ex-10-collaboration-agreem-43e7a9",
+   "contract_title": "BIOCEPTINC - Collaboration Agreement",
+   "section": "11.2 Termination",
+   "page_start": 21,
+   "page_end": 22,
+   "chunk_id": "bioceptinc-08-19-2013-ex-10-collaboration-agreem-43e7a9::0078",
+   "quote": "\"Both parties shall have the right to terminate this Agreement at any time, for any or for no reason, upon one hundred twenty (120) days written notice to the other party.\"",
+   "ref": "BIOCEPTINC - Collaboration Agreement, 11.2 Termination, pp. 21-22"
+  },
+  {
+   "n": 2,
+   "contract_id": "drivendeliveries-inc-05-22-2020-ex-10-4-consulti-b7ff74",
+   "contract_title": "DRIVENDELIVERIES,INC - Consulting Agreement",
+   "section": "7.2. Termination",
+   "page_start": 5,
+   "page_end": 5,
+   "chunk_id": "drivendeliveries-inc-05-22-2020-ex-10-4-consulti-b7ff74::0025",
+   "quote": "\"Either Party may terminate this Agreement, with or without cause, upon giving the other party thirty (30) days prior written notice of such termination...\"",
+   "ref": "DRIVENDELIVERIES,INC - Consulting Agreement, 7.2. Termination, p. 5"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {
+  "verdict": "pass",
+  "decision": "accept",
+  "supported_ratio": 1.0,
+  "answers_question": true,
+  "claims": [
+   {
+    "statement": "Biocept agreement allows termination for convenience with 120 days written notice.",
+    "source_ids": [
+     "S1"
+    ],
+    "quote": "\"Both parties shall have the right to terminate this Agreement at any time, for any or for no reason, upon one hundred twenty (120) days written notice to the other party.\"",
+    "status": "supported",
+    "explanation": "The source states that either party may terminate the Biocept agreement for any reason upon 120 days written notice.",
+    "quote_verified": true
+   },
+   {
+    "statement": "Biocept agreement allows termination for convenience with 30 days notice upon a Change of Control event.",
+    "source_ids": [
+     "S1"
+    ],
+    "quote": "\"In the event a party undergoes a Change of Control Event ... the other party may terminate the Agreement upon thirty (30) days written notice to the party undergoing the Change of Control.\"",
+    "status": "supported",
+    "explanation": "The source specifies that upon a Change of Control event, the other party may terminate the Biocept agreement with 30 days written notice.",
+    "quote_verified": true
+   },
+   {
+    "statement": "Driven Deliveries agreement allows termination for convenience with 30 days written notice.",
+    "source_ids": [
+     "S4"
+    ],
+    "quote": "\"Either Party may terminate this Agreement, with or without cause, upon giving the other party thirty (30) days prior written notice of such termination...\"",
+    "status": "supported",
+    "explanation": "The source indicates that either party may terminate the Driven Deliveries consulting agreement, with or without cause, by giving 30 days prior written notice.",
+    "quote_verified": true
+   }
+  ],
+  "attempt": 0
+ },
+ "contexts": [
+  "Nothing herein is intended to prevent either party from seeking immediate equitable or\ninjunctive relief.\n(b) Termination for Convenience. Both parties shall have the right to terminate this Agreement at any time, for any\nor for no reason, upon one hundred twenty (120) days written notice to the other party. In the event a party undergoes a Change\nof Control Event as defined in Section 14.5, the other party may terminate the Agreement upon thirty (30) days written notice to\nthe party undergoing the Change of Control.\n11.3 Effect of Termination\u037e Surviving Obligations. \n(a) Upon any termination or expiration of this Agreement, all licenses granted hereunder shall automatically terminate\nand revert to the granting party and all other rights and obligations of the parties under this Agreement shall terminate, except as\nprovided in Sections 11.3(b) and 11.4.",
+  "11.2 Termination.  \n(a) Material Breach. Either party shall have the right to terminate this Agreement before the end of the Term upon\nwritten notice to the other party if such other party is in material breach of this Agreement and has not cured such breach within\nsixty (60) days (the \"Cure Period\") after notice from the terminating party requesting cure of the breach. Any such termination\nshall become effective at the end of such Cure Period unless the breaching party has cured such breach prior to the end of such\nCure Period. Any right to terminate under this Section 11.2(a) shall be stayed and the Cure Period tolled in the event that, during\nany Cure Period, the party alleged to have been in material breach shall have initiated dispute resolution in accordance with Article\n13 with respect to the alleged breach, which stay and tolling shall continue until such dispute resolution procedures have been\ncompleted in accordance with Article 13. Nothing herein is intended to prevent either party from seeking immediate equitable or\ninjunctive relief.\n(b) Termination for Convenience.",
+  "14.9 Force Majeure.  Each party shall be excused from liability for the failure or delay in performance of any obligation\nunder this Agreement by reason of any event beyond such party's reasonable control, including but not limited to, Acts of God,\nfire, flood, explosion, earthquake, or other natural forces, war, civil unrest, any strike or labor disturbance. Such excuse from\nliability shall be effective only to the extent and duration of the event(s) causing the failure or delay in performance and provided\nthat the party has not caused such event(s) to occur. Notice of a party's failure or delay in performance due to force majeure must\nbe given to the other party within five (5) calendar days after its occurrence. All delivery dates under this Agreement that have\nbeen affected by force majeure shall be tolled for the duration of such force majeure. In no event shall any party be required to\nprevent or settle any labor disturbance or dispute. In the event of a force majeure that persists for thirty (30) days or more, then\neither party may terminate this Agreement upon written notice to the other party.",
+  "7.2. Termination. Either Party may terminate this Agreement, with or without cause, upon giving the other party thirty (30) days prior written notice\nof such termination pursuant to Section 12.7 of this Agreement. The Company may terminate this Agreement immediately and without prior notice if\nConsultant refuses to or is unable to perform the Services or is in breach of any material provision of this Agreement.",
+  "4.3 Non-Solicitation. Consultant expressly agrees that he will not, without the prior written consent of the Company, either directly or indirectly on\nhis own behalf, or in the service or on behalf of others, solicit, divert or hire away, or attempt to solicit, divert or hire away any person employed by\nthe Company for a period of five (5) years for any reason, and without limitation for the purpose of harming the Company or of obtaining and\ndisseminating its trade secrets, or other proprietary and confidential information. Consultant also expressly agrees that he will not, without the prior\nwritten consent of the Company, either directly or indirectly on his own behalf, or in the service or on behalf of others, solicit, divert, or attempt to\nsolicit or divert any customer, client, supplier or vendor of the Company for a period of five (5) years for any reason, and without limitation for the\npurpose of harming the Company or of obtaining and disseminating its trade secrets, or other proprietary and confidential information",
+  "7.3. Survival. Upon any termination, all rights and duties of the Company and Consultant toward each other shall cease except:\n(a) The Company will pay, within thirty (30) days after the effective date of termination, all amounts owing to Consultant for Services\ncompleted and accepted by the Company prior to the termination date and related reimbursable expenses, if any, submitted in\naccordance with the Company's policies and in accordance with the provisions of Article 1 of this Agreement\u037e and\n(b) Article 2 (Confidentiality), Article 3 (Ownership), Section 4.2 (Covenant Not to Compete), Section 4.3 (Non-Solicitation), Section 4.4\n(Non-Circumvention), Article 5 (Return of Company Materials), Article 7 (Term and Termination), Article 8 (Independent Contractor\nRelationship), Article 9 (Indemnification), Article 10 (Limitation of Liability), Article 11 (Arbitration and Equitable Relief), and Article\n12 (Miscellaneous) will survive termination or expiration of this Agreement in accordance with their terms."
+ ],
+ "sources": [
+  {
+   "chunk_id": "bioceptinc-08-19-2013-ex-10-collaboration-agreem-43e7a9::0078",
+   "contract_id": "bioceptinc-08-19-2013-ex-10-collaboration-agreem-43e7a9",
+   "contract_title": "BIOCEPTINC - Collaboration Agreement",
+   "section": "11.2 Termination",
+   "page_start": 21,
+   "page_end": 22,
+   "clause_types": [
+    "termination"
+   ],
+   "dense_rank": 1,
+   "sparse_rank": 1,
+   "rrf": 0.06557,
+   "rerank": 0.9986,
+   "label": "S1",
+   "supported": true
+  },
+  {
+   "chunk_id": "bioceptinc-08-19-2013-ex-10-collaboration-agreem-43e7a9::0077",
+   "contract_id": "bioceptinc-08-19-2013-ex-10-collaboration-agreem-43e7a9",
+   "contract_title": "BIOCEPTINC - Collaboration Agreement",
+   "section": "11.2 Termination",
+   "page_start": 21,
+   "page_end": 21,
+   "clause_types": [
+    "termination"
+   ],
+   "dense_rank": 2,
+   "sparse_rank": 2,
+   "rrf": 0.06452,
+   "rerank": 0.9956,
+   "label": "S2",
+   "supported": false
+  },
+  {
+   "chunk_id": "bioceptinc-08-19-2013-ex-10-collaboration-agreem-43e7a9::0094",
+   "contract_id": "bioceptinc-08-19-2013-ex-10-collaboration-agreem-43e7a9",
+   "contract_title": "BIOCEPTINC - Collaboration Agreement",
+   "section": "14.9 Force Majeure",
+   "page_start": 25,
+   "page_end": 25,
+   "clause_types": [
+    "liability"
+   ],
+   "dense_rank": 6,
+   "sparse_rank": 3,
+   "rrf": 0.03102,
+   "rerank": 0.0814,
+   "label": "S3",
+   "supported": false
+  },
+  {
+   "chunk_id": "drivendeliveries-inc-05-22-2020-ex-10-4-consulti-b7ff74::0025",
+   "contract_id": "drivendeliveries-inc-05-22-2020-ex-10-4-consulti-b7ff74",
+   "contract_title": "DRIVENDELIVERIES,INC - Consulting Agreement",
+   "section": "7.2. Termination",
+   "page_start": 5,
+   "page_end": 5,
+   "clause_types": [
+    "termination"
+   ],
+   "dense_rank": 1,
+   "sparse_rank": 1,
+   "rrf": 0.03279,
+   "rerank": 0.8437,
+   "label": "S4",
+   "supported": true
+  },
+  {
+   "chunk_id": "drivendeliveries-inc-05-22-2020-ex-10-4-consulti-b7ff74::0020",
+   "contract_id": "drivendeliveries-inc-05-22-2020-ex-10-4-consulti-b7ff74",
+   "contract_title": "DRIVENDELIVERIES,INC - Consulting Agreement",
+   "section": "4.3 Non-Solicitation",
+   "page_start": 4,
+   "page_end": 4,
+   "clause_types": [
+    "confidentiality",
+    "non_solicit"
+   ],
+   "dense_rank": 5,
+   "sparse_rank": 12,
+   "rrf": 0.02927,
+   "rerank": 0.0787,
+   "label": "S5",
+   "supported": false
+  },
+  {
+   "chunk_id": "drivendeliveries-inc-05-22-2020-ex-10-4-consulti-b7ff74::0026",
+   "contract_id": "drivendeliveries-inc-05-22-2020-ex-10-4-consulti-b7ff74",
+   "contract_title": "DRIVENDELIVERIES,INC - Consulting Agreement",
+   "section": "7.3. Survival",
+   "page_start": 5,
+   "page_end": 5,
+   "clause_types": [
+    "confidentiality",
+    "governing_law",
+    "indemnification",
+    "liability",
+    "non_solicit",
+    "term",
+    "termination"
+   ],
+   "dense_rank": 4,
+   "sparse_rank": 2,
+   "rrf": 0.03175,
+   "rerank": 0.0571,
+   "label": "S6",
+   "supported": false
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "comparison | clauses=['termination'] | contracts=['bioceptinc-08-19-2013-ex-10-collaboration-agreem-43e7a9', 'drivendeliveries-inc-05-22-2020-ex-10-4-consulti-b7ff74']",
+   "data": {
+    "reason": "The user wants to compare the termination\u2011for\u2011convenience provisions of the two specified agreements.",
+    "search_query": "termination for convenience upon written notice",
+    "unknown_contract_ids": []
+   },
+   "ms": 928
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'termination for convenience upon written notice' [clause filter relaxed]",
+   "data": {
+    "filters": {
+     "contracts": [
+      "bioceptinc-08-19-2013-ex-10-collaboration-agreem-43e7a9",
+      "drivendeliveries-inc-05-22-2020-ex-10-4-consulti-b7ff74"
+     ],
+     "clause_types": [
+      "termination"
+     ]
+    }
+   },
+   "ms": 400
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "BIOCEPTINC - Collaboration Agreement",
+      "section": "11.2 Termination",
+      "score": 0.9986
+     },
+     {
+      "label": "S2",
+      "contract": "BIOCEPTINC - Collaboration Agreement",
+      "section": "11.2 Termination",
+      "score": 0.9956
+     },
+     {
+      "label": "S3",
+      "contract": "BIOCEPTINC - Collaboration Agreement",
+      "section": "14.9 Force Majeure",
+      "score": 0.0814
+     },
+     {
+      "label": "S4",
+      "contract": "DRIVENDELIVERIES,INC - Consulting Agreement",
+      "section": "7.2. Termination",
+      "score": 0.8437
+     },
+     {
+      "label": "S5",
+      "contract": "DRIVENDELIVERIES,INC - Consulting Agreement",
+      "section": "4.3 Non-Solicitation",
+      "score": 0.0787
+     },
+     {
+      "label": "S6",
+      "contract": "DRIVENDELIVERIES,INC - Consulting Agreement",
+      "section": "7.3. Survival",
+      "score": 0.0571
+     }
+    ]
+   },
+   "ms": 1666
+  },
+  {
+   "node": "draft",
+   "message": "3 claims",
+   "data": {
+    "answer": "The Biocept Collaboration Agreement permits termination for convenience by either party with a 120\u2011day written notice, and adds a shorter 30\u2011day notice right if a Change of Control occurs [S1]. The Driven Deliveries Consulting Agreement allows either party to terminate with or without cause by providing 30\u2011day written notice [S4]. Thus, the Biocept agreement requires a longer standard notice period (120 days vs. 30 days) and includes a special 30\u2011day notice trigger upon change of control, whereas the Driven Deliveries agreement has a uniform 30\u2011day notice and no change\u2011of\u2011control provision."
+   },
+   "ms": 17008
+  },
+  {
+   "node": "verify",
+   "message": "3/3 claims supported, verdict=PASS -> ACCEPT",
+   "data": {
+    "claims": [
+     {
+      "statement": "Biocept agreement allows termination for convenience with 120 days written notice.",
+      "source_ids": [
+       "S1"
+      ],
+      "quote": "\"Both parties shall have the right to terminate this Agreement at any time, for any or for no reason, upon one hundred twenty (120) days written notice to the other party.\"",
+      "status": "supported",
+      "explanation": "The source states that either party may terminate the Biocept agreement for any reason upon 120 days written notice.",
+      "quote_verified": true
+     },
+     {
+      "statement": "Biocept agreement allows termination for convenience with 30 days notice upon a Change of Control event.",
+      "source_ids": [
+       "S1"
+      ],
+      "quote": "\"In the event a party undergoes a Change of Control Event ... the other party may terminate the Agreement upon thirty (30) days written notice to the party undergoing the Change of Control.\"",
+      "status": "supported",
+      "explanation": "The source specifies that upon a Change of Control event, the other party may terminate the Biocept agreement with 30 days written notice.",
+      "quote_verified": true
+     },
+     {
+      "statement": "Driven Deliveries agreement allows termination for convenience with 30 days written notice.",
+      "source_ids": [
+       "S4"
+      ],
+      "quote": "\"Either Party may terminate this Agreement, with or without cause, upon giving the other party thirty (30) days prior written notice of such termination...\"",
+      "status": "supported",
+      "explanation": "The source indicates that either party may terminate the Driven Deliveries consulting agreement, with or without cause, by giving 30 days prior written notice.",
+      "quote_verified": true
+     }
+    ],
+    "retry_query": ""
+   },
+   "ms": 10643
+  },
+  {
+   "node": "answer",
+   "message": "verdict=pass, 2 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 30.65,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1683,
+   "output_tokens": 205,
+   "total_tokens": 1888,
+   "output_token_details": {
+    "reasoning": 92
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "output_tokens": 1436,
+   "total_tokens": 4351,
+   "input_tokens": 2915,
+   "output_token_details": {
+    "reasoning": 848
+   },
+   "input_token_details": {
+    "cache_read": 256
+   }
+  }
+ },
+ "llm_calls": 3
+}

@@ -1,0 +1,280 @@
+{
+ "question": "Compare the governing law of the Entertainment Gaming Asia distributor agreement and the European Micro distributor agreement.",
+ "query_type": "comparison",
+ "target_contracts": [
+  "entertainmentgamingasiainc-02-15-2005-ex-10-5-di-b9cb29",
+  "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2"
+ ],
+ "clause_types": [
+  "governing_law"
+ ],
+ "search_query": "governing law of this agreement",
+ "answer": "The Entertainment Gaming Asia distributor agreement is governed by the laws of Ontario, Canada, while the European Micro distributor agreement is governed by the laws of the State of Washington, USA. [1, 2]",
+ "draft": {
+  "answer": "The Entertainment Gaming Asia distributor agreement is governed by the laws of Ontario, Canada, while the European Micro distributor agreement is governed by the laws of the State of Washington, USA.",
+  "claims": [
+   {
+    "statement": "The Entertainment Gaming Asia distributor agreement is governed by the laws of Ontario, Canada.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "This Agreement shall  be governed by, construed in accordance with the laws of Ontario, Canada."
+   },
+   {
+    "statement": "The European Micro distributor agreement is governed by the laws of the State of Washington, USA.",
+    "source_ids": [
+     "S4"
+    ],
+    "supporting_quote": "This Agreement will be governed by and interpreted in accordance with the local laws of the State of Washington, U.S.A., without regard to its conflicts of law provisions..."
+   },
+   {
+    "statement": "The key difference is that the Entertainment Gaming Asia agreement applies Ontario law, whereas the European Micro agreement applies Washington state law.",
+    "source_ids": [
+     "S1",
+     "S4"
+    ],
+    "supporting_quote": "This Agreement shall  be governed by, construed in accordance with the laws of Ontario, Canada. | This Agreement will be governed by and interpreted in accordance with the local laws of the State of Washington, U.S.A., without regard to its conflicts of law provisions..."
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "entertainmentgamingasiainc-02-15-2005-ex-10-5-di-b9cb29",
+   "contract_title": "ENTERTAINMENTGAMINGASIAINC - Distributor Agreement",
+   "section": "27. GOVERNING LAW",
+   "page_start": 13,
+   "page_end": 13,
+   "chunk_id": "entertainmentgamingasiainc-02-15-2005-ex-10-5-di-b9cb29::0073",
+   "quote": "This Agreement shall  be governed by, construed in accordance with the laws of Ontario, Canada.",
+   "ref": "ENTERTAINMENTGAMINGASIAINC - Distributor Agreement, 27. GOVERNING LAW, p. 13"
+  },
+  {
+   "n": 2,
+   "contract_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2",
+   "contract_title": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+   "section": "28. Interpretation",
+   "page_start": 10,
+   "page_end": 11,
+   "chunk_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2::0082",
+   "quote": "This Agreement will be governed by and interpreted in accordance with the local laws of the State of Washington, U.S.A., without regard to its conflicts of law provisions...",
+   "ref": "EUROPEANMICROHOLDINGSINC - Distributor Agreement, 28. Interpretation, pp. 10-11"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {},
+ "contexts": [
+  "27. GOVERNING LAW\nThis Agreement shall  be governed by, construed in accordance with the laws of Ontario, Canada.",
+  "23. JURISDICTION\nDisputes under this Agreement shall be resolved through arbitration in Ontario, Canada by a single arbitrator to be appointed by agreement of the\nparties, or in default, by the President of the Law Society/Bar of Canada. The laws of Ontario, Canada shall govern the conduct of the arbitration\nand any appeal from the decision of the arbitrator.",
+  "15.1. Delay or Non-Performance.  No party shall be liable to the other for delay in performance, or the non-performance, of any of its obligations\nunder this Agreement to the  extent that such delay or non-performance is due to any cause beyond the party's control, provided that:\n  15.1.1. the party affected shall forthwith notify the other parties thereof\u037e and:\n  15.1.2. if the circumstances in question prevail for a continuous period in excess of two (2) calendar months, the parties shall enter into bona\nfide discussions with a view to alleviating the effects thereof or to agreeing upon such alternative arrangements as may be fair and\nreasonable in all the circumstances.",
+  "28.  Interpretation. The English language of this Agreement will govern any\n     interpretation of or dispute regarding the terms of this Agreement.\n     Paragraph captions are for convenience of reference and do not alter or\n     limit the terms of this Agreement. The parties hereto have expressly\n     required that the present Agreement and its Exhibits be drawn up on the\n     English language. / Les parties aux presentes ont expressement exige que la\n     presente conventions et se Annexes solent redigees en la langue anglaise.\n29.  Governing Law\u037e Venue. This Agreement will be governed by and interpreted in\n     accordance with the local laws of the State of Washington, U.S.A., without\n     regard to its conflicts of law provisions and not including the provisions\n     of the 1980 U.N. Convention in Contracts for the International Sale of\n     Goods. Distributor irrevocably consents, and submits to the jurisdiction of\n     the Federal and State courts of and located in King County, in the State of\n     Washington, U.S.A.",
+  "22.  Government Approvals. Distributor will obtain at its expense all licenses,\n     permits and other governmental approvals\u037e will provide all notices\u037e and\n     will pay all duties, taxes and other charges required for the license,\n     export, re-export and import of the Product distributed by the Distributor\u037e\n     the license of the Software distributed by Distributor\u037e and the\n     implementation of this Agreement.",
+  "provide access to such records for examination, reproduction, and audit by\n     WGT or its representatives. Any such audit will be conducted at such times\n     and in such a manner so as not to unreasonably interfere with Distributor's\n     normal operations. If any such audit discloses that Distributor is\n     deficient in its compliance with the terms and conditions of this\n     Agreement, Distributor will immediately pay to WGT any deficiency, plus\n     interest at the rate of one and one-half percent (1.5%) per month running\n     from the date originally due until the date paid. Acceptance of any payment\n     by WGT will be without prejudice to WGT's rights to an audit under this\n     paragraph 8 or any other rights or remedies afforded to WGT under any other\n     provision of this Agreement or applicable law."
+ ],
+ "sources": [
+  {
+   "chunk_id": "entertainmentgamingasiainc-02-15-2005-ex-10-5-di-b9cb29::0073",
+   "contract_id": "entertainmentgamingasiainc-02-15-2005-ex-10-5-di-b9cb29",
+   "contract_title": "ENTERTAINMENTGAMINGASIAINC - Distributor Agreement",
+   "section": "27. GOVERNING LAW",
+   "page_start": 13,
+   "page_end": 13,
+   "clause_types": [
+    "governing_law"
+   ],
+   "dense_rank": 1,
+   "sparse_rank": 1,
+   "rrf": 0.06557,
+   "rerank": 0.9882,
+   "label": "S1"
+  },
+  {
+   "chunk_id": "entertainmentgamingasiainc-02-15-2005-ex-10-5-di-b9cb29::0069",
+   "contract_id": "entertainmentgamingasiainc-02-15-2005-ex-10-5-di-b9cb29",
+   "contract_title": "ENTERTAINMENTGAMINGASIAINC - Distributor Agreement",
+   "section": "23. JURISDICTION",
+   "page_start": 13,
+   "page_end": 13,
+   "clause_types": [
+    "governing_law"
+   ],
+   "dense_rank": 2,
+   "sparse_rank": 2,
+   "rrf": 0.06452,
+   "rerank": 0.1087,
+   "label": "S2"
+  },
+  {
+   "chunk_id": "entertainmentgamingasiainc-02-15-2005-ex-10-5-di-b9cb29::0060",
+   "contract_id": "entertainmentgamingasiainc-02-15-2005-ex-10-5-di-b9cb29",
+   "contract_title": "ENTERTAINMENTGAMINGASIAINC - Distributor Agreement",
+   "section": "15.1. Delay or Non-Performance",
+   "page_start": 11,
+   "page_end": 11,
+   "clause_types": [],
+   "dense_rank": 5,
+   "sparse_rank": null,
+   "rrf": 0.01538,
+   "rerank": 0.0809,
+   "label": "S3"
+  },
+  {
+   "chunk_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2::0082",
+   "contract_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2",
+   "contract_title": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+   "section": "28. Interpretation",
+   "page_start": 10,
+   "page_end": 11,
+   "clause_types": [
+    "governing_law"
+   ],
+   "dense_rank": 2,
+   "sparse_rank": 1,
+   "rrf": 0.06504,
+   "rerank": 0.8118,
+   "label": "S4"
+  },
+  {
+   "chunk_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2::0076",
+   "contract_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2",
+   "contract_title": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+   "section": "22. Government Approvals",
+   "page_start": 10,
+   "page_end": 10,
+   "clause_types": [
+    "license"
+   ],
+   "dense_rank": null,
+   "sparse_rank": 2,
+   "rrf": 0.01613,
+   "rerank": 0.042,
+   "label": "S5"
+  },
+  {
+   "chunk_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2::0052",
+   "contract_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2",
+   "contract_title": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+   "section": "7. Software Update Exchange",
+   "page_start": 8,
+   "page_end": 8,
+   "clause_types": [
+    "audit"
+   ],
+   "dense_rank": null,
+   "sparse_rank": 8,
+   "rrf": 0.01471,
+   "rerank": 0.0116,
+   "label": "S6"
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "comparison | clauses=['governing_law'] | contracts=['entertainmentgamingasiainc-02-15-2005-ex-10-5-di-b9cb29', 'europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2']",
+   "data": {
+    "reason": "The user requests a comparison of the governing law clauses in two distributor agreements. The relevant clause category is governing_law, and the contracts involved are Entertainment Gaming Asia Inc. and European Micro Holdings Inc. The search query uses standard clause wording to retrieve the governing law provisions.",
+    "search_query": "governing law of this agreement",
+    "unknown_contract_ids": []
+   },
+   "ms": 1020
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'governing law of this agreement'",
+   "data": {
+    "filters": {
+     "contracts": [
+      "entertainmentgamingasiainc-02-15-2005-ex-10-5-di-b9cb29",
+      "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2"
+     ],
+     "clause_types": [
+      "governing_law"
+     ]
+    }
+   },
+   "ms": 238
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "ENTERTAINMENTGAMINGASIAINC - Distributor Agreement",
+      "section": "27. GOVERNING LAW",
+      "score": 0.9882
+     },
+     {
+      "label": "S2",
+      "contract": "ENTERTAINMENTGAMINGASIAINC - Distributor Agreement",
+      "section": "23. JURISDICTION",
+      "score": 0.1087
+     },
+     {
+      "label": "S3",
+      "contract": "ENTERTAINMENTGAMINGASIAINC - Distributor Agreement",
+      "section": "15.1. Delay or Non-Performance",
+      "score": 0.0809
+     },
+     {
+      "label": "S4",
+      "contract": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+      "section": "28. Interpretation",
+      "score": 0.8118
+     },
+     {
+      "label": "S5",
+      "contract": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+      "section": "22. Government Approvals",
+      "score": 0.042
+     },
+     {
+      "label": "S6",
+      "contract": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+      "section": "7. Software Update Exchange",
+      "score": 0.0116
+     }
+    ]
+   },
+   "ms": 1155
+  },
+  {
+   "node": "draft",
+   "message": "3 claims",
+   "data": {
+    "answer": "The Entertainment Gaming Asia distributor agreement is governed by the laws of Ontario, Canada, while the European Micro distributor agreement is governed by the laws of the State of Washington, USA."
+   },
+   "ms": 12633
+  },
+  {
+   "node": "answer",
+   "message": "verdict=unverified, 2 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 15.05,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1717,
+   "output_tokens": 190,
+   "total_tokens": 1907,
+   "output_token_details": {
+    "reasoning": 37
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "input_tokens": 1431,
+   "output_tokens": 789,
+   "total_tokens": 2220,
+   "output_token_details": {
+    "reasoning": 472
+   }
+  }
+ },
+ "llm_calls": 2
+}

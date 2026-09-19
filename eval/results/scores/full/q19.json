@@ -1,0 +1,15 @@
+{
+ "id": "q19",
+ "type": "unanswerable",
+ "query_type": "clause_lookup",
+ "verdict": "insufficient",
+ "latency_s": 43.29,
+ "tokens": 9802,
+ "routing_ok": true,
+ "n_citations": 0,
+ "citation_grounding": null,
+ "evidence_in_context": null,
+ "abstained": true,
+ "judges": {},
+ "judge_model": "qwen/qwen3.8-27b"
+}

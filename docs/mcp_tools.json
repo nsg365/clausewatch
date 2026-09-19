@@ -1,0 +1,638 @@
+[
+ {
+  "name": "list_contracts",
+  "description": "List all indexed contracts with their IDs, titles and contract types.",
+  "inputSchema": {
+   "properties": {},
+   "title": "list_contractsArguments",
+   "type": "object"
+  },
+  "outputSchema": {
+   "$defs": {
+    "ContractInfo": {
+     "properties": {
+      "contract_id": {
+       "title": "Contract Id",
+       "type": "string"
+      },
+      "title": {
+       "title": "Title",
+       "type": "string"
+      },
+      "contract_type": {
+       "title": "Contract Type",
+       "type": "string"
+      },
+      "n_pages": {
+       "title": "N Pages",
+       "type": "integer"
+      },
+      "source": {
+       "title": "Source",
+       "type": "string"
+      }
+     },
+     "required": [
+      "contract_id",
+      "title",
+      "contract_type",
+      "n_pages",
+      "source"
+     ],
+     "title": "ContractInfo",
+     "type": "object"
+    }
+   },
+   "properties": {
+    "result": {
+     "items": {
+      "$ref": "#/$defs/ContractInfo"
+     },
+     "title": "Result",
+     "type": "array"
+    }
+   },
+   "required": [
+    "result"
+   ],
+   "title": "list_contractsOutput",
+   "type": "object"
+  }
+ },
+ {
+  "name": "query_contracts",
+  "description": "Ask a question about one or more contracts (clause lookup or general Q&A).\n\n    Runs the full agent: routing -> hybrid retrieval -> cross-encoder rerank -> draft ->\n    claim-level verification (with re-retrieval on failure) -> cited answer.\n    Leave contract_ids empty to let the router pick contracts from the question.\n    ",
+  "inputSchema": {
+   "properties": {
+    "question": {
+     "description": "Natural-language question about the contracts",
+     "title": "Question",
+     "type": "string"
+    },
+    "contract_ids": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Optional scope; empty lets the router choose",
+     "title": "Contract Ids"
+    }
+   },
+   "required": [
+    "question"
+   ],
+   "title": "query_contractsArguments",
+   "type": "object"
+  },
+  "outputSchema": {
+   "$defs": {
+    "Citation": {
+     "properties": {
+      "n": {
+       "title": "N",
+       "type": "integer"
+      },
+      "contract_id": {
+       "title": "Contract Id",
+       "type": "string"
+      },
+      "contract_title": {
+       "title": "Contract Title",
+       "type": "string"
+      },
+      "section": {
+       "title": "Section",
+       "type": "string"
+      },
+      "page_start": {
+       "title": "Page Start",
+       "type": "integer"
+      },
+      "page_end": {
+       "title": "Page End",
+       "type": "integer"
+      },
+      "quote": {
+       "description": "Verbatim supporting text from the contract",
+       "title": "Quote",
+       "type": "string"
+      }
+     },
+     "required": [
+      "n",
+      "contract_id",
+      "contract_title",
+      "section",
+      "page_start",
+      "page_end",
+      "quote"
+     ],
+     "title": "Citation",
+     "type": "object"
+    }
+   },
+   "properties": {
+    "answer": {
+     "description": "Answer with inline [n] citation markers",
+     "title": "Answer",
+     "type": "string"
+    },
+    "query_type": {
+     "title": "Query Type",
+     "type": "string"
+    },
+    "citations": {
+     "items": {
+      "$ref": "#/$defs/Citation"
+     },
+     "title": "Citations",
+     "type": "array"
+    },
+    "verification_verdict": {
+     "description": "pass | pass_pruned | fail | insufficient",
+     "title": "Verification Verdict",
+     "type": "string"
+    },
+    "supported_claims": {
+     "title": "Supported Claims",
+     "type": "integer"
+    },
+    "total_claims": {
+     "title": "Total Claims",
+     "type": "integer"
+    },
+    "retries": {
+     "title": "Retries",
+     "type": "integer"
+    }
+   },
+   "required": [
+    "answer",
+    "query_type",
+    "citations",
+    "verification_verdict",
+    "supported_claims",
+    "total_claims",
+    "retries"
+   ],
+   "title": "QueryResult",
+   "type": "object"
+  }
+ },
+ {
+  "name": "flag_risks",
+  "description": "Scan a contract for risky clauses (uncapped liability, auto-renewal, one-sided indemnity,\n    broad IP assignment, restrictive non-compete, change-of-control, minimum commitments, etc.).\n    Every flag quotes the source clause; flags whose quote cannot be found verbatim or that an\n    independent verifier rejects are dropped.",
+  "inputSchema": {
+   "properties": {
+    "contract_id": {
+     "description": "contract_id from list_contracts",
+     "title": "Contract Id",
+     "type": "string"
+    },
+    "top_n": {
+     "default": 5,
+     "description": "Maximum number of flags to return",
+     "title": "Top N",
+     "type": "integer"
+    }
+   },
+   "required": [
+    "contract_id"
+   ],
+   "title": "flag_risksArguments",
+   "type": "object"
+  },
+  "outputSchema": {
+   "$defs": {
+    "RiskFlag": {
+     "properties": {
+      "rank": {
+       "title": "Rank",
+       "type": "integer"
+      },
+      "pattern_id": {
+       "title": "Pattern Id",
+       "type": "string"
+      },
+      "name": {
+       "title": "Name",
+       "type": "string"
+      },
+      "severity": {
+       "enum": [
+        "high",
+        "medium",
+        "low"
+       ],
+       "title": "Severity",
+       "type": "string"
+      },
+      "confidence": {
+       "title": "Confidence",
+       "type": "number"
+      },
+      "rationale": {
+       "title": "Rationale",
+       "type": "string"
+      },
+      "quote": {
+       "title": "Quote",
+       "type": "string"
+      },
+      "section": {
+       "title": "Section",
+       "type": "string"
+      },
+      "page_start": {
+       "title": "Page Start",
+       "type": "integer"
+      },
+      "page_end": {
+       "title": "Page End",
+       "type": "integer"
+      }
+     },
+     "required": [
+      "rank",
+      "pattern_id",
+      "name",
+      "severity",
+      "confidence",
+      "rationale",
+      "quote",
+      "section",
+      "page_start",
+      "page_end"
+     ],
+     "title": "RiskFlag",
+     "type": "object"
+    }
+   },
+   "properties": {
+    "contract_id": {
+     "title": "Contract Id",
+     "type": "string"
+    },
+    "contract_title": {
+     "title": "Contract Title",
+     "type": "string"
+    },
+    "flags": {
+     "items": {
+      "$ref": "#/$defs/RiskFlag"
+     },
+     "title": "Flags",
+     "type": "array"
+    },
+    "rejected_by_verifier": {
+     "title": "Rejected By Verifier",
+     "type": "integer"
+    },
+    "summary": {
+     "title": "Summary",
+     "type": "string"
+    }
+   },
+   "required": [
+    "contract_id",
+    "contract_title",
+    "flags",
+    "rejected_by_verifier",
+    "summary"
+   ],
+   "title": "RiskReport",
+   "type": "object"
+  }
+ },
+ {
+  "name": "compare_clauses",
+  "description": "Compare how two or more contracts handle a clause/topic (e.g. 'termination for convenience',\n    'limitation of liability', 'exclusivity'). Retrieval takes a quota from each contract.",
+  "inputSchema": {
+   "properties": {
+    "clause": {
+     "description": "Clause or topic, e.g. 'limitation of liability'",
+     "title": "Clause",
+     "type": "string"
+    },
+    "contract_ids": {
+     "description": "Two or more contract_ids to compare",
+     "items": {
+      "type": "string"
+     },
+     "title": "Contract Ids",
+     "type": "array"
+    }
+   },
+   "required": [
+    "clause",
+    "contract_ids"
+   ],
+   "title": "compare_clausesArguments",
+   "type": "object"
+  },
+  "outputSchema": {
+   "$defs": {
+    "Citation": {
+     "properties": {
+      "n": {
+       "title": "N",
+       "type": "integer"
+      },
+      "contract_id": {
+       "title": "Contract Id",
+       "type": "string"
+      },
+      "contract_title": {
+       "title": "Contract Title",
+       "type": "string"
+      },
+      "section": {
+       "title": "Section",
+       "type": "string"
+      },
+      "page_start": {
+       "title": "Page Start",
+       "type": "integer"
+      },
+      "page_end": {
+       "title": "Page End",
+       "type": "integer"
+      },
+      "quote": {
+       "description": "Verbatim supporting text from the contract",
+       "title": "Quote",
+       "type": "string"
+      }
+     },
+     "required": [
+      "n",
+      "contract_id",
+      "contract_title",
+      "section",
+      "page_start",
+      "page_end",
+      "quote"
+     ],
+     "title": "Citation",
+     "type": "object"
+    }
+   },
+   "properties": {
+    "answer": {
+     "description": "Answer with inline [n] citation markers",
+     "title": "Answer",
+     "type": "string"
+    },
+    "query_type": {
+     "title": "Query Type",
+     "type": "string"
+    },
+    "citations": {
+     "items": {
+      "$ref": "#/$defs/Citation"
+     },
+     "title": "Citations",
+     "type": "array"
+    },
+    "verification_verdict": {
+     "description": "pass | pass_pruned | fail | insufficient",
+     "title": "Verification Verdict",
+     "type": "string"
+    },
+    "supported_claims": {
+     "title": "Supported Claims",
+     "type": "integer"
+    },
+    "total_claims": {
+     "title": "Total Claims",
+     "type": "integer"
+    },
+    "retries": {
+     "title": "Retries",
+     "type": "integer"
+    }
+   },
+   "required": [
+    "answer",
+    "query_type",
+    "citations",
+    "verification_verdict",
+    "supported_claims",
+    "total_claims",
+    "retries"
+   ],
+   "title": "QueryResult",
+   "type": "object"
+  }
+ },
+ {
+  "name": "search_clauses",
+  "description": "",
+  "inputSchema": {
+   "properties": {
+    "query": {
+     "description": "Search text, ideally in contract language",
+     "title": "Query",
+     "type": "string"
+    },
+    "contract_ids": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Optional contract_id filter",
+     "title": "Contract Ids"
+    },
+    "clause_types": {
+     "anyOf": [
+      {
+       "items": {
+        "type": "string"
+       },
+       "type": "array"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Optional clause-category boost",
+     "title": "Clause Types"
+    },
+    "top_n": {
+     "default": 5,
+     "description": "Number of clauses to return",
+     "title": "Top N",
+     "type": "integer"
+    }
+   },
+   "required": [
+    "query"
+   ],
+   "title": "search_clausesArguments",
+   "type": "object"
+  },
+  "outputSchema": {
+   "$defs": {
+    "ClauseHit": {
+     "properties": {
+      "contract_id": {
+       "title": "Contract Id",
+       "type": "string"
+      },
+      "contract_title": {
+       "title": "Contract Title",
+       "type": "string"
+      },
+      "section": {
+       "title": "Section",
+       "type": "string"
+      },
+      "page_start": {
+       "title": "Page Start",
+       "type": "integer"
+      },
+      "page_end": {
+       "title": "Page End",
+       "type": "integer"
+      },
+      "clause_types": {
+       "items": {
+        "type": "string"
+       },
+       "title": "Clause Types",
+       "type": "array"
+      },
+      "rerank_score": {
+       "anyOf": [
+        {
+         "type": "number"
+        },
+        {
+         "type": "null"
+        }
+       ],
+       "title": "Rerank Score"
+      },
+      "text": {
+       "title": "Text",
+       "type": "string"
+      }
+     },
+     "required": [
+      "contract_id",
+      "contract_title",
+      "section",
+      "page_start",
+      "page_end",
+      "clause_types",
+      "rerank_score",
+      "text"
+     ],
+     "title": "ClauseHit",
+     "type": "object"
+    }
+   },
+   "properties": {
+    "result": {
+     "items": {
+      "$ref": "#/$defs/ClauseHit"
+     },
+     "title": "Result",
+     "type": "array"
+    }
+   },
+   "required": [
+    "result"
+   ],
+   "title": "search_clausesOutput",
+   "type": "object"
+  }
+ },
+ {
+  "name": "ingest_contract",
+  "description": "Add a new contract PDF (absolute path on the server machine) to the index so it can be\n    queried and risk-scanned. Returns the new contract_id.",
+  "inputSchema": {
+   "properties": {
+    "pdf_path": {
+     "description": "Absolute path to a text-based PDF on the server machine",
+     "title": "Pdf Path",
+     "type": "string"
+    },
+    "title": {
+     "anyOf": [
+      {
+       "type": "string"
+      },
+      {
+       "type": "null"
+      }
+     ],
+     "default": null,
+     "description": "Display title; defaults to the file name",
+     "title": "Title"
+    },
+    "contract_type": {
+     "default": "Unknown",
+     "description": "e.g. Supply, License, Distributor",
+     "title": "Contract Type",
+     "type": "string"
+    }
+   },
+   "required": [
+    "pdf_path"
+   ],
+   "title": "ingest_contractArguments",
+   "type": "object"
+  },
+  "outputSchema": {
+   "properties": {
+    "contract_id": {
+     "title": "Contract Id",
+     "type": "string"
+    },
+    "title": {
+     "title": "Title",
+     "type": "string"
+    },
+    "contract_type": {
+     "title": "Contract Type",
+     "type": "string"
+    },
+    "n_pages": {
+     "title": "N Pages",
+     "type": "integer"
+    },
+    "source": {
+     "title": "Source",
+     "type": "string"
+    }
+   },
+   "required": [
+    "contract_id",
+    "title",
+    "contract_type",
+    "n_pages",
+    "source"
+   ],
+   "title": "ContractInfo",
+   "type": "object"
+  }
+ }
+]

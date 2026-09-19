@@ -1,0 +1,332 @@
+{
+ "question": "What minimum fee must Converge pay VNE during the initial term of the Verticalnet maintenance and support agreement, and how is it paid?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "verticalnetinc-04-01-2002-ex-10-19-maintenance-a-47aa3a"
+ ],
+ "clause_types": [
+  "minimum_commitment",
+  "payment"
+ ],
+ "search_query": "minimum fee initial term paid in installments",
+ "answer": "Converge must pay VNE a minimum fee of $4,500,000 for the Initial Term, which is paid in 18 equal monthly installments of $250,000 each, with the first installment due upon execution of the Agreement and subsequent installments due by the first day of each month through March 2003 [1].",
+ "draft": {
+  "answer": "Converge must pay VNE a minimum fee of $4,500,000 for the Initial Term, which is paid in 18 equal monthly installments of $250,000 each, with the first installment due upon execution of the Agreement and subsequent installments due by the first day of each month through March 2003 [S1].",
+  "claims": [
+   {
+    "statement": "The Initial Term Minimum Fee is Four and One-Half Million Dollars ($4,500,000).",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "Converge shall pay to VNE a minimum fee of Four and One-Half Million Dollars ($4,500,000) for VNE's provision of the Services during the Initial Term (the \"Initial Term Minimum Fee\")."
+   },
+   {
+    "statement": "The fee is paid in 18 equal monthly installments of $250,000, with the first installment due on the execution date and each subsequent installment due no later than the first day of each month during the Initial Term (Nov 2001 through Mar 2003), and the installments are non\u2011refundable.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "Converge shall pay the Initial Term Minimum Fee to VNE in 18 equal installments of Two Hundred Fifty Thousand Dollars ($250,000) (each, a \"Monthly Installment\"). Converge shall pay the first such Monthly Installment to VNE on the date this Agreement is executed and delivered by both parties. Thereafter, Converge shall pay each such Monthly Installment to VNE no later than the first day of each month during the Initial Term (November 2001 and through March 2003). All such Monthly Installments are non-refundable."
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "verticalnetinc-04-01-2002-ex-10-19-maintenance-a-47aa3a",
+   "contract_title": "VERTICALNETINC - Maintenance And Support Agreement",
+   "section": "4.1 Minimum Fee During Initial Term",
+   "page_start": 6,
+   "page_end": 6,
+   "chunk_id": "verticalnetinc-04-01-2002-ex-10-19-maintenance-a-47aa3a::0044",
+   "quote": "Converge shall pay to VNE a minimum fee of Four and One-Half Million Dollars ($4,500,000) for VNE's provision of the Services during the Initial Term (the \"Initial Term Minimum Fee\").",
+   "ref": "VERTICALNETINC - Maintenance And Support Agreement, 4.1 Minimum Fee During Initial Term, p. 6"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {
+  "verdict": "pass",
+  "decision": "accept",
+  "supported_ratio": 1.0,
+  "answers_question": true,
+  "claims": [
+   {
+    "statement": "The Initial Term Minimum Fee is Four and One-Half Million Dollars ($4,500,000).",
+    "source_ids": [
+     "S1"
+    ],
+    "quote": "Converge shall pay to VNE a minimum fee of Four and One-Half Million Dollars ($4,500,000) for VNE's provision of the Services during the Initial Term (the \"Initial Term Minimum Fee\").",
+    "status": "supported",
+    "explanation": "Source S1 states that Converge shall pay a minimum fee of Four and One-Half Million Dollars ($4,500,000) during the Initial Term.",
+    "quote_verified": true
+   },
+   {
+    "statement": "The fee is paid in 18 equal monthly installments of $250,000, with the first installment due on the execution date and each subsequent installment due no later than the first day of each month during the Initial Term (Nov 2001 through Mar 2003), and the installments are non\u2011refundable.",
+    "source_ids": [
+     "S1"
+    ],
+    "quote": "Converge shall pay the Initial Term Minimum Fee to VNE in 18 equal installments of Two Hundred Fifty Thousand Dollars ($250,000) (each, a \"Monthly Installment\"). Converge shall pay the first such Monthly Installment to VNE on the date this Agreement is executed and delivered by both parties. Thereafter, Converge shall pay each such Monthly Installment to VNE no later than the first day of each month during the Initial Term (November 2001 and through March 2003). All such Monthly Installments are non-refundable.",
+    "status": "supported",
+    "explanation": "Source S1 specifies the fee is paid in 18 equal monthly installments of $250,000, with the first installment due on the execution date and each subsequent installment due no later than the first day of each month during the Initial Term (Nov 2001 through Mar 2003), and that the installments are non\u2011refundable.",
+    "quote_verified": true
+   }
+  ],
+  "attempt": 0
+ },
+ "contexts": [
+  "4.1 Minimum Fee During Initial Term. Converge shall pay to VNE a\nminimum fee of Four and One-Half Million Dollars ($4,500,000) for VNE's\nprovision of the Services during the Initial Term (the \"Initial Term Minimum\nFee\"). Converge shall pay the Initial Term Minimum Fee to VNE in 18 equal\ninstallments of Two Hundred Fifty Thousand Dollars ($250,000) (each, a \"Monthly\nInstallment\"). Converge shall pay the first such Monthly Installment to VNE on\nthe date this Agreement is executed and delivered by both parties. Thereafter,\nConverge shall pay each such Monthly Installment to VNE no later than the first\nday of each month during the Initial Term (November 2001 and through March\n2003). All such Monthly Installments are non-refundable.",
+  "4.2 Minimum Fee During Each Renewal Term. If the Parties mutually\nagree in writing to renew this Agreement pursuant to Section 9.1, the minimum\nfee payable by Converge to VNE during any such renewal period shall be as\nmutually determined by the Parties.\n            4.3 Application of Quarterly Allocation\u037e Out-Of-Scope Services. For\neach quarter during the Term of this Agreement that Converge pays the applicable\nMonthly Installments, Converge shall be entitled to receive Services in an\namount equal to the Quarterly Allocation\u037e provided, however, that VNE shall\nprovide all Maintenance and Support Services with respect to Problem Reports\n(but not with respect to Support Requests) reported during such quarter, and all\nMaintenance Updates released by VNE during such quarter, regardless of whether\nthe provision of such Services would cause VNE to exceed the Quarterly\nAllocation for such quarter\u037e and provided further, however, that if Converge\nfails to make a Monthly Installment when due (subject to the cure period in\nSection 9.2(c)), VNE shall not be required to provided additional Services\nduring the remaining portion of the applicable quarter until such payment is\nmade.",
+  "required to self-assess and remit any Sales Taxes due on the purchase of taxable\nproperty and services acquired under this Agreement. Converge will retain\nultimate responsibility and liability for remitting any Sales Taxes due on the\npurchase of any property and/or services acquired under this Agreement,\nincluding, without limitation, any interest, penalties or additions attributable\nto or imposed on or with respect to any such assessment excluding any taxes\nimposed upon the net income of either party). Subject to the express provisions\nof this Agreement, the parties will cooperate and use their commercially\nreasonable efforts to minimize or avoid, to the maximum extent allowed by law,\nthe obligation to pay any Sales Taxes that may be levied on payments made under\nthis Agreement or otherwise are chargeable by any applicable government\nauthority with respect to the Services.",
+  "4.6 Taxes. The fees and other payments specified in this Agreement\nare exclusive of any sales, use and other taxes on consumption of goods and\nservices (\"Sales Taxes\"), however designated or levied, based on this Agreement,\ndelivery of the Services under this Agreement, or Converge's or its Affiliates'\nuse thereof. In those jurisdictions in which VNE determines it is required to\nregister, collect and remit Sales Taxes, VNE will separately invoice Converge\nfor such Sales Taxes (which invoices shall be payable by Converge as set forth\nin Section 4.5), collect such Sales Taxes from Converge and remit such Sales\nTaxes to the proper taxing authority. In those jurisdictions in which VNE has\ndetermined that it does not have a collection responsibility, Converge will be\nrequired to self-assess and remit any Sales Taxes due on the purchase of taxable\nproperty and services acquired under this Agreement.",
+  "during the remaining portion of the applicable quarter until such payment is\nmade. Should Converge request and VNE provide any Professional Services, or any\nMaintenance and Support Services with respect to Support Requests, that would\ncause VNE to exceed the Quarterly Allocation for any quarter, then Converge\nshall pay VNE's then-current time charges, or such other charges as the parties\nmay otherwise agree in any Final SOW (\"Out-Of-Scope Services\"), for such\nOut-Of-Scope Services. VNE shall use commercially reasonable efforts to inform\nConverge that any Professional Services requested by Converge would be\nOut-Of-Scope Services prior to VNE's performance of such Professional Services.\nConverge shall not be required to pay for and VNS shall not be required to\nperform any such Services that have not been approved in a Work Plan or Final\nSOW, or otherwise approved by Converge in writing.",
+  "9.1 Term. The initial period of this Agreement (the \"Initial Term\")\nshall commence upon the Effective Date and continue until March 31, 2003.\nThereafter, this Agreement shall renew only upon the mutual written agreement of\nthe parties for up to three additional renewal terms of one year each (each, a\n\"Renewal Term\"). Notwithstanding the foregoing provisions of this Section 9.1,\nin the event any Services or other obligations of either party (including\npayment obligations) with respect to any Final Work Plan have not been completed\nor discharged as of the date on which this Agreement would otherwise expire,\nthis Agreement shall remain in effect solely with respect to such Work Plan\nuntil such Services or other obligations have been completed or discharged."
+ ],
+ "sources": [
+  {
+   "chunk_id": "verticalnetinc-04-01-2002-ex-10-19-maintenance-a-47aa3a::0044",
+   "contract_id": "verticalnetinc-04-01-2002-ex-10-19-maintenance-a-47aa3a",
+   "contract_title": "VERTICALNETINC - Maintenance And Support Agreement",
+   "section": "4.1 Minimum Fee During Initial Term",
+   "page_start": 6,
+   "page_end": 6,
+   "clause_types": [
+    "payment",
+    "term"
+   ],
+   "dense_rank": 1,
+   "sparse_rank": 1,
+   "rrf": 0.06557,
+   "rerank": 0.9992,
+   "label": "S1",
+   "supported": true
+  },
+  {
+   "chunk_id": "verticalnetinc-04-01-2002-ex-10-19-maintenance-a-47aa3a::0045",
+   "contract_id": "verticalnetinc-04-01-2002-ex-10-19-maintenance-a-47aa3a",
+   "contract_title": "VERTICALNETINC - Maintenance And Support Agreement",
+   "section": "4.2 Minimum Fee During Each Renewal Term",
+   "page_start": 6,
+   "page_end": 6,
+   "clause_types": [
+    "payment",
+    "renewal",
+    "term"
+   ],
+   "dense_rank": 2,
+   "sparse_rank": 2,
+   "rrf": 0.06452,
+   "rerank": 0.8028,
+   "label": "S2",
+   "supported": false
+  },
+  {
+   "chunk_id": "verticalnetinc-04-01-2002-ex-10-19-maintenance-a-47aa3a::0052",
+   "contract_id": "verticalnetinc-04-01-2002-ex-10-19-maintenance-a-47aa3a",
+   "contract_title": "VERTICALNETINC - Maintenance And Support Agreement",
+   "section": "4.6 Taxes",
+   "page_start": 7,
+   "page_end": 7,
+   "clause_types": [
+    "liquidated_damages"
+   ],
+   "dense_rank": 17,
+   "sparse_rank": null,
+   "rrf": 0.01299,
+   "rerank": 0.1401,
+   "label": "S3",
+   "supported": false
+  },
+  {
+   "chunk_id": "verticalnetinc-04-01-2002-ex-10-19-maintenance-a-47aa3a::0051",
+   "contract_id": "verticalnetinc-04-01-2002-ex-10-19-maintenance-a-47aa3a",
+   "contract_title": "VERTICALNETINC - Maintenance And Support Agreement",
+   "section": "4.6 Taxes",
+   "page_start": 7,
+   "page_end": 7,
+   "clause_types": [
+    "exclusivity",
+    "payment"
+   ],
+   "dense_rank": 8,
+   "sparse_rank": null,
+   "rrf": 0.03009,
+   "rerank": 0.1179,
+   "label": "S4",
+   "supported": false
+  },
+  {
+   "chunk_id": "verticalnetinc-04-01-2002-ex-10-19-maintenance-a-47aa3a::0046",
+   "contract_id": "verticalnetinc-04-01-2002-ex-10-19-maintenance-a-47aa3a",
+   "contract_title": "VERTICALNETINC - Maintenance And Support Agreement",
+   "section": "4.2 Minimum Fee During Each Renewal Term",
+   "page_start": 6,
+   "page_end": 7,
+   "clause_types": [
+    "renewal"
+   ],
+   "dense_rank": 3,
+   "sparse_rank": 4,
+   "rrf": 0.0315,
+   "rerank": 0.0397,
+   "label": "S5",
+   "supported": false
+  },
+  {
+   "chunk_id": "verticalnetinc-04-01-2002-ex-10-19-maintenance-a-47aa3a::0079",
+   "contract_id": "verticalnetinc-04-01-2002-ex-10-19-maintenance-a-47aa3a",
+   "contract_title": "VERTICALNETINC - Maintenance And Support Agreement",
+   "section": "9.1 Term",
+   "page_start": 10,
+   "page_end": 10,
+   "clause_types": [
+    "renewal",
+    "term"
+   ],
+   "dense_rank": 6,
+   "sparse_rank": 6,
+   "rrf": 0.0303,
+   "rerank": 0.0318,
+   "label": "S6",
+   "supported": false
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['minimum_commitment', 'payment'] | contracts=['verticalnetinc-04-01-2002-ex-10-19-maintenance-a-47aa3a']",
+   "data": {
+    "reason": "The question requests the specific minimum fee amount and payment method for the initial term of the Verticalnet maintenance and support agreement, which is a clause lookup for minimum commitment and payment terms.",
+    "search_query": "minimum fee initial term paid in installments",
+    "unknown_contract_ids": []
+   },
+   "ms": 1299
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'minimum fee initial term paid in installments'",
+   "data": {
+    "filters": {
+     "contracts": [
+      "verticalnetinc-04-01-2002-ex-10-19-maintenance-a-47aa3a"
+     ],
+     "clause_types": [
+      "minimum_commitment",
+      "payment"
+     ]
+    }
+   },
+   "ms": 423
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "VERTICALNETINC - Maintenance And Support Agreement",
+      "section": "4.1 Minimum Fee During Initial Term",
+      "score": 0.9992
+     },
+     {
+      "label": "S2",
+      "contract": "VERTICALNETINC - Maintenance And Support Agreement",
+      "section": "4.2 Minimum Fee During Each Renewal Term",
+      "score": 0.8028
+     },
+     {
+      "label": "S3",
+      "contract": "VERTICALNETINC - Maintenance And Support Agreement",
+      "section": "4.6 Taxes",
+      "score": 0.1401
+     },
+     {
+      "label": "S4",
+      "contract": "VERTICALNETINC - Maintenance And Support Agreement",
+      "section": "4.6 Taxes",
+      "score": 0.1179
+     },
+     {
+      "label": "S5",
+      "contract": "VERTICALNETINC - Maintenance And Support Agreement",
+      "section": "4.2 Minimum Fee During Each Renewal Term",
+      "score": 0.0397
+     },
+     {
+      "label": "S6",
+      "contract": "VERTICALNETINC - Maintenance And Support Agreement",
+      "section": "9.1 Term",
+      "score": 0.0318
+     }
+    ]
+   },
+   "ms": 2341
+  },
+  {
+   "node": "draft",
+   "message": "2 claims",
+   "data": {
+    "answer": "Converge must pay VNE a minimum fee of $4,500,000 for the Initial Term, which is paid in 18 equal monthly installments of $250,000 each, with the first installment due upon execution of the Agreement and subsequent installments due by the first day of each month through March 2003 [S1]."
+   },
+   "ms": 12564
+  },
+  {
+   "node": "verify",
+   "message": "2/2 claims supported, verdict=PASS -> ACCEPT",
+   "data": {
+    "claims": [
+     {
+      "statement": "The Initial Term Minimum Fee is Four and One-Half Million Dollars ($4,500,000).",
+      "source_ids": [
+       "S1"
+      ],
+      "quote": "Converge shall pay to VNE a minimum fee of Four and One-Half Million Dollars ($4,500,000) for VNE's provision of the Services during the Initial Term (the \"Initial Term Minimum Fee\").",
+      "status": "supported",
+      "explanation": "Source S1 states that Converge shall pay a minimum fee of Four and One-Half Million Dollars ($4,500,000) during the Initial Term.",
+      "quote_verified": true
+     },
+     {
+      "statement": "The fee is paid in 18 equal monthly installments of $250,000, with the first installment due on the execution date and each subsequent installment due no later than the first day of each month during the Initial Term (Nov 2001 through Mar 2003), and the installments are non\u2011refundable.",
+      "source_ids": [
+       "S1"
+      ],
+      "quote": "Converge shall pay the Initial Term Minimum Fee to VNE in 18 equal installments of Two Hundred Fifty Thousand Dollars ($250,000) (each, a \"Monthly Installment\"). Converge shall pay the first such Monthly Installment to VNE on the date this Agreement is executed and delivered by both parties. Thereafter, Converge shall pay each such Monthly Installment to VNE no later than the first day of each month during the Initial Term (November 2001 and through March 2003). All such Monthly Installments are non-refundable.",
+      "status": "supported",
+      "explanation": "Source S1 specifies the fee is paid in 18 equal monthly installments of $250,000, with the first installment due on the execution date and each subsequent installment due no later than the first day of each month during the Initial Term (Nov 2001 through Mar 2003), and that the installments are non\u2011refundable.",
+      "quote_verified": true
+     }
+    ],
+    "retry_query": ""
+   },
+   "ms": 13924
+  },
+  {
+   "node": "answer",
+   "message": "verdict=pass, 1 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 30.56,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1690,
+   "output_tokens": 191,
+   "total_tokens": 1881,
+   "output_token_details": {
+    "reasoning": 81
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "output_token_details": {
+    "reasoning": 829
+   },
+   "input_tokens": 2827,
+   "output_tokens": 1425,
+   "total_tokens": 4252
+  }
+ },
+ "llm_calls": 3
+}

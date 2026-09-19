@@ -1,0 +1,26 @@
+{
+ "full": {
+  "n": 20,
+  "faithfulness": 0.94,
+  "answer_relevancy": 0.851,
+  "context_precision": 0.875,
+  "citation_grounding": 1.0,
+  "evidence_in_context": 1.0,
+  "abstention": 1.0,
+  "routing": 1.0,
+  "latency_p50_s": 30.6,
+  "tokens_per_q": 7036
+ },
+ "no_verifier": {
+  "n": 20,
+  "faithfulness": 0.912,
+  "answer_relevancy": null,
+  "context_precision": null,
+  "citation_grounding": 0.941,
+  "evidence_in_context": 0.944,
+  "abstention": 1.0,
+  "routing": 1.0,
+  "latency_p50_s": 17.6,
+  "tokens_per_q": 4326
+ }
+}

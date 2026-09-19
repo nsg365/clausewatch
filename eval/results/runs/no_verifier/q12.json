@@ -1,0 +1,261 @@
+{
+ "question": "What can Todos do if its reseller sells less than half of a year's annual milestone?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "todosmedicalltd-20190328-20-f-ex-4-10-11587157-e-29834e"
+ ],
+ "clause_types": [
+  "minimum_commitment"
+ ],
+ "search_query": "failure to meet minimum sales milestone less than half annual requirement",
+ "answer": "If the Reseller sells less than 50% of the annual milestone, Todos may, at its sole discretion, either cancel the Reseller\u2019s exclusivity\u2014allowing Todos to market, distribute, and sell the Products directly while the Reseller retains only a non\u2011exclusive right\u2014or terminate the Agreement with 180 days\u2019 written notice if the Reseller does not cure the shortfall within that period. [1]",
+ "draft": {
+  "answer": "If the Reseller sells less than 50% of the annual milestone, Todos may, at its sole discretion, either cancel the Reseller\u2019s exclusivity\u2014allowing Todos to market, distribute, and sell the Products directly while the Reseller retains only a non\u2011exclusive right\u2014or terminate the Agreement with 180 days\u2019 written notice if the Reseller does not cure the shortfall within that period. [S1]",
+  "claims": [
+   {
+    "statement": "Todos may cancel the Reseller's exclusivity and sell directly, leaving the Reseller with a non\u2011exclusive right.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "cancel the Reseller's exclusivity, and market, distribute, and sell the Products in the Territory directly or indirectly through other distributors and resellers, while leaving the Reseller with a non-exclusive right to distribute and sell the Products for the remainder of the term"
+   },
+   {
+    "statement": "Todos may terminate the Agreement with 180 days\u2019 written notice if the Reseller does not cure the shortfall.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "terminate the Agreement upon one hundred eighty (180) days prior written notice, provided that the Reseller does not cure its failure to achieve 50% of the applicable year's Annual Milestone within the 180-day notice period"
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "todosmedicalltd-20190328-20-f-ex-4-10-11587157-e-29834e",
+   "contract_title": "TodosMedicalLtd - Reseller Agreement",
+   "section": "2. Exclusivity",
+   "page_start": 2,
+   "page_end": 2,
+   "chunk_id": "todosmedicalltd-20190328-20-f-ex-4-10-11587157-e-29834e::0004",
+   "quote": "cancel the Reseller's exclusivity, and market, distribute, and sell the Products in the Territory directly or indirectly through other distributors and resellers, while leaving the Reseller with a non-exclusive right to distribute and sell the Products for the remainder of the term",
+   "ref": "TodosMedicalLtd - Reseller Agreement, 2. Exclusivity, p. 2"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {},
+ "contexts": [
+  "2. Exclusivity\n2.1 The Reseller's exclusive right to market and sell the Products in the Territory is subject to the Reseller achieving the following\nmilestones by the end of each year this Agreement is in effect (the \"Annual Milestones\"):\nYear Annual Milestone(s)\nYear 1 Not Applicable\nEach Year Thereafter The parties will agree at the beginning of the year on the Annual Milestone for such year\n2.2 If the Reseller sells less than 50% of any year's Annual Milestone, Todos, in its sole discretion, may either (a) cancel the Reseller's\nexclusivity, and market, distribute, and sell the Products in the Territory directly or indirectly through other distributors and resellers, while leaving\nthe Reseller with a non-exclusive right to distribute and sell the Products for the remainder of the term, or (b) terminate the Agreement upon one\nhundred eighty (180) days prior written notice, provided that the Reseller does not cure its failure to achieve 50% of the applicable year's Annual\nMilestone within the 180-day notice period.",
+  "1. Grant of Rights\n1.1 Subject to the terms and conditions of this Agreement, Todos hereby grants the Reseller a non-sublicensable, non-transferable,\nexclusive right to distribute and sell the Products to Customers in the Territory\u037e provided, however, that Reseller may sub-license or transfer its\ndistribution rights to a subsidiary or affiliate of the Reseller. The Reseller shall have a right of first refusal to include within this Agreement any\nadditional products developed, manufactured, or sold by the Company following the Effective Date that are not currently included in Exhibit A, and\nupon the exercise of such right, the term \"Products\" shall be expanded to mean such additional products as well. For purposes of clarity, the parties\nagree that upon Todos's development of a blood screening test for colon cancer, such product shall be added to this Agreement and included\nwithin the definition of \"Products\", subject to the Reseller and Todos agreeing on the commercial terms for such product, including the price.\n1.2 The Reseller shall not market, distribute, or sell the Products, whether directly or indirectly, to customers outside of the Territory. This",
+  "6.3 Audits . Todos shall have the right to have an inspection and audit of all the relevant accounting and sales books and records of\nReseller conducted by an independent auditor reasonably acceptable to both parties. Any such audit shall be upon five (5) days prior written\nnotice and shall be conducted during normal business hours. If any such audit should disclose any material error in the Quarterly Reports or any\nresale of the Products by Reseller in contravention of the terms of this Agreement, in addition to any other remedies to which Todos shall be\nentitled, Reseller shall promptly reimburse Todos for the reasonable cost of the audit.",
+  "11. Term and Termination\n11.1 This Agreement shall be effective as of the Effective Date and shall continue in effect for a period of five (5) years from the Reseller's\nfirst purchase order for Product issued to Todos (the \"Initial Term\"), unless terminated earlier by one of the parties in accordance with the terms of\nthis Section 11. Upon completion of the Initial Term, provided that the Reseller has achieved the Annual Milestones, the term of the Agreement\nshall be automatically renewed for an additional five (5) years. Thereafter, at the end of each renewal term, the Agreement shall renew for an\nadditional two (2) years unless one party provides the other party with prior written notice of non-renewal at least sixty (60) days prior to the\nexpiration of the then-current term.",
+  "3.5 Todos is responsible for obtaining AMAR approval from the Israeli Ministry of Health.\n3.6 Todos shall comply with all relevant standards of quality assurance and shall ensure that the Products conform to all Israeli standards\nand certifications.\n3.7 Todos shall appoint a relationship manager, who shall serve as the primary point of contact with Reseller regarding all maters arising\nfrom the business relationship contemplated in this Agreement.\n3.8 Todos shall be available for periodic meetings with the Reseller to discuss any issues arising in connection with this Agreement.\n3.9 Todos shall fulfill with reasonable dispatch all orders received from the Reseller and accepted by Todos.\n3.10 Todos shall refer to the Reseller all Product inquiries and sales opportunities in the Territory that come to the attention of Todos.",
+  "14. Relationship of the Parties\nThe parties to this Agreement are independent contractors. No relationship of principal to agent, master to servant, employer to employee,\nor franchisor to franchisee is established hereby between the parties. Neither party has the authority to bind the other or incur any obligation on\nthe other's behalf. Any agreement for the sale of Products negotiated or executed between the Reseller and a Customer shall be binding upon the\nReseller alone. The Reseller is not authorized to, and shall not, enter into any contracts nor make any other commitments on behalf of or in the name\nof Todos, unless expressly authorized in writing to do so by Todos. Reseller shall not incur any liabilities, obligations, or commitments on behalf of\nTodos."
+ ],
+ "sources": [
+  {
+   "chunk_id": "todosmedicalltd-20190328-20-f-ex-4-10-11587157-e-29834e::0004",
+   "contract_id": "todosmedicalltd-20190328-20-f-ex-4-10-11587157-e-29834e",
+   "contract_title": "TodosMedicalLtd - Reseller Agreement",
+   "section": "2. Exclusivity",
+   "page_start": 2,
+   "page_end": 2,
+   "clause_types": [
+    "exclusivity"
+   ],
+   "dense_rank": 1,
+   "sparse_rank": 1,
+   "rrf": 0.03279,
+   "rerank": 0.6167,
+   "label": "S1"
+  },
+  {
+   "chunk_id": "todosmedicalltd-20190328-20-f-ex-4-10-11587157-e-29834e::0002",
+   "contract_id": "todosmedicalltd-20190328-20-f-ex-4-10-11587157-e-29834e",
+   "contract_title": "TodosMedicalLtd - Reseller Agreement",
+   "section": "1. Grant of Rights",
+   "page_start": 1,
+   "page_end": 1,
+   "clause_types": [
+    "exclusivity",
+    "license",
+    "term"
+   ],
+   "dense_rank": 5,
+   "sparse_rank": null,
+   "rrf": 0.01538,
+   "rerank": 0.1112,
+   "label": "S2"
+  },
+  {
+   "chunk_id": "todosmedicalltd-20190328-20-f-ex-4-10-11587157-e-29834e::0022",
+   "contract_id": "todosmedicalltd-20190328-20-f-ex-4-10-11587157-e-29834e",
+   "contract_title": "TodosMedicalLtd - Reseller Agreement",
+   "section": "6.3 Audits",
+   "page_start": 5,
+   "page_end": 5,
+   "clause_types": [
+    "audit"
+   ],
+   "dense_rank": 10,
+   "sparse_rank": 15,
+   "rrf": 0.02762,
+   "rerank": 0.1062,
+   "label": "S3"
+  },
+  {
+   "chunk_id": "todosmedicalltd-20190328-20-f-ex-4-10-11587157-e-29834e::0034",
+   "contract_id": "todosmedicalltd-20190328-20-f-ex-4-10-11587157-e-29834e",
+   "contract_title": "TodosMedicalLtd - Reseller Agreement",
+   "section": "11. Term and Termination",
+   "page_start": 8,
+   "page_end": 8,
+   "clause_types": [
+    "renewal",
+    "term",
+    "termination"
+   ],
+   "dense_rank": 4,
+   "sparse_rank": 9,
+   "rrf": 0.03012,
+   "rerank": 0.1032,
+   "label": "S4"
+  },
+  {
+   "chunk_id": "todosmedicalltd-20190328-20-f-ex-4-10-11587157-e-29834e::0006",
+   "contract_id": "todosmedicalltd-20190328-20-f-ex-4-10-11587157-e-29834e",
+   "contract_title": "TodosMedicalLtd - Reseller Agreement",
+   "section": "3. Duties of Todos",
+   "page_start": 2,
+   "page_end": 3,
+   "clause_types": [],
+   "dense_rank": null,
+   "sparse_rank": 6,
+   "rrf": 0.01515,
+   "rerank": 0.0562,
+   "label": "S5"
+  },
+  {
+   "chunk_id": "todosmedicalltd-20190328-20-f-ex-4-10-11587157-e-29834e::0043",
+   "contract_id": "todosmedicalltd-20190328-20-f-ex-4-10-11587157-e-29834e",
+   "contract_title": "TodosMedicalLtd - Reseller Agreement",
+   "section": "14. Relationship of the Parties",
+   "page_start": 10,
+   "page_end": 10,
+   "clause_types": [],
+   "dense_rank": 18,
+   "sparse_rank": 18,
+   "rrf": 0.02564,
+   "rerank": 0.0482,
+   "label": "S6"
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['minimum_commitment'] | contracts=['todosmedicalltd-20190328-20-f-ex-4-10-11587157-e-29834e']",
+   "data": {
+    "reason": "The question asks what remedies are available when the reseller falls short of the annual sales milestone, which is a minimum commitment issue in the reseller agreement.",
+    "search_query": "failure to meet minimum sales milestone less than half annual requirement",
+    "unknown_contract_ids": []
+   },
+   "ms": 855
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'failure to meet minimum sales milestone less than half annual requirement' [clause filter relaxed]",
+   "data": {
+    "filters": {
+     "contracts": [
+      "todosmedicalltd-20190328-20-f-ex-4-10-11587157-e-29834e"
+     ],
+     "clause_types": [
+      "minimum_commitment"
+     ]
+    }
+   },
+   "ms": 83
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "TodosMedicalLtd - Reseller Agreement",
+      "section": "2. Exclusivity",
+      "score": 0.6167
+     },
+     {
+      "label": "S2",
+      "contract": "TodosMedicalLtd - Reseller Agreement",
+      "section": "1. Grant of Rights",
+      "score": 0.1112
+     },
+     {
+      "label": "S3",
+      "contract": "TodosMedicalLtd - Reseller Agreement",
+      "section": "6.3 Audits",
+      "score": 0.1062
+     },
+     {
+      "label": "S4",
+      "contract": "TodosMedicalLtd - Reseller Agreement",
+      "section": "11. Term and Termination",
+      "score": 0.1032
+     },
+     {
+      "label": "S5",
+      "contract": "TodosMedicalLtd - Reseller Agreement",
+      "section": "3. Duties of Todos",
+      "score": 0.0562
+     },
+     {
+      "label": "S6",
+      "contract": "TodosMedicalLtd - Reseller Agreement",
+      "section": "14. Relationship of the Parties",
+      "score": 0.0482
+     }
+    ]
+   },
+   "ms": 1784
+  },
+  {
+   "node": "draft",
+   "message": "2 claims",
+   "data": {
+    "answer": "If the Reseller sells less than 50% of the annual milestone, Todos may, at its sole discretion, either cancel the Reseller\u2019s exclusivity\u2014allowing Todos to market, distribute, and sell the Products directly while the Reseller retains only a non\u2011exclusive right\u2014or terminate the Agreement with 180 days\u2019 written notice if the Reseller does not cure the shortfall within that period. [S1]"
+   },
+   "ms": 4014
+  },
+  {
+   "node": "answer",
+   "message": "verdict=unverified, 1 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 6.74,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1716,
+   "output_tokens": 190,
+   "total_tokens": 1906,
+   "output_token_details": {
+    "reasoning": 82
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "input_tokens": 1734,
+   "output_tokens": 927,
+   "total_tokens": 2661,
+   "output_token_details": {
+    "reasoning": 607
+   }
+  }
+ },
+ "llm_calls": 2
+}

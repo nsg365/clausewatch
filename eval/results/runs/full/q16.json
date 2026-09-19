@@ -1,0 +1,306 @@
+{
+ "question": "When can Energous terminate its strategic alliance agreement with Dialog for convenience?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "energouscorp-03-16-2017-ex-10-24-strategic-allia-741812"
+ ],
+ "clause_types": [
+  "termination"
+ ],
+ "search_query": "terminate for convenience upon written notice",
+ "answer": "Energous may terminate the Strategic Alliance Agreement for convenience any time after the third anniversary of the Effective Date, provided it gives Dialog at least one hundred and eighty (180) days prior written notice. [1]",
+ "draft": {
+  "answer": "Energous may terminate the Strategic Alliance Agreement for convenience any time after the third anniversary of the Effective Date, provided it gives Dialog at least one hundred and eighty (180) days prior written notice.",
+  "claims": [
+   {
+    "statement": "Energous can terminate the agreement for convenience after the third anniversary of the Effective Date with 180 days written notice.",
+    "source_ids": [
+     "S2"
+    ],
+    "supporting_quote": "(iii) ENERGOUS may, at any time after the third anniversary of the Effective Date, terminate this Agreement with or without cause upon not less than one hundred and eighty (180) days prior written notice to DIALOG."
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "energouscorp-03-16-2017-ex-10-24-strategic-allia-741812",
+   "contract_title": "ENERGOUSCORP - Strategic Alliance Agreement",
+   "section": "15.2 Termination",
+   "page_start": 19,
+   "page_end": 19,
+   "chunk_id": "energouscorp-03-16-2017-ex-10-24-strategic-allia-741812::0080",
+   "quote": "(iii) ENERGOUS may, at any time after the third anniversary of the Effective Date, terminate this Agreement with or without cause upon not less than one hundred and eighty (180) days prior written notice to DIALOG.",
+   "ref": "ENERGOUSCORP - Strategic Alliance Agreement, 15.2 Termination, p. 19"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {
+  "verdict": "pass",
+  "decision": "accept",
+  "supported_ratio": 1.0,
+  "answers_question": true,
+  "claims": [
+   {
+    "statement": "Energous can terminate the agreement for convenience after the third anniversary of the Effective Date with 180 days written notice.",
+    "source_ids": [
+     "S2"
+    ],
+    "quote": "(iii) ENERGOUS may, at any time after the third anniversary of the Effective Date, terminate this Agreement with or without cause upon not less than one hundred and eighty (180) days prior written notice to DIALOG.",
+    "status": "supported",
+    "explanation": "The source text states that Energous may, at any time after the third anniversary of the Effective Date, terminate the Agreement with or without cause upon not less than 180 days prior written notice to Dialog.",
+    "quote_verified": true
+   }
+  ],
+  "attempt": 0
+ },
+ "contexts": [
+  "15.2 Termination.\n \n(a) Mutual Termination Rights. Either party may, in addition to any other remedies available to it under this Agreement or at law or\nin equity, terminate this Agreement (or, in the event this Agreement has been previously terminated, the Wind Down Period, if any) immediately\nupon the issuance of written notice to the other party in the event that (i) the other party materially breaches a material provision of this Agreement,\nand fails to cure such breach within thirty (30) days, or (ii) the other party undergoes an Insolvency Event.\n \n(b) Termination By ENERGOUS.\n \n(i) If ENERGOUS is acquired by a third party, ENERGOUS' acquirer will have the right, for a period of [***] following\nclosing of such acquisition, to terminate this Agreement upon written notice to DIALOG.",
+  "closing of such acquisition, to terminate this Agreement upon written notice to DIALOG.\n \n(ii)  ENERGOUS will have the right to terminate this Agreement immediately upon the issuance of written notice to\nDIALOG (A) if DIALOG undergoes a Change of Control involving a competitor of ENERGOUS (as reasonably determined by ENERGOUS), or (B) if\nDIALOG or any of its Affiliates acquires, whether directly or indirectly through a sale of assets or a Change of Control transaction or otherwise,\nany competitor of ENERGOUS. DIALOG will provide ENERGOUS with notice of any such Change of Control or acquisition within [***] after the\nclosing thereof and ENERGOUS' right to terminate the Agreement will expire [***] after receipt of such notice.\n \n(iii) ENERGOUS may, at any time after the third anniversary of the Effective Date, terminate this Agreement with or\nwithout cause upon not less than one hundred and eighty (180) days prior written notice to DIALOG.",
+  "of such acquisition, to terminate this Agreement upon written notice to ENERGOUS.\n \n* Confidential Treatment Requested\n \n \n(ii) DIALOG may terminate this Agreement, immediately upon issuance of written notice to ENERGOUS in the event that:\n(A) DIALOG or its Affiliates fail to achieve a design-win pipeline with an annual projected sales value to DIALOG of at least [***] in the [***] after\nthe availability of a Mass Production Qualified Product\u037e or (B) the aggregate annual Net Sales of Products are below [***] by the [***] of the\navailability of a Mass Production Qualified Product, or below [***] by the [***] of the availability of a Mass Production Qualified Product, or\nbelow [***] by each [***] of the availability of a Mass Production Qualified Product during the remainder of the Term.\n \n(iii)  DIALOG will have the right to terminate this Agreement immediately upon the issuance of written notice to\nENERGOUS (A) if ENERGOUS undergoes a Change of Control involving a competitor of DIALOG, or (B) if ENERGOUS acquires, whether directly\nthrough a sale of assets or through a Change of Control transaction, any competitor of DIALOG (as reasonably determined by DIALOG).",
+  "without cause upon not less than one hundred and eighty (180) days prior written notice to DIALOG.\n \n(iv)  ENERGOUS will have the right to terminate this Agreement, upon not less than [***] prior written notice to\nDIALOG, in the event that, following termination by the [***] of its agreement with ENERGOUS, DIALOG participates in or indicates its intention\nto participate in the development, design or manufacture of products incorporating Uncoupled Power Transfer Technology not provided by\nENERGOUS to [***].\n \n(c) Termination by DIALOG.\n \n(i) If DIALOG is acquired by a third party, DIALOG's acquirer will have the right, for a period of [***] following closing\nof such acquisition, to terminate this Agreement upon written notice to ENERGOUS.",
+  "2.3 Exceptions to Excluded Applications . The following applications are exceptions to and excluded from the Excluded Applications (the\n\"Permitted Applications\"):\n \n(a) [***]\u037e\n \n(b) [***]\u037e\n \n(c) [***]\u037e\n \n(d) [***]\u037e\n \n(e) [***]\u037e\n \n(f) [***]\u037e\n \n(g) [***]\u037e\n \n(h) [***]\u037e\n \n(i) [***]\u037e and\n \n(j) [***].\n \nThe fact that a [***] has [***] does not automatically preclude such device from falling under paragraphs (b), (c) and (d) of this Section 2.3",
+  "15.4 Wind Down Period.\n \n(a) Notwithstanding any statement in Section 15.3 to the contrary, upon any termination or expiration of this Agreement and until\nthe later to occur of (i) [***] from the Effective Date or (ii) [***] following the effective date of termination or expiration of this Agreement (the\n\"Wind Down Period\"), the parties' respective rights and obligations under Sections 2 (License), 3 (Sourcing), 7 (Product Sales), 9 (Royalties and\nService Fees), 11 (Representations and Warranties\u037e Disclaimers), 12 (Indemnification), 13 (Limitation of Liability), 14 (Compliance with Laws), 15.2\n(Termination), 16 (Escrow) and all Exhibits hereto which are associated with any of the foregoing listed sections will remain in full force and effect as\nto (A) any Products or repackaged Product Die with respect to which DIALOG or any of its Affiliates has secured a design win at a customer prior\nto or within one (1) month after the start of the Wind Down Period, or (B) the sale of any MCMs which have been released for production at a\nfoundry, provided, however, that DIALOG's license rights under Section 2.1 (including any sublicenses granted by DIALOG pursuant to Section\n2.4) will be non-ex"
+ ],
+ "sources": [
+  {
+   "chunk_id": "energouscorp-03-16-2017-ex-10-24-strategic-allia-741812::0079",
+   "contract_id": "energouscorp-03-16-2017-ex-10-24-strategic-allia-741812",
+   "contract_title": "ENERGOUSCORP - Strategic Alliance Agreement",
+   "section": "15.2 Termination",
+   "page_start": 19,
+   "page_end": 19,
+   "clause_types": [
+    "termination"
+   ],
+   "dense_rank": 3,
+   "sparse_rank": 3,
+   "rrf": 0.06349,
+   "rerank": 0.5107,
+   "label": "S1",
+   "supported": false
+  },
+  {
+   "chunk_id": "energouscorp-03-16-2017-ex-10-24-strategic-allia-741812::0080",
+   "contract_id": "energouscorp-03-16-2017-ex-10-24-strategic-allia-741812",
+   "contract_title": "ENERGOUSCORP - Strategic Alliance Agreement",
+   "section": "15.2 Termination",
+   "page_start": 19,
+   "page_end": 19,
+   "clause_types": [
+    "assignment",
+    "term",
+    "termination"
+   ],
+   "dense_rank": 2,
+   "sparse_rank": 2,
+   "rrf": 0.06452,
+   "rerank": 0.4324,
+   "label": "S2",
+   "supported": true
+  },
+  {
+   "chunk_id": "energouscorp-03-16-2017-ex-10-24-strategic-allia-741812::0082",
+   "contract_id": "energouscorp-03-16-2017-ex-10-24-strategic-allia-741812",
+   "contract_title": "ENERGOUSCORP - Strategic Alliance Agreement",
+   "section": "15.2 Termination",
+   "page_start": 19,
+   "page_end": 20,
+   "clause_types": [
+    "assignment",
+    "confidentiality",
+    "termination"
+   ],
+   "dense_rank": 4,
+   "sparse_rank": 4,
+   "rrf": 0.0625,
+   "rerank": 0.3728,
+   "label": "S3",
+   "supported": false
+  },
+  {
+   "chunk_id": "energouscorp-03-16-2017-ex-10-24-strategic-allia-741812::0081",
+   "contract_id": "energouscorp-03-16-2017-ex-10-24-strategic-allia-741812",
+   "contract_title": "ENERGOUSCORP - Strategic Alliance Agreement",
+   "section": "15.2 Termination",
+   "page_start": 19,
+   "page_end": 19,
+   "clause_types": [
+    "termination"
+   ],
+   "dense_rank": 1,
+   "sparse_rank": 1,
+   "rrf": 0.06557,
+   "rerank": 0.3371,
+   "label": "S4",
+   "supported": false
+  },
+  {
+   "chunk_id": "energouscorp-03-16-2017-ex-10-24-strategic-allia-741812::0019",
+   "contract_id": "energouscorp-03-16-2017-ex-10-24-strategic-allia-741812",
+   "contract_title": "ENERGOUSCORP - Strategic Alliance Agreement",
+   "section": "2.3 Exceptions to Excluded Applications",
+   "page_start": 6,
+   "page_end": 6,
+   "clause_types": [],
+   "dense_rank": 15,
+   "sparse_rank": null,
+   "rrf": 0.01333,
+   "rerank": 0.1217,
+   "label": "S5",
+   "supported": false
+  },
+  {
+   "chunk_id": "energouscorp-03-16-2017-ex-10-24-strategic-allia-741812::0085",
+   "contract_id": "energouscorp-03-16-2017-ex-10-24-strategic-allia-741812",
+   "contract_title": "ENERGOUSCORP - Strategic Alliance Agreement",
+   "section": "15.4 Wind Down Period",
+   "page_start": 20,
+   "page_end": 20,
+   "clause_types": [
+    "indemnification",
+    "liability",
+    "license",
+    "payment",
+    "term",
+    "termination",
+    "warranty"
+   ],
+   "dense_rank": null,
+   "sparse_rank": 20,
+   "rrf": 0.04087,
+   "rerank": 0.0337,
+   "label": "S6",
+   "supported": false
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['termination'] | contracts=['energouscorp-03-16-2017-ex-10-24-strategic-allia-741812']",
+   "data": {
+    "reason": "The question asks when Energous can terminate the strategic alliance agreement for convenience, which is a termination clause.",
+    "search_query": "terminate for convenience upon written notice",
+    "unknown_contract_ids": []
+   },
+   "ms": 4268
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'terminate for convenience upon written notice'",
+   "data": {
+    "filters": {
+     "contracts": [
+      "energouscorp-03-16-2017-ex-10-24-strategic-allia-741812"
+     ],
+     "clause_types": [
+      "termination"
+     ]
+    }
+   },
+   "ms": 19101
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "ENERGOUSCORP - Strategic Alliance Agreement",
+      "section": "15.2 Termination",
+      "score": 0.5107
+     },
+     {
+      "label": "S2",
+      "contract": "ENERGOUSCORP - Strategic Alliance Agreement",
+      "section": "15.2 Termination",
+      "score": 0.4324
+     },
+     {
+      "label": "S3",
+      "contract": "ENERGOUSCORP - Strategic Alliance Agreement",
+      "section": "15.2 Termination",
+      "score": 0.3728
+     },
+     {
+      "label": "S4",
+      "contract": "ENERGOUSCORP - Strategic Alliance Agreement",
+      "section": "15.2 Termination",
+      "score": 0.3371
+     },
+     {
+      "label": "S5",
+      "contract": "ENERGOUSCORP - Strategic Alliance Agreement",
+      "section": "2.3 Exceptions to Excluded Applications",
+      "score": 0.1217
+     },
+     {
+      "label": "S6",
+      "contract": "ENERGOUSCORP - Strategic Alliance Agreement",
+      "section": "15.4 Wind Down Period",
+      "score": 0.0337
+     }
+    ]
+   },
+   "ms": 12351
+  },
+  {
+   "node": "draft",
+   "message": "1 claims",
+   "data": {
+    "answer": "Energous may terminate the Strategic Alliance Agreement for convenience any time after the third anniversary of the Effective Date, provided it gives Dialog at least one hundred and eighty (180) days prior written notice."
+   },
+   "ms": 1854
+  },
+  {
+   "node": "verify",
+   "message": "1/1 claims supported, verdict=PASS -> ACCEPT",
+   "data": {
+    "claims": [
+     {
+      "statement": "Energous can terminate the agreement for convenience after the third anniversary of the Effective Date with 180 days written notice.",
+      "source_ids": [
+       "S2"
+      ],
+      "quote": "(iii) ENERGOUS may, at any time after the third anniversary of the Effective Date, terminate this Agreement with or without cause upon not less than one hundred and eighty (180) days prior written notice to DIALOG.",
+      "status": "supported",
+      "explanation": "The source text states that Energous may, at any time after the third anniversary of the Effective Date, terminate the Agreement with or without cause upon not less than 180 days prior written notice to Dialog.",
+      "quote_verified": true
+     }
+    ],
+    "retry_query": ""
+   },
+   "ms": 1226
+  },
+  {
+   "node": "answer",
+   "message": "verdict=pass, 1 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 38.82,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1713,
+   "output_tokens": 161,
+   "total_tokens": 1874,
+   "output_token_details": {
+    "reasoning": 71
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "output_tokens": 800,
+   "input_tokens": 2707,
+   "output_token_details": {
+    "reasoning": 522
+   },
+   "total_tokens": 3507
+  }
+ },
+ "llm_calls": 3
+}

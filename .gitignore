@@ -1,0 +1,28 @@
+# secrets
+.env
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# data (re-created by `python -m clausewatch.cli ingest`)
+data/qdrant/
+data/raw/
+data/uploads/
+data/_hf/
+data/chunks.jsonl
+data/catalog.json
+
+# os / editor
+.DS_Store
+.vscode/
+.idea/
+
+# eval logs
+eval/results/*.log
+
+# macOS / pytest noise
+**/.DS_Store
+.pytest_cache/

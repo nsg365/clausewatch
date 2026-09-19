@@ -1,0 +1,642 @@
+{
+ "question": "How does renewal work in the Legacy Education Alliance development agreement?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432"
+ ],
+ "clause_types": [
+  "renewal"
+ ],
+ "search_query": "renewal period and notice requirements",
+ "answer": "The agreement starts with a five\u2011year initial term and then automatically renews for successive five\u2011year terms unless either party gives written notice of termination at least 90 days before the end of the current term [1]. However, T&B retains a contractual right to terminate the license after the first year if LEA fails to meet the cash\u2011sales benchmarks for years two through five, which would prevent any further renewal [2].",
+ "draft": {
+  "answer": "The agreement starts with a five\u2011year initial term and then automatically renews for successive five\u2011year terms unless either party gives written notice of termination at least 90 days before the end of the current term [S1]. However, T&B retains a contractual right to terminate the license after the first year if LEA fails to meet the cash\u2011sales benchmarks for years two through five, which would prevent any further renewal [S2].",
+  "claims": [
+   {
+    "statement": "The agreement has an initial term of five years and automatically renews for successive five\u2011year terms unless notice is given.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "The Term shall commence upon the Effective Date and shall continue for an initial term of five (5) years. The Term shall automatically renew thereafter for successive 5-year terms unless either party provides prior written notice of termination not less than 90 days prior to the end of such five-year term."
+   },
+   {
+    "statement": "Either party must provide written notice at least 90 days before the end of a term to prevent renewal.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "unless either party provides prior written notice of termination not less than 90 days prior to the end of such five-year term."
+   },
+   {
+    "statement": "T&B may terminate the license after the first year if LEA does not meet cash\u2011sales benchmarks for years two through five, which would stop further renewal.",
+    "source_ids": [
+     "S2"
+    ],
+    "supporting_quote": "provided, however, T&B shall have the right to terminate the license after the first year of the Term if LEA does not conduct the Business so as to meet the Cash Sales benchmarks set by the parties for years two through five of the Term, as set forth in Section 3.3, below."
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432",
+   "contract_title": "LegacyEducationAllianceInc - Development Agreement",
+   "section": "11. Term and Termination",
+   "page_start": 9,
+   "page_end": 9,
+   "chunk_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432::0033",
+   "quote": "The Term shall commence upon the Effective Date and shall continue for an initial term of five (5) years. The Term shall automatically renew thereafter for successive 5-year terms unless either party provides prior written notice of termination not less than 90 days prior to the end of such five-year term.",
+   "ref": "LegacyEducationAllianceInc - Development Agreement, 11. Term and Termination, p. 9"
+  },
+  {
+   "n": 2,
+   "contract_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432",
+   "contract_title": "LegacyEducationAllianceInc - Development Agreement",
+   "section": "1. Definitions",
+   "page_start": 3,
+   "page_end": 3,
+   "chunk_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432::0008",
+   "quote": "provided, however, T&B shall have the right to terminate the license after the first year of the Term if LEA does not conduct the Business so as to meet the Cash Sales benchmarks set by the parties for years two through five of the Term, as set forth in Section 3.3, below.",
+   "ref": "LegacyEducationAllianceInc - Development Agreement, 1. Definitions, p. 3"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {
+  "verdict": "pass",
+  "decision": "accept",
+  "supported_ratio": 1.0,
+  "answers_question": true,
+  "claims": [
+   {
+    "statement": "The agreement has an initial term of five years and automatically renews for successive five\u2011year terms unless notice is given.",
+    "source_ids": [
+     "S1"
+    ],
+    "quote": "The Term shall commence upon the Effective Date and shall continue for an initial term of five (5) years. The Term shall automatically renew thereafter for successive 5-year terms unless either party provides prior written notice of termination not less than 90 days prior to the end of such five-year term.",
+    "status": "supported",
+    "explanation": "Source S1 states the term begins on the Effective Date, lasts an initial five years, and automatically renews for successive five\u2011year terms unless notice is given.",
+    "quote_verified": true
+   },
+   {
+    "statement": "Either party must provide written notice at least 90 days before the end of a term to prevent renewal.",
+    "source_ids": [
+     "S1"
+    ],
+    "quote": "unless either party provides prior written notice of termination not less than 90 days prior to the end of such five-year term.",
+    "status": "supported",
+    "explanation": "Source S1 specifies that either party must give prior written notice of termination at least 90 days before the end of a term to prevent renewal.",
+    "quote_verified": true
+   },
+   {
+    "statement": "T&B may terminate the license after the first year if LEA does not meet cash\u2011sales benchmarks for years two through five, which would stop further renewal.",
+    "source_ids": [
+     "S2"
+    ],
+    "quote": "provided, however, T&B shall have the right to terminate the license after the first year of the Term if LEA does not conduct the Business so as to meet the Cash Sales benchmarks set by the parties for years two through five of the Term, as set forth in Section 3.3, below.",
+    "status": "supported",
+    "explanation": "Source S2 provides that T&B may terminate the license after the first year if LEA fails to meet cash\u2011sales benchmarks for years two through five, which would halt further renewal.",
+    "quote_verified": true
+   }
+  ],
+  "attempt": 2
+ },
+ "contexts": [
+  "11. Term and Termination.\n11.1 The Term shall commence upon the Effective Date and shall continue for an initial term of five (5) years. The Term shall automatically\nrenew thereafter for successive 5-year terms unless either party provides prior written notice of termination not less than 90 days prior to\nthe end of such five-year term.",
+  "1.10. The term \" Products\" shall mean any in-person remote (e.g., livestream of a live event, recording of a live event, and on-demand)\nproduct or service offerings in real estate investing strategies and techniques, asset protection, and entrepreneurship in any form of communication\nor media to one or more recipients, including, but not limited to, workshops, seminars, webinars, coaching, and mentorships, as may be offered by\nLEA in the conduct of the Business and for which a fee is charged by LEA.\n1.11. The term \"T&B Personality\" shall mean Tarek El Moussa.\n1.12 The term \"Term\" shall mean an initial term of five years, automatically renewable thereafter for successive 5-year terms unless either\nparty provides prior written notice of termination not less than 90 days prior to the end of such five-year term\u037e provided, however, T&B shall have\nthe right to terminate the license after the first year of the Term if LEA does not conduct the Business so as to meet the Cash Sales benchmarks set\nby the parties for years two through five of the Term, as set forth in Section 3.3, below.",
+  "4. Conduct of the Business\n4.1 LEA shall provide administrative and operational services for the conduct of the Business, including, marketing, event planning, sales,\noperations, information technologies, human resources, and class fulfillment. In consultation with T&B and subject to the licenses granted to LEA\nby T&B herein, LEA shall be responsible for branding the Business (including trademarks and trade dress) and creating and producing marketing\ncollateral, sales presentations, course materials and other tangible work product and deliverables related to the conduct of the Business\n(collectively, \"Work Product\").\nCertain identified information has been excluded from this exhibit because it is both (i) not material and (ii) would be competitively harmful if\npublicly disclosed.",
+  "publicly disclosed.\n4.2 LEA and T&B shall jointly own all jointly-created work product including, but not limited to, ideas, any and all concepts, designs,\nCustomer Data (including client lists) generated through the conduct of the Business, programs, software, reports, or other intellectual property\nand tangible work product, produced for the Business , regardless of whether such were incorporated into or used by the Business (collectively\n\"Work Product\"), shall be and remain the joint property of LEA and T&B when produced provided, however, (i) to the extent LEA has contributed\ndistinct and divisible work product to the Business during the Term (\" LEA Work Product\"), such LEA Work Product shall remain frozen for a\nperiod not to exceed 90 days, during which time T&B may acquire a license for the LEA Work Product by reimbursing LEA direct and verifiable\ncosts LEA incurred in producing the LEA Work Product during the Term and (ii) to the extent T&B has contributed distinct and divisible work\nproduct to the Business during the Term (\" T&B Work Product\"), such T&B Work Product shall remain frozen for a period not to exceed 90 days,\nduring which time LEA may acquire license for the T&B",
+  "REAL ESTATE EDUCATION TRAINING PROGRAM DEVELOPMENT AGREEMENT\nThis Real Estate Education Training Program Development Agreement (this \"Agreement\") by and between T&B Seminars, Inc ., a California\ncorporation f/s/o Tarek El Moussa ( \"T&B\") and Legacy Education Alliance Holdings, Inc., a Colorado corporation ( \"LEA\"), is entered into as of\n12-23-2019 , 2019 (the \"Effective Date\").\nWHEREAS, LEA is in the business of marketing, sales and distribution (including e-distribution) of any in-person product or service offerings in\nreal estate investing strategies and techniques, asset protection, and entrepreneurship in any form of communication or media to one or more\nrecipients, including, but not limited to, workshops, seminars, webinars, coaching, and mentorships, and related product or services\u037e\nWHEREAS, T&B owns or has the right to license certain intellectual property associated with Tarek El Moussa:\nWHEREAS, T&B and LEA wish to conduct business to develop and operate a \"Tarek's Real Estate 101\" branded seminar style education\nbusiness that uses, among other things, the names, images, and likenesses of Tarek El Moussa to market and sell customers real estate investing\noriented educatio",
+  "5. Brand Development and Launch\n5.1 T&B shall assist LEA in developing the Business as reasonably requested by LEA from time to time, including, but not limited to,\nassisting in the development of sales presentations and course materials and consultation with LEA's sales and marketing organization to ensure\nthat they reflect T&B Personality's investing philosophy. T&B shall provide factual substantiation of T&B Personality's biography and investing\nsuccess stories provided by T&B for use by LEA in the conduct of the Business.\n5.2 The initial launch of the Business is contemplated to occur in four (4) major test markets (e.g. Los Angeles and New York MSAs), with\na preview event being conducted in each of weeks 4, 5, 6 and 7 of calendar year 2020 and the associated basic event being held in each of weeks 7,\n8, 9, and 10, respectively. To facilitate the effective launch of the Business, T&B shall assist LEA by providing the items listed in Schedule 1\nattached to this Agreement and incorporated herein by reference.",
+  "7.1 Co-Developed Products . T&B and LEA shall meet and confer no less than quarterly to identify new Tarek's Real Estate 101 Product\ndevelopment, marketing and fulfillment initiatives, including, by way of example only, (i) mobile apps that provide investor resources and property\nevaluations, (ii) podcasts with T&B Personality that provide content to keep up to date with investing techniques and motivation, and (iii) tailored\ncoaching programs and subscription services. The parties acknowledge that the development and fulfillment of such new Products may require\nsubstantial time and effort by the T&B Personality to fulfill such new Products such that the Marketing Royalty payable pursuant to V. B., above, is\ninadequate to compensate T&B Personality\u037e therefore, in lieu of any other royalty, the parties shall share Cash Sales from the sale of such new\nProducts as follows:\n[\u25cf%] to LEA\n[\u25cf%] to T&B",
+  "misrepresents or conceals anything in his or her background that could be detrimental to the value of the endorsement being\nmade.\n11.3 Upon termination of the license hereunder, all rights and privileges in and to the Licensed Intellectual Property granted to the LEA\nherein shall automatically revert to T&B or its nominee, and the LEA shall immediately cease any use thereof.\n11.4. LEA shall, for a period of six (6) months (\"Sell-Off Period\") following the effective date of termination of the license granted by T&B\nhereunder, have the right to fulfill commitments made to customers during the Term. The provisions of this Agreement shall apply with full\nforce and effect during the Sell-Off Period. Upon expiration of the Sell-Off Period, LEA shall immediately cease and desist from using or\ndisplaying any forms of advertising containing any of the Licensed Marks.\n11.5 Sections 4.2\u037e 8 (Confidentiality)\u037e 10 (Warranties and Representations)\u037e 12 (Indemnification)\u037e and 14 (Miscellaneous) hereof shall\nsurvive the expiration or early termination (for any reason) of this Agreement."
+ ],
+ "sources": [
+  {
+   "chunk_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432::0033",
+   "contract_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432",
+   "contract_title": "LegacyEducationAllianceInc - Development Agreement",
+   "section": "11. Term and Termination",
+   "page_start": 9,
+   "page_end": 9,
+   "clause_types": [
+    "renewal",
+    "term",
+    "termination"
+   ],
+   "dense_rank": 2,
+   "sparse_rank": 1,
+   "rrf": 0.03252,
+   "rerank": 0.4516,
+   "label": "S1",
+   "supported": true
+  },
+  {
+   "chunk_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432::0008",
+   "contract_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432",
+   "contract_title": "LegacyEducationAllianceInc - Development Agreement",
+   "section": "1. Definitions",
+   "page_start": 3,
+   "page_end": 3,
+   "clause_types": [
+    "renewal",
+    "term",
+    "termination"
+   ],
+   "dense_rank": 30,
+   "sparse_rank": 5,
+   "rrf": 0.0265,
+   "rerank": 0.0091,
+   "label": "S2",
+   "supported": true
+  },
+  {
+   "chunk_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432::0014",
+   "contract_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432",
+   "contract_title": "LegacyEducationAllianceInc - Development Agreement",
+   "section": "4. Conduct of the Business",
+   "page_start": 4,
+   "page_end": 5,
+   "clause_types": [
+    "ip"
+   ],
+   "dense_rank": 26,
+   "sparse_rank": 12,
+   "rrf": 0.02552,
+   "rerank": 0.0235,
+   "label": "S3",
+   "supported": false
+  },
+  {
+   "chunk_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432::0015",
+   "contract_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432",
+   "contract_title": "LegacyEducationAllianceInc - Development Agreement",
+   "section": "4. Conduct of the Business",
+   "page_start": 5,
+   "page_end": 5,
+   "clause_types": [
+    "ip",
+    "license"
+   ],
+   "dense_rank": 10,
+   "sparse_rank": 3,
+   "rrf": 0.03016,
+   "rerank": 0.0145,
+   "label": "S4",
+   "supported": false
+  },
+  {
+   "chunk_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432::0001",
+   "contract_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432",
+   "contract_title": "LegacyEducationAllianceInc - Development Agreement",
+   "section": "REAL ESTATE EDUCATION TRAINING PROGRAM DEVELOPMENT AGREEMENT",
+   "page_start": 1,
+   "page_end": 1,
+   "clause_types": [
+    "ip",
+    "parties",
+    "term"
+   ],
+   "dense_rank": null,
+   "sparse_rank": 13,
+   "rrf": 0.0137,
+   "rerank": 0.0088,
+   "label": "S5",
+   "supported": false
+  },
+  {
+   "chunk_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432::0017",
+   "contract_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432",
+   "contract_title": "LegacyEducationAllianceInc - Development Agreement",
+   "section": "5. Brand Development and Launch",
+   "page_start": 5,
+   "page_end": 5,
+   "clause_types": [],
+   "dense_rank": 20,
+   "sparse_rank": 11,
+   "rrf": 0.02658,
+   "rerank": 0.0072,
+   "label": "S6",
+   "supported": false
+  },
+  {
+   "chunk_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432::0019",
+   "contract_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432",
+   "contract_title": "LegacyEducationAllianceInc - Development Agreement",
+   "section": "7.1 Co-Developed Products",
+   "page_start": 6,
+   "page_end": 6,
+   "clause_types": [
+    "payment"
+   ],
+   "dense_rank": 2,
+   "sparse_rank": 10,
+   "rrf": 0.03041,
+   "rerank": 0.0071,
+   "label": "S7",
+   "supported": false
+  },
+  {
+   "chunk_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432::0035",
+   "contract_id": "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432",
+   "contract_title": "LegacyEducationAllianceInc - Development Agreement",
+   "section": "11.2 The Agreement may be terminated",
+   "page_start": 10,
+   "page_end": 10,
+   "clause_types": [
+    "confidentiality",
+    "indemnification",
+    "ip",
+    "license",
+    "term",
+    "termination",
+    "warranty"
+   ],
+   "dense_rank": 13,
+   "sparse_rank": null,
+   "rrf": 0.0137,
+   "rerank": 0.0037,
+   "label": "S8",
+   "supported": false
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['renewal'] | contracts=['legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432']",
+   "data": {
+    "reason": "The question seeks specific information about the renewal provisions in the Legacy Education Alliance Development Agreement.",
+    "search_query": "renewal period and notice requirements",
+    "unknown_contract_ids": []
+   },
+   "ms": 879
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'renewal period and notice requirements' [clause filter relaxed]",
+   "data": {
+    "filters": {
+     "contracts": [
+      "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432"
+     ],
+     "clause_types": [
+      "renewal"
+     ]
+    }
+   },
+   "ms": 94
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "11. Term and Termination",
+      "score": 0.4516
+     },
+     {
+      "label": "S2",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "1. Definitions",
+      "score": 0.1582
+     },
+     {
+      "label": "S3",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "14.2 Notices",
+      "score": 0.1312
+     },
+     {
+      "label": "S4",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "14.11. Force Majeure",
+      "score": 0.0429
+     },
+     {
+      "label": "S5",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "11.2 The Agreement may be terminated",
+      "score": 0.0313
+     },
+     {
+      "label": "S6",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "4. Conduct of the Business",
+      "score": 0.0227
+     }
+    ]
+   },
+   "ms": 1707
+  },
+  {
+   "node": "draft",
+   "message": "2 claims",
+   "data": {
+    "answer": "The agreement begins with a five\u2011year initial term and then automatically renews for additional five\u2011year periods unless either party gives written notice of termination at least 90 days before the end of the current term [S1]. The definition of \u201cTerm\u201d repeats this renewal mechanism and adds that T&B may terminate after the first year if LEA fails to meet agreed cash\u2011sales benchmarks, which would prevent further renewal [S2]."
+   },
+   "ms": 13877
+  },
+  {
+   "node": "verify",
+   "message": "1/2 claims supported, verdict=FAIL -> RETRY",
+   "data": {
+    "claims": [
+     {
+      "statement": "The initial term is five years and automatically renews for successive five\u2011year terms unless either party provides written notice of termination at least 90 days before the end of the then\u2011current term.",
+      "source_ids": [
+       "S1"
+      ],
+      "quote": "The Term shall commence upon the Effective Date and shall continue for an initial term of five (5) years. The Term shall automatically renew thereafter for successive 5-year terms unless either party provides prior written notice of termination not less than 90 days prior to the end of such five-year term.",
+      "status": "supported",
+      "explanation": "S1 states the term is an initial five\u2011year period and automatically renews for successive five\u2011year terms unless either party gives written notice at least 90 days before the end of the current term.",
+      "quote_verified": true
+     },
+     {
+      "statement": "T&B has a right to terminate after the first year if LEA does not meet cash\u2011sales benchmarks, which would stop any further renewal.",
+      "source_ids": [
+       "S2"
+      ],
+      "quote": "The term \"Term\" shall mean an initial term of five years, automatically renewable thereafter for successive 5-year terms unless either party provides prior written notice of termination not less than 90 days prior to the end of such five-year term; provided, however, T&B shall have the right to terminate the license after the first year of the Term if LEA does not conduct the Business so as to meet the Cash Sales benchmarks set by the parties for years two through five of the Term, as set forth in Section 3.3, below.",
+      "status": "partially_supported",
+      "explanation": "S2 confirms T&B may terminate after the first year if cash\u2011sales benchmarks are not met, but it does not explicitly say that such termination stops any future renewal.",
+      "quote_verified": true
+     }
+    ],
+    "retry_query": ""
+   },
+   "ms": 11780
+  },
+  {
+   "node": "verify",
+   "message": "REJECTED claim: 'T&B has a right to terminate after the first year if LEA does not meet cash\u2011sales benchmarks, which would stop any furth' (partially_supported: S2 confirms T&B may terminate after the first year if cash\u2011sales benchmarks are not met, but it does not explicitly say that such termination stops any future renewal.)",
+   "data": {},
+   "ms": 11780
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 1: 30 candidates (dense+BM25, RRF) for 'How does renewal work in the Legacy Education Alliance development agreement?'",
+   "data": {
+    "filters": {
+     "contracts": [
+      "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432"
+     ],
+     "clause_types": null
+    }
+   },
+   "ms": 106
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 8/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "11. Term and Termination",
+      "score": 0.4516
+     },
+     {
+      "label": "S2",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "4. Conduct of the Business",
+      "score": 0.0235
+     },
+     {
+      "label": "S3",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "4. Conduct of the Business",
+      "score": 0.0145
+     },
+     {
+      "label": "S4",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "1. Definitions",
+      "score": 0.0091
+     },
+     {
+      "label": "S5",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "REAL ESTATE EDUCATION TRAINING PROGRAM DEVELOPMENT AGREEMENT",
+      "score": 0.0088
+     },
+     {
+      "label": "S6",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "5. Brand Development and Launch",
+      "score": 0.0072
+     },
+     {
+      "label": "S7",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "7.1 Co-Developed Products",
+      "score": 0.0071
+     },
+     {
+      "label": "S8",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "11.2 The Agreement may be terminated",
+      "score": 0.0037
+     }
+    ]
+   },
+   "ms": 1564
+  },
+  {
+   "node": "draft",
+   "message": "2 claims",
+   "data": {
+    "answer": "The agreement\u2019s initial term is five years and, unless either party gives written notice at least 90 days before the end of a term, it automatically renews for additional five\u2011year periods. However, T&B may terminate the license after the first year if LEA fails to meet the cash\u2011sales benchmarks for years two\u2011five, which would end the agreement and thus stop any further renewal."
+   },
+   "ms": 25870
+  },
+  {
+   "node": "verify",
+   "message": "1/2 claims supported, verdict=FAIL -> RETRY",
+   "data": {
+    "claims": [
+     {
+      "statement": "The initial term is five years and automatically renews for successive five\u2011year terms unless either party provides written notice of termination at least 90 days before the end of the term.",
+      "source_ids": [
+       "S1",
+       "S4"
+      ],
+      "quote": "The Term shall commence upon the Effective Date and shall continue for an initial term of five (5) years. The Term shall automatically renew thereafter for successive 5-year terms unless either party provides prior written notice of termination not less than 90 days prior to the end of such five-year term.",
+      "status": "supported",
+      "explanation": "Both S1 and S4 state the initial term is five years and that it automatically renews for successive five\u2011year terms unless either party gives written notice of termination at least 90 days before the end of the term.",
+      "quote_verified": true
+     },
+     {
+      "statement": "T&B has the right to terminate the license after the first year of the term if LEA does not meet cash\u2011sales benchmarks for years two through five, which would prevent any further renewal.",
+      "source_ids": [
+       "S4"
+      ],
+      "quote": "provided, however, T&B shall have the right to terminate the license after the first year of the Term if LEA does not conduct the Business so as to meet the Cash Sales benchmarks set by the parties for years two through five of the Term, as set forth in Section 3.3, below.",
+      "status": "partially_supported",
+      "explanation": "S4 confirms T&B may terminate the license after the first year if LEA fails to meet cash\u2011sales benchmarks for years two through five, but the source does not state that such termination would prevent any further renewal.",
+      "quote_verified": true
+     }
+    ],
+    "retry_query": ""
+   },
+   "ms": 12160
+  },
+  {
+   "node": "verify",
+   "message": "REJECTED claim: 'T&B has the right to terminate the license after the first year of the term if LEA does not meet cash\u2011sales benchmarks f' (partially_supported: S4 confirms T&B may terminate the license after the first year if LEA fails to meet cash\u2011sales benchmarks for years two through five, but the source does not state that such termination would prevent any further renewal.)",
+   "data": {},
+   "ms": 12160
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 2: 30 candidates (dense+BM25, RRF) for 'How does renewal work in the Legacy Education Alliance development agreement?'",
+   "data": {
+    "filters": {
+     "contracts": [
+      "legacyeducationallianceinc-20200330-10-k-ex-10-1-b9f432"
+     ],
+     "clause_types": null
+    }
+   },
+   "ms": 109
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 8/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "11. Term and Termination",
+      "score": 0.4516
+     },
+     {
+      "label": "S2",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "1. Definitions",
+      "score": 0.0091
+     },
+     {
+      "label": "S3",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "4. Conduct of the Business",
+      "score": 0.0235
+     },
+     {
+      "label": "S4",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "4. Conduct of the Business",
+      "score": 0.0145
+     },
+     {
+      "label": "S5",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "REAL ESTATE EDUCATION TRAINING PROGRAM DEVELOPMENT AGREEMENT",
+      "score": 0.0088
+     },
+     {
+      "label": "S6",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "5. Brand Development and Launch",
+      "score": 0.0072
+     },
+     {
+      "label": "S7",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "7.1 Co-Developed Products",
+      "score": 0.0071
+     },
+     {
+      "label": "S8",
+      "contract": "LegacyEducationAllianceInc - Development Agreement",
+      "section": "11.2 The Agreement may be terminated",
+      "score": 0.0037
+     }
+    ]
+   },
+   "ms": 1725
+  },
+  {
+   "node": "draft",
+   "message": "3 claims",
+   "data": {
+    "answer": "The agreement starts with a five\u2011year initial term and then automatically renews for successive five\u2011year terms unless either party gives written notice of termination at least 90 days before the end of the current term [S1]. However, T&B retains a contractual right to terminate the license after the first year if LEA fails to meet the cash\u2011sales benchmarks for years two through five, which would prevent any further renewal [S2]."
+   },
+   "ms": 24876
+  },
+  {
+   "node": "verify",
+   "message": "3/3 claims supported, verdict=PASS -> ACCEPT",
+   "data": {
+    "claims": [
+     {
+      "statement": "The agreement has an initial term of five years and automatically renews for successive five\u2011year terms unless notice is given.",
+      "source_ids": [
+       "S1"
+      ],
+      "quote": "The Term shall commence upon the Effective Date and shall continue for an initial term of five (5) years. The Term shall automatically renew thereafter for successive 5-year terms unless either party provides prior written notice of termination not less than 90 days prior to the end of such five-year term.",
+      "status": "supported",
+      "explanation": "Source S1 states the term begins on the Effective Date, lasts an initial five years, and automatically renews for successive five\u2011year terms unless notice is given.",
+      "quote_verified": true
+     },
+     {
+      "statement": "Either party must provide written notice at least 90 days before the end of a term to prevent renewal.",
+      "source_ids": [
+       "S1"
+      ],
+      "quote": "unless either party provides prior written notice of termination not less than 90 days prior to the end of such five-year term.",
+      "status": "supported",
+      "explanation": "Source S1 specifies that either party must give prior written notice of termination at least 90 days before the end of a term to prevent renewal.",
+      "quote_verified": true
+     },
+     {
+      "statement": "T&B may terminate the license after the first year if LEA does not meet cash\u2011sales benchmarks for years two through five, which would stop further renewal.",
+      "source_ids": [
+       "S2"
+      ],
+      "quote": "provided, however, T&B shall have the right to terminate the license after the first year of the Term if LEA does not conduct the Business so as to meet the Cash Sales benchmarks set by the parties for years two through five of the Term, as set forth in Section 3.3, below.",
+      "status": "supported",
+      "explanation": "Source S2 provides that T&B may terminate the license after the first year if LEA fails to meet cash\u2011sales benchmarks for years two through five, which would halt further renewal.",
+      "quote_verified": true
+     }
+    ],
+    "retry_query": ""
+   },
+   "ms": 9660
+  },
+  {
+   "node": "answer",
+   "message": "verdict=pass, 2 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 104.42,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1673,
+   "output_tokens": 150,
+   "total_tokens": 1823,
+   "output_token_details": {
+    "reasoning": 65
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "output_token_details": {
+    "reasoning": 3235
+   },
+   "input_tokens": 10004,
+   "output_tokens": 4945,
+   "input_token_details": {
+    "cache_read": 512
+   },
+   "total_tokens": 14949
+  }
+ },
+ "llm_calls": 7
+}

@@ -1,0 +1,87 @@
+{
+ "contract_id": "n2kinc-10-16-1997-ex-10-16-sponsorship-agreement-c30891",
+ "answer": "**Top 1 risk flags for N2KINC - Sponsorship Agreement** (1 candidate flag(s) rejected by the verifier)\n\n1. **Restrictive non-compete / exclusivity** (MEDIUM, confidence 0.92) - The clause bars Excite from partnering with or promoting any competing retail music store sponsors, creating a broad exclusivity restriction that limits Excite's ability to deal with competitors during the term of the agreement. [1]\n   > \"Sponsor will be the exclusive retail music store sponsor of the Excite Site... Excite will not permit the display of advertising banners, promotional buttons, promotional links or other promotional materials for any retail sale of Music Products on the Excite Site, except those Music Products offered by Sponsor, nor advertising by any other Retail Music Store.\"\n   > - N2KINC - Sponsorship Agreement, 1. EXCLUSIVITY, TERM AND RIGHT OF FIRST REFUSAL, p. 1",
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "n2kinc-10-16-1997-ex-10-16-sponsorship-agreement-c30891",
+   "contract_title": "N2KINC - Sponsorship Agreement",
+   "section": "1. EXCLUSIVITY, TERM AND RIGHT OF FIRST REFUSAL",
+   "page_start": 1,
+   "page_end": 1,
+   "chunk_id": "n2kinc-10-16-1997-ex-10-16-sponsorship-agreement-c30891::0004",
+   "quote": "Sponsor will be the exclusive retail music store sponsor of the Excite Site... Excite will not permit the display of advertising banners, promotional buttons, promotional links or other promotional materials for any retail sale of Music Products on the Excite Site, except those Music Products offered by Sponsor, nor advertising by any other Retail Music Store.",
+   "ref": "N2KINC - Sponsorship Agreement, 1. EXCLUSIVITY, TERM AND RIGHT OF FIRST REFUSAL, p. 1"
+  }
+ ],
+ "risk_flags": [
+  {
+   "pattern_id": "restrictive_non_compete",
+   "name": "Restrictive non-compete / exclusivity",
+   "severity": "medium",
+   "confidence": 0.92,
+   "rationale": "The clause bars Excite from partnering with or promoting any competing retail music store sponsors, creating a broad exclusivity restriction that limits Excite's ability to deal with competitors during the term of the agreement.",
+   "quote": "Sponsor will be the exclusive retail music store sponsor of the Excite Site... Excite will not permit the display of advertising banners, promotional buttons, promotional links or other promotional materials for any retail sale of Music Products on the Excite Site, except those Music Products offered by Sponsor, nor advertising by any other Retail Music Store.",
+   "contract_id": "n2kinc-10-16-1997-ex-10-16-sponsorship-agreement-c30891",
+   "contract_title": "N2KINC - Sponsorship Agreement",
+   "chunk_id": "n2kinc-10-16-1997-ex-10-16-sponsorship-agreement-c30891::0004",
+   "section": "1. EXCLUSIVITY, TERM AND RIGHT OF FIRST REFUSAL",
+   "page_start": 1,
+   "page_end": 1,
+   "quote_verified": true,
+   "status": "verified",
+   "verifier_note": "The quoted exclusivity clause explicitly makes Sponsor the exclusive retail music store sponsor and prohibits Excite from displaying any advertising or promotional material for other retail music stores. This directly creates a broad exclusivity restriction that limits Excite's ability to partner with competing retailers, fully supporting the identified risk."
+  }
+ ],
+ "rejected_flags": [
+  {
+   "pattern_id": "unilateral_amendment",
+   "name": "Unilateral changes to terms or pricing",
+   "severity": "medium",
+   "confidence": 0.96,
+   "rationale": "The clause permits Excite to unilaterally modify the co\u2011branded area with only notice, without requiring Sponsor's written agreement, which fits the pattern of unilateral changes to contract specifications.",
+   "quote": "Excite may, upon fifteen (15) days prior notice to Sponsor, request reasonable revisions to the Co-Branded Area as needed to reflect changes that will not adversely affect Sponsor... Sponsor will use reasonable efforts to accommodate Excite's requested changes within the fifteen (15) day period.",
+   "contract_id": "n2kinc-10-16-1997-ex-10-16-sponsorship-agreement-c30891",
+   "contract_title": "N2KINC - Sponsorship Agreement",
+   "chunk_id": "n2kinc-10-16-1997-ex-10-16-sponsorship-agreement-c30891::0022",
+   "section": "CONFIDENTIAL",
+   "page_start": 3,
+   "page_end": 4,
+   "quote_verified": true,
+   "status": "rejected",
+   "verifier_note": "The clause allows Excite to request reasonable revisions to the Co-Branded Area with 15 days' notice and does not require Sponsor's written agreement, which does support unilateral changes to that specific term. However, the risk description also mentions unilateral changes to pricing, which the clause does not address. Because the quoted language does not cover pricing changes, the rationale overstates the scope of unilateral modifications, so the clause does not fully support the stated risk."
+  }
+ ],
+ "trace": [
+  {
+   "node": "risk_scan",
+   "message": "scanned 10 patterns x 1 contract(s): 2 candidate flags",
+   "data": {
+    "candidates": [
+     "restrictive_non_compete",
+     "unilateral_amendment"
+    ]
+   },
+   "ms": 626959
+  },
+  {
+   "node": "verify",
+   "message": "1/2 risk flags verified (quote match + judge)",
+   "data": {},
+   "ms": 2752
+  },
+  {
+   "node": "verify",
+   "message": "REJECTED flag unilateral_amendment: The clause allows Excite to request reasonable revisions to the Co-Branded Area with 15 days' notice and does not require Sponsor's written agreement, which does support unilateral changes to that specific term. However, the risk description also mentions unilateral changes to pricing, which the clause does not address. Because the quoted language does not cover pricing changes, the rationale overstates the scope of unilateral modifications, so the clause does not fully support the stated risk.",
+   "data": {},
+   "ms": 2752
+  },
+  {
+   "node": "answer",
+   "message": "1 risk flags returned",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "contract_title": "N2KINC - Sponsorship Agreement"
+}

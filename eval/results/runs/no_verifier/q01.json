@@ -1,0 +1,263 @@
+{
+ "question": "Under the Biopure agency agreement, can either party terminate without cause, and how much notice is required?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "biopurecorp-06-30-1999-ex-10-13-agency-agreement-f90c04"
+ ],
+ "clause_types": [
+  "termination"
+ ],
+ "search_query": "terminate without cause notice period",
+ "answer": "Yes, either party may terminate the agreement without cause, but only after January\u202f31,\u202f1999, and must provide at least ninety (90) days\u2019 prior written notice. [1]",
+ "draft": {
+  "answer": "Yes, either party may terminate the agreement without cause, but only after January\u202f31,\u202f1999, and must provide at least ninety (90) days\u2019 prior written notice. [S1]",
+  "claims": [
+   {
+    "statement": "Either party may terminate the agreement without cause.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "(c) Either party may, at its option, terminate this Agreement without cause, effective at any time after January 31, 1999, upon giving at least ninety (90) days prior written notice of such termination to the other party."
+   },
+   {
+    "statement": "Termination without cause requires at least ninety (90) days prior written notice.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "(c) Either party may, at its option, terminate this Agreement without cause, effective at any time after January 31, 1999, upon giving at least ninety (90) days prior written notice of such termination to the other party."
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "biopurecorp-06-30-1999-ex-10-13-agency-agreement-f90c04",
+   "contract_title": "BIOPURECORP - Agency Agreement",
+   "section": "4.2. Termination",
+   "page_start": 5,
+   "page_end": 6,
+   "chunk_id": "biopurecorp-06-30-1999-ex-10-13-agency-agreement-f90c04::0037",
+   "quote": "(c) Either party may, at its option, terminate this Agreement without cause, effective at any time after January 31, 1999, upon giving at least ninety (90) days prior written notice of such termination to the other party.",
+   "ref": "BIOPURECORP - Agency Agreement, 4.2. Termination, pp. 5-6"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {},
+ "contexts": [
+  "The Agent will promptly advise the Company in\n      writing of any event described in this Paragraph 4.2(b).\n            (c) Either party may, at its option, terminate this Agreement\n      without cause, effective at any time after January 31, 1999, upon giving\n      at least ninety (90) days prior written notice of such termination to the\n      other party.\n            (d) If after exercise of good faith efforts, the parties fail to\n      timely agree upon a Business Plan for any Contract Year before the start\n      of such year (with respect to the Business Plan for Contract Year ending\n      October 31, 1999, at least thirty (30) days or on a mutually agreed upon\n      date after the Agent Launch Date), this Agreement may be terminated by\n      either party upon giving at least thirty (30) days prior written notice of\n      such termination to the other party.",
+  "3.2. Trademarks. The Agent will promote and sell the Products to Customers\nin the Territory only under such trademarks, copyrights, brand names and product\nnames as the Company may have registered, or as the Company has otherwise\nrequested be used on or in respect of Products sold within the Territory\n(together, the \"Trademarks\"). The Agent will use the Trademarks only in such\nfashion as has been expressly authorized by the Company in writing. Such use\nwill not give the Agent any interest in the Trademarks, except the right to\ndisplay the Trademarks as expressly provided herein. The Agent will not use any\nTrademark in connection with any products other than the Products. Upon the\nexpiration or any termination of this Agreement, the Agent will immediately\ncease all use of the Trademarks.",
+  "2.6. Warranty. The Company hereby warrants that all Products sold to the\nCustomer hereunder, at the time of shipment to the Customer, (a) will be\nmerchantable and of generally commercially salable quality\u037e and (b) will have a\nthen remaining shelf life of at least twelve (12) months. The Company further\n\n\nwarrants that the Products have been manufactured, labeled and packaged, and\nwhen in the Company's possession or under its control, have been handled, stored\nand shipped, in compliance with all applicable federal, state and local laws.\nThe Customer's exclusive remedy for a breach of any of the foregoing warranties\nwill be the replacement, at the delivery point thereof, freight prepaid, of any\nProduct furnished hereunder that fails to meet the foregoing standards. In no\nevent will the Company be liable for incidental or consequential damages. All\nclaims by the Customer and/or Agent under this Paragraph 2.6 must be submitted\nin accordance with the Company's published bulletins concerning such claims, as\nsuch bulletins may be amended by the Company from time to time and furnished to\nthe Agent.",
+  "4.2. Termination. This Agreement may be terminated as follows:\n            (a) In the event that either party fails in any material respect to\n      observe or perform any of its obligations under this Agreement (with\n      respect to the Agent, including but not limited to Agent performance\n      criteria set forth in each Business Plan), which failure is not remedied\n      within thirty (30) days (or, in the case of payments due, within five (5)\n      business days), after receipt of written notice from the other party\n      specifying such failure, this Agreement shall automatically terminate.\n            (b) In the event of any material change in the organization,\n      ownership, management or control of the business of the Agent, the Company\n      may, at its option, terminate this Agreement upon giving written notice of\n      termination to the Agent. The Agent will promptly advise the Company in\n      writing of any event described in this Paragraph 4.2(b).",
+  "contained herein) without the express prior written consent of the disclosing\nparty. Each party further agrees that except as reasonably necessary for\nperformance hereunder or otherwise expressly required by law, it will not\npublicly announce or otherwise disclose any of the terms and conditions of this\nAgreement without the express prior written consent of the other. Except as may\nbe otherwise expressly provided in the Business Plan, or as may be required by\nlaw or reasonably necessary to enforce rights hereunder, neither party will use\nthe name of the other in any advertising, promotional or sales materials\nrelating to the Products, in any press release, or in any other manner\nwhatsoever without the express prior written consent of the other. Each party\nwill promptly return to the other upon request any Confidential Information of\nthe other party then in its possession or under its control. The provisions of\nthis Paragraph 3.7 will survive the expiration or any termination of this\nAgreement.",
+  "The provisions of\nthis Paragraph 3.7 will survive the expiration or any termination of this\nAgreement. For purposes of this Agreement, \"Confidential Information\" means,\nwith respect to either party, any and all information (including, but not\nlimited to, financial data and information concerning products, customers and\nbusiness operations) in any form belonging to such party except information\nwhich at the relevant time is (a) known to the public through no act or omission\nin violation of this Agreement, (b) furnished to the receiving party by a third\nparty having the lawful right to do so, (c) known to the receiving party prior\nto disclosure hereunder (as established by written documentation thereof) or (d)\nindependently developed by the receiving party without reference to the\nConfidential Information."
+ ],
+ "sources": [
+  {
+   "chunk_id": "biopurecorp-06-30-1999-ex-10-13-agency-agreement-f90c04::0037",
+   "contract_id": "biopurecorp-06-30-1999-ex-10-13-agency-agreement-f90c04",
+   "contract_title": "BIOPURECORP - Agency Agreement",
+   "section": "4.2. Termination",
+   "page_start": 5,
+   "page_end": 6,
+   "clause_types": [
+    "termination"
+   ],
+   "dense_rank": 1,
+   "sparse_rank": 1,
+   "rrf": 0.06557,
+   "rerank": 0.9833,
+   "label": "S1"
+  },
+  {
+   "chunk_id": "biopurecorp-06-30-1999-ex-10-13-agency-agreement-f90c04::0024",
+   "contract_id": "biopurecorp-06-30-1999-ex-10-13-agency-agreement-f90c04",
+   "contract_title": "BIOPURECORP - Agency Agreement",
+   "section": "3.2. Trademarks",
+   "page_start": 4,
+   "page_end": 4,
+   "clause_types": [
+    "ip"
+   ],
+   "dense_rank": 30,
+   "sparse_rank": 18,
+   "rrf": 0.02393,
+   "rerank": 0.7749,
+   "label": "S2"
+  },
+  {
+   "chunk_id": "biopurecorp-06-30-1999-ex-10-13-agency-agreement-f90c04::0021",
+   "contract_id": "biopurecorp-06-30-1999-ex-10-13-agency-agreement-f90c04",
+   "contract_title": "BIOPURECORP - Agency Agreement",
+   "section": "2.6. Warranty",
+   "page_start": 3,
+   "page_end": 4,
+   "clause_types": [
+    "exclusivity",
+    "liability",
+    "warranty"
+   ],
+   "dense_rank": 18,
+   "sparse_rank": null,
+   "rrf": 0.01282,
+   "rerank": 0.6437,
+   "label": "S3"
+  },
+  {
+   "chunk_id": "biopurecorp-06-30-1999-ex-10-13-agency-agreement-f90c04::0036",
+   "contract_id": "biopurecorp-06-30-1999-ex-10-13-agency-agreement-f90c04",
+   "contract_title": "BIOPURECORP - Agency Agreement",
+   "section": "4.2. Termination",
+   "page_start": 5,
+   "page_end": 5,
+   "clause_types": [
+    "termination"
+   ],
+   "dense_rank": 3,
+   "sparse_rank": 4,
+   "rrf": 0.06324,
+   "rerank": 0.3779,
+   "label": "S4"
+  },
+  {
+   "chunk_id": "biopurecorp-06-30-1999-ex-10-13-agency-agreement-f90c04::0033",
+   "contract_id": "biopurecorp-06-30-1999-ex-10-13-agency-agreement-f90c04",
+   "contract_title": "BIOPURECORP - Agency Agreement",
+   "section": "3.7. Confidential Information and Publicity",
+   "page_start": 5,
+   "page_end": 5,
+   "clause_types": [
+    "confidentiality"
+   ],
+   "dense_rank": 12,
+   "sparse_rank": 8,
+   "rrf": 0.02859,
+   "rerank": 0.2207,
+   "label": "S5"
+  },
+  {
+   "chunk_id": "biopurecorp-06-30-1999-ex-10-13-agency-agreement-f90c04::0034",
+   "contract_id": "biopurecorp-06-30-1999-ex-10-13-agency-agreement-f90c04",
+   "contract_title": "BIOPURECORP - Agency Agreement",
+   "section": "3.7. Confidential Information and Publicity",
+   "page_start": 5,
+   "page_end": 5,
+   "clause_types": [
+    "confidentiality"
+   ],
+   "dense_rank": 23,
+   "sparse_rank": 9,
+   "rrf": 0.02654,
+   "rerank": 0.1934,
+   "label": "S6"
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['termination'] | contracts=['biopurecorp-06-30-1999-ex-10-13-agency-agreement-f90c04']",
+   "data": {
+    "reason": "The question asks about termination rights and notice requirements under the Biopure agency agreement, which is a termination clause inquiry.",
+    "search_query": "terminate without cause notice period",
+    "unknown_contract_ids": []
+   },
+   "ms": 4082
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'terminate without cause notice period'",
+   "data": {
+    "filters": {
+     "contracts": [
+      "biopurecorp-06-30-1999-ex-10-13-agency-agreement-f90c04"
+     ],
+     "clause_types": [
+      "termination"
+     ]
+    }
+   },
+   "ms": 17943
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "BIOPURECORP - Agency Agreement",
+      "section": "4.2. Termination",
+      "score": 0.9833
+     },
+     {
+      "label": "S2",
+      "contract": "BIOPURECORP - Agency Agreement",
+      "section": "3.2. Trademarks",
+      "score": 0.7749
+     },
+     {
+      "label": "S3",
+      "contract": "BIOPURECORP - Agency Agreement",
+      "section": "2.6. Warranty",
+      "score": 0.6437
+     },
+     {
+      "label": "S4",
+      "contract": "BIOPURECORP - Agency Agreement",
+      "section": "4.2. Termination",
+      "score": 0.3779
+     },
+     {
+      "label": "S5",
+      "contract": "BIOPURECORP - Agency Agreement",
+      "section": "3.7. Confidential Information and Publicity",
+      "score": 0.2207
+     },
+     {
+      "label": "S6",
+      "contract": "BIOPURECORP - Agency Agreement",
+      "section": "3.7. Confidential Information and Publicity",
+      "score": 0.1934
+     }
+    ]
+   },
+   "ms": 11262
+  },
+  {
+   "node": "draft",
+   "message": "2 claims",
+   "data": {
+    "answer": "Yes, either party may terminate the agreement without cause, but only after January\u202f31,\u202f1999, and must provide at least ninety (90) days\u2019 prior written notice. [S1]"
+   },
+   "ms": 2348
+  },
+  {
+   "node": "answer",
+   "message": "verdict=unverified, 1 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 35.66,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1721,
+   "output_tokens": 146,
+   "total_tokens": 1867,
+   "output_token_details": {
+    "reasoning": 53
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "input_tokens": 1838,
+   "output_tokens": 803,
+   "total_tokens": 2641,
+   "output_token_details": {
+    "reasoning": 549
+   }
+  }
+ },
+ "llm_calls": 2
+}

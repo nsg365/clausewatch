@@ -1,0 +1,305 @@
+{
+ "question": "How long does the endorser's non-compete obligation last after the MusclePharm co-branding agreement ends?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "musclepharmcorp-20170208-10-ka-ex-10-38-9893581-e9f9e8"
+ ],
+ "clause_types": [
+  "non_solicit"
+ ],
+ "search_query": "non\u2011compete obligation duration following termination",
+ "answer": "The Endorser\u2019s non\u2011competition obligation continues for one year after the agreement expires or is terminated [1].",
+ "draft": {
+  "answer": "The Endorser\u2019s non\u2011competition obligation continues for one year after the agreement expires or is terminated [S1].",
+  "claims": [
+   {
+    "statement": "The Endorser\u2019s non\u2011competition obligation continues for one year after the agreement expires or is terminated.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "Endorser's duty not to compete with the business of MusclePharm shall continue for a period of one year following the expiration or termination of this Agreement."
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "musclepharmcorp-20170208-10-ka-ex-10-38-9893581-e9f9e8",
+   "contract_title": "MusclepharmCorp - Co-Branding Agreement",
+   "section": "15. Indemnification",
+   "page_start": 21,
+   "page_end": 21,
+   "chunk_id": "musclepharmcorp-20170208-10-ka-ex-10-38-9893581-e9f9e8::0076",
+   "quote": "Endorser's duty not to compete with the business of MusclePharm shall continue for a period of one year following the expiration or termination of this Agreement.",
+   "ref": "MusclepharmCorp - Co-Branding Agreement, 15. Indemnification, p. 21"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {
+  "verdict": "pass",
+  "decision": "accept",
+  "supported_ratio": 1.0,
+  "answers_question": true,
+  "claims": [
+   {
+    "statement": "The Endorser\u2019s non\u2011competition obligation continues for one year after the agreement expires or is terminated.",
+    "source_ids": [
+     "S1"
+    ],
+    "quote": "Endorser's duty not to compete with the business of MusclePharm shall continue for a period of one year following the expiration or termination of this Agreement.",
+    "status": "supported",
+    "explanation": "The source states that the Endorser's duty not to compete shall continue for a period of one year following the expiration or termination of the Agreement, directly matching the claim.",
+    "quote_verified": true
+   }
+  ],
+  "attempt": 0
+ },
+ "contexts": [
+  "sponsorship thereof.\n \n(b) Endorser shall not use or provide endorsements or testimonials for products that compete with MusclePharm Products or the Licensed\nProducts. Any failure of Endorser to disclose such conflicting interests, or any breach of this Section, shall be deemed a material breach of the\nAgreement. Endorser's duty not to compete with the business of MusclePharm shall continue for a period of one year following the expiration or\ntermination of this Agreement. Endorser's non-competition obligation shall not be required in the event of a material breach of this Agreement by\nMusclePharm.\n \n(c) Notwithstanding the foregoing or anything else contained herein, this Agreement shall not prevent or shall in any manner restrict\nEndorser from advertising, marketing and or endorsing products (or other companies which manufacture such products) which incidentally contain\ndietary supplements (including without limitation protein, vitamins, minerals, amino acids, herbs, legal performance enhancing substances)\nprovided the primary purpose of such product or company is not to sell or market a dietary supplement.\n \n17. [RESERVED.]",
+  "8. Stock:\n \n(a)  Within three (3) days of the execution and delivery of this Agreement and prior to any news release or public disclosure of the\nexistence of this Agreement, its terms and conditions, or the relationship of the parties hereto, whether pursuant to a press release, a current report\non Form 8-K or other filing with the Securities and Exchange Commission or otherwise (the \"Issuance Date\"), MusclePharm shall issue Lender\n780,000 shares of MusclePharm's restricted stock (the \"Compensation Shares\"), for services performed and to be performed pursuant to this\nAgreement. All Compensation Shares will be fully vested upon issuance, and for a period of six (6) months following the date hereof, Lender may\nnot sell in excess of fifty percent (50%) of the Compensation Shares without the prior consent of MusclePharm\u037e  provided , that, the Lender shall be\nentitled, without the prior consent of MusclePharm, to transfer the Compensation Shares at any time to affiliates and family members so long as\nsuch transfers are in compliance with state and federal securities laws and such transferees agree to be bound by foregoing transfer restrictions for\nthe six (6) month period following the",
+  "reasonably determined by the Endorser), a material adverse effect on the Company's reputation or financial performance\u037e and/or\n \n(iv) If the AS Parties reasonably determine (based either on (A) internal MusclePharm information\u037e (B) reports or other credible\ninformation produced by established medical or scientific experts\u037e or (C) multiple adverse events reported to MusclePharm or in the media)\nthat any of MusclePharm's products are harmful to the human body or unsafe.\n \n(v)  In the event Musclepharm is in material breach or default of this Agreement, the AS Parties may give written notice to\nMusclepharm of intent to terminate, and such notice shall set forth in reasonable detail the facts, circumstances or events causing the\nalleged breach or default (\"MusclePharm Events of Default\"). Musclepharm shall have thirty (30) days' notice in which to cure the\nMusclePharm Events of Default to the reasonable and objective satisfaction of the terminating party.",
+  "No settlement will be entered into by the AS Parties without MusclePharm's prior\nwritten approval.\n \n \n16. Exclusivity\u037e Non-Competition:\n \n(a) During the term of this Agreement, or any extensions of this Agreement, Endorser and the Lender hereby agree and warrant that it will\nnot enter into any other endorsement agreement for the use of Endorser's name, image and/or likeness for advertising, marketing and/or\nendorsement of any other dietary supplements during the Term of this Agreement. Notwithstanding the foregoing, the following will not be a\nbreach of this Agreement: (i) Endorser's performance of services or appearing in the news or informational portion of any radio, TV or film or\nentertainment program regardless of products or services therein or sponsorship thereof\u037e (ii) Endorser's participation in movies or TV programs as\nwell as merchandising, commercial tie-ins and/or product placements utilizing Endorser, or (iii) Endorser's performance of services, appearance or\nuse of his name, likeness in connection with charitable events, sports events, organizations, regardless of usage of products or services and/or\nsponsorship thereof.",
+  "specified between the parties.\n \n(v) During the Term and during the sell-off period, MusclePharm shall make royalty payments in U.S. dollars for the\nrespective quarters ending on the last day of September, December, March and June (each, a \"Royalty Period\") within\nthirty (30) days from the end of each quarterly period. Each such royalty payment shall include an itemized statement\nshowing the nature and source of such royalties, including (i) the number of units of Licensed Products sold (by\ncountry and customer)\u037e (ii) the total number of units returned for which credit was given and the total dollar amount of\nsuch credits, and (iii) the total gross sales and the total royalties due with respect to such gross sales, and each itemized\nstatement shall be certified by a duly authorized officer of MusclePharm. Such statements shall be in the form attached\nhereto as Exhibit \"B\" and furnished to Lender whether or not any Licensed Products were sold during the Royalty\nPeriod.\n \n \n(vi) MusclePharm will send all statements and payments, including all royalties, to the Lender to the address set forth in",
+  "1. Term:\n \n(a) This Agreement shall have an Initial Term of three (3) years. The Term shall commence on July 23, 2013 and shall expire on July 22,\n2016, unless otherwise terminated earlier pursuant to Section 9 of this Agreement. The period from July 23, 2013 to July 22, 2014 shall be referred to\nas the \"First Contract Year\". The period from July 23, 2014 to July 22, 2015 shall be referred to as the \"Second Contract Year\". The period from July\n23, 2015 to July 22, 2016 shall be referred to as the \"Third Contract Year\".\n \n(b) In the event that MusclePharm shall achieve Net Sales (as defined below) of $20 million (the \"First Renewal Threshold\") in the\naggregate during the Third Contract Year, then this Agreement shall automatically be renewed for an additional term of three (3) years (the \"First\nAdditional Term\") on the same terms and conditions for the Initial Term except that: (i) no additional Stock Compensation (as defined below) shall\nbe issued in connection with the renewal Term, (ii) the Cash Compensation for the First Additional Term shall be as set forth in Section 7 and\nExhibit \"C\" Section (2) attached hereto, (iii) Endorser shall only be obligated to make two (2) Appearanc"
+ ],
+ "sources": [
+  {
+   "chunk_id": "musclepharmcorp-20170208-10-ka-ex-10-38-9893581-e9f9e8::0076",
+   "contract_id": "musclepharmcorp-20170208-10-ka-ex-10-38-9893581-e9f9e8",
+   "contract_title": "MusclepharmCorp - Co-Branding Agreement",
+   "section": "15. Indemnification",
+   "page_start": 21,
+   "page_end": 21,
+   "clause_types": [
+    "exclusivity",
+    "indemnification"
+   ],
+   "dense_rank": 7,
+   "sparse_rank": 1,
+   "rrf": 0.03132,
+   "rerank": 0.9815,
+   "label": "S1",
+   "supported": true
+  },
+  {
+   "chunk_id": "musclepharmcorp-20170208-10-ka-ex-10-38-9893581-e9f9e8::0030",
+   "contract_id": "musclepharmcorp-20170208-10-ka-ex-10-38-9893581-e9f9e8",
+   "contract_title": "MusclepharmCorp - Co-Branding Agreement",
+   "section": "8. Stock",
+   "page_start": 9,
+   "page_end": 9,
+   "clause_types": [],
+   "dense_rank": 15,
+   "sparse_rank": 22,
+   "rrf": 0.02553,
+   "rerank": 0.5123,
+   "label": "S2",
+   "supported": false
+  },
+  {
+   "chunk_id": "musclepharmcorp-20170208-10-ka-ex-10-38-9893581-e9f9e8::0047",
+   "contract_id": "musclepharmcorp-20170208-10-ka-ex-10-38-9893581-e9f9e8",
+   "contract_title": "MusclepharmCorp - Co-Branding Agreement",
+   "section": "9. Termination",
+   "page_start": 14,
+   "page_end": 14,
+   "clause_types": [
+    "termination"
+   ],
+   "dense_rank": 6,
+   "sparse_rank": 19,
+   "rrf": 0.02781,
+   "rerank": 0.2846,
+   "label": "S3",
+   "supported": false
+  },
+  {
+   "chunk_id": "musclepharmcorp-20170208-10-ka-ex-10-38-9893581-e9f9e8::0075",
+   "contract_id": "musclepharmcorp-20170208-10-ka-ex-10-38-9893581-e9f9e8",
+   "contract_title": "MusclepharmCorp - Co-Branding Agreement",
+   "section": "15. Indemnification",
+   "page_start": 20,
+   "page_end": 21,
+   "clause_types": [
+    "exclusivity",
+    "indemnification",
+    "term",
+    "warranty"
+   ],
+   "dense_rank": 8,
+   "sparse_rank": 8,
+   "rrf": 0.02941,
+   "rerank": 0.1746,
+   "label": "S4",
+   "supported": false
+  },
+  {
+   "chunk_id": "musclepharmcorp-20170208-10-ka-ex-10-38-9893581-e9f9e8::0028",
+   "contract_id": "musclepharmcorp-20170208-10-ka-ex-10-38-9893581-e9f9e8",
+   "contract_title": "MusclepharmCorp - Co-Branding Agreement",
+   "section": "7. Compensation",
+   "page_start": 8,
+   "page_end": 9,
+   "clause_types": [
+    "license",
+    "payment"
+   ],
+   "dense_rank": 17,
+   "sparse_rank": null,
+   "rrf": 0.01299,
+   "rerank": 0.1621,
+   "label": "S5",
+   "supported": false
+  },
+  {
+   "chunk_id": "musclepharmcorp-20170208-10-ka-ex-10-38-9893581-e9f9e8::0003",
+   "contract_id": "musclepharmcorp-20170208-10-ka-ex-10-38-9893581-e9f9e8",
+   "contract_title": "MusclepharmCorp - Co-Branding Agreement",
+   "section": "1. Term",
+   "page_start": 2,
+   "page_end": 2,
+   "clause_types": [
+    "renewal",
+    "term"
+   ],
+   "dense_rank": 9,
+   "sparse_rank": 20,
+   "rrf": 0.02699,
+   "rerank": 0.1215,
+   "label": "S6",
+   "supported": false
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['non_solicit'] | contracts=['musclepharmcorp-20170208-10-ka-ex-10-38-9893581-e9f9e8']",
+   "data": {
+    "reason": "The question seeks the specific duration of the non\u2011compete obligation after the co\u2011branding agreement ends, which is a clause\u2011lookup request for the MusclepharmCorp contract.",
+    "search_query": "non\u2011compete obligation duration following termination",
+    "unknown_contract_ids": []
+   },
+   "ms": 977
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'non\u2011compete obligation duration following termination' [clause filter relaxed]",
+   "data": {
+    "filters": {
+     "contracts": [
+      "musclepharmcorp-20170208-10-ka-ex-10-38-9893581-e9f9e8"
+     ],
+     "clause_types": [
+      "non_solicit"
+     ]
+    }
+   },
+   "ms": 387
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "MusclepharmCorp - Co-Branding Agreement",
+      "section": "15. Indemnification",
+      "score": 0.9815
+     },
+     {
+      "label": "S2",
+      "contract": "MusclepharmCorp - Co-Branding Agreement",
+      "section": "8. Stock",
+      "score": 0.5123
+     },
+     {
+      "label": "S3",
+      "contract": "MusclepharmCorp - Co-Branding Agreement",
+      "section": "9. Termination",
+      "score": 0.2846
+     },
+     {
+      "label": "S4",
+      "contract": "MusclepharmCorp - Co-Branding Agreement",
+      "section": "15. Indemnification",
+      "score": 0.1746
+     },
+     {
+      "label": "S5",
+      "contract": "MusclepharmCorp - Co-Branding Agreement",
+      "section": "7. Compensation",
+      "score": 0.1621
+     },
+     {
+      "label": "S6",
+      "contract": "MusclepharmCorp - Co-Branding Agreement",
+      "section": "1. Term",
+      "score": 0.1215
+     }
+    ]
+   },
+   "ms": 2333
+  },
+  {
+   "node": "draft",
+   "message": "1 claims",
+   "data": {
+    "answer": "The Endorser\u2019s non\u2011competition obligation continues for one year after the agreement expires or is terminated [S1]."
+   },
+   "ms": 16645
+  },
+  {
+   "node": "verify",
+   "message": "1/1 claims supported, verdict=PASS -> ACCEPT",
+   "data": {
+    "claims": [
+     {
+      "statement": "The Endorser\u2019s non\u2011competition obligation continues for one year after the agreement expires or is terminated.",
+      "source_ids": [
+       "S1"
+      ],
+      "quote": "Endorser's duty not to compete with the business of MusclePharm shall continue for a period of one year following the expiration or termination of this Agreement.",
+      "status": "supported",
+      "explanation": "The source states that the Endorser's duty not to compete shall continue for a period of one year following the expiration or termination of the Agreement, directly matching the claim.",
+      "quote_verified": true
+     }
+    ],
+    "retry_query": ""
+   },
+   "ms": 3378
+  },
+  {
+   "node": "answer",
+   "message": "verdict=pass, 1 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 23.73,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1685,
+   "output_tokens": 250,
+   "total_tokens": 1935,
+   "output_token_details": {
+    "reasoning": 136
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "output_token_details": {
+    "reasoning": 388
+   },
+   "input_tokens": 2914,
+   "output_tokens": 609,
+   "input_token_details": {
+    "cache_read": 256
+   },
+   "total_tokens": 3523
+  }
+ },
+ "llm_calls": 3
+}

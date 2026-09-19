@@ -1,0 +1,258 @@
+{
+ "question": "What insurance must Ashworth maintain under its promotion agreement with Nantz Communications?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "ashworthinc-01-29-1999-ex-10-d-promotion-agreeme-e93793"
+ ],
+ "clause_types": [
+  "insurance"
+ ],
+ "search_query": "insurance required under promotion agreement",
+ "answer": "Ashworth must maintain (1) advertising and product liability insurance with limits of at least $5,000,000, and (2) directors and officers insurance with limits of at least $25,000,000, each at its own expense and naming Nantz Communications as an insured party. [1]",
+ "draft": {
+  "answer": "Ashworth must maintain (1) advertising and product liability insurance with limits of at least $5,000,000, and (2) directors and officers insurance with limits of at least $25,000,000, each at its own expense and naming Nantz Communications as an insured party.",
+  "claims": [
+   {
+    "statement": "Ashworth must maintain advertising and product liability insurance with limits of at least $5,000,000.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "The Company agrees to provide and maintain, at its own expense, advertising and product liability insurance each with limits no less than $5,000,000 and within thirty (30) days from the date hereof, the Company will submit to Nantz Communications a fully paid policy or certificate of insurance naming Nantz Communications and Nantz as insured parties, requiring that the insurer shall not terminate or materially modify such without written notice to Nantz Communications at least twenty (20) days in advance thereof."
+   },
+   {
+    "statement": "Ashworth must maintain directors and officers insurance with limits of at least $25,000,000.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "The Company further agrees to provide and maintain, at its own expense, a policy of Directors and Officers Insurance with limits no less than $25,000,000 and within thirty (30) days from the date hereof, the Company will submit to Nantz Communications a fully paid policy or certificate of insurance naming Nantz as an insured party, requiring that the insurer shall not terminate or materially modify such without written notice to Nantz Communications at least twenty (20) days in advance hereof."
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "ashworthinc-01-29-1999-ex-10-d-promotion-agreeme-e93793",
+   "contract_title": "ASHWORTHINC - Promotion Agreement And Nantz Communications, Inc.",
+   "section": "INSURANCE",
+   "page_start": 2,
+   "page_end": 2,
+   "chunk_id": "ashworthinc-01-29-1999-ex-10-d-promotion-agreeme-e93793::0017",
+   "quote": "The Company agrees to provide and maintain, at its own expense, advertising and product liability insurance each with limits no less than $5,000,000 and within thirty (30) days from the date hereof, the Company will submit to Nantz Communications a fully paid policy or certificate of insurance naming Nantz Communications and Nantz as insured parties, requiring that the insurer shall not terminate or materially modify such without written notice to Nantz Communications at least twenty (20) days in advance thereof.",
+   "ref": "ASHWORTHINC - Promotion Agreement And Nantz Communications, Inc., INSURANCE, p. 2"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {},
+ "contexts": [
+  "INSURANCE\n     The Company agrees to provide and maintain, at its own expense, advertising\nand product liability insurance each with limits no less than $5,000,000 and\nwithin thirty (30) days from the date hereof, the Company will submit to Nantz\nCommunications a fully paid policy or certificate of insurance naming Nantz\nCommunications and Nantz as insured parties, requiring that the insurer shall\nnot terminate or materially modify such without written notice to Nantz\nCommunications at least twenty (20) days in advance thereof.\n     The Company further agrees to provide and maintain, at its own expense, a\npolicy of Directors and Officers Insurance with limits no less than\n$25,000,000 and within thirty (30) days from the date hereof, the Company will\nsubmit to Nantz Communications a fully paid policy or certificate of insurance\nnaming Nantz as an insured party, requiring that the insurer shall not terminate\nor materially modify such without written notice to Nantz Communications at\nleast twenty (20) days in advance hereof.",
+  "terminated as provided herein prior to such date, in which case this Option\n     shall be canceled.  Once exercisable, this Option may be exercised in full\n     or in any number of partial exercises or in combination with the full or\n     partial exercise of any other Option for a period terminating upon the\n     earlier to occur of (A) the fifth anniversary of the initial exercisability\n     date or (B) the date of termination of this Agreement, as provided herein,\n     if this Agreement is terminated prior to May 30, 2001\u037e\n     The \"Option Share Price\" shall initially be $6 per Share as approved by the\nCompensation Committee at its regular meeting held on December 15, 1998.\n \nAshworth/Nantz\nPromotion Agreement\n- -------------------\n     b)  The Options being granted hereunder are being granted under and subject\nto the terms and conditions of the Ashworth, Inc. Amended and Restated Incentive\nStock Option Plan, dated November 1, 1996, (\"Amended Plan\") and all Shares\nissued upon the exercise of any Option shall be registered under the Securities\nAct of 1933, as amended.",
+  "13.  APPAREL.  The Company shall furnish Nantz, at no cost, with sufficient\n     Ashworth Products to be used by him in connection with the Services and for\n     the personal use of Nantz and his immediate family.  The cost of said\n     Product shall not exceed $12,000 (at wholesale) during any single Contract\n     Year.",
+  "INDEMNIFICATION\n     Neither Nantz Communications nor Nantz shall be liable for any obligations\nof the Company resulting directly or indirectly from the Endorsement of Ashworth\nProducts.  The Company shall protect, indemnify and hold harmless each of Nantz\nCommunications and Nantz against any and all expenses, damages, claims, suits,\nactions, judgments and costs whatsoever, arising out of, or in any way connected\nwith such Endorsement, in any advertising or promotional materials furnished by\nor on behalf of the Company, actions or omissions of the Company or any claim or\naction for personal injury, death or other cause of action involving alleged\ndefects in Ashworth Products, including but not limited to indemnification of\nreasonable legal expenses incurred in defense of all such claims.  Further,\nNantz Communications or Nantz shall have the \n \nAshworth/Nantz\nPromotion Agreement\n- -------------------\nright to select legal counsel to represent it or him in the event of any such\nclaims or legal proceedings, and the costs of such legal representation shall be\npaid by the Company.",
+  "23.  Failure to comply with the terms and conditions of this Agreement after\n     being given notice thereof and, where applicable, a reasonable opportunity\n     to cure the failure (which shall be 10 days in the event of a failure to\n     timely make a payment pursuant hereto\u037e 30 days otherwise).  In order to be\n     a sufficient notice hereunder, any such written notice shall specify in\n     detail each item of default, and shall specify in detail the action the\n     defaulting party is required to take in order to cure each item.\n \nAshworth/Nantz\nPromotion Agreement\n- -------------------\nNotwithstanding the foregoing, upon the occurrence of repeated intentional\nfailures to comply with the terms and conditions of this Agreement, which have\nbeen noticed in accordance with the terms hereof (regardless of whether such\nfailures have been cured), the non-defaulting party may immediately terminate\nthis Agreement upon written notice to the defaulting party without affording a\nfurther opportunity to cure.",
+  "18.  Upon mutual consent of the Company, on the one hand, and Nantz\n     Communications and Nantz, on the other hand\u037e\n19.  Nantz's Disability or death, in which event the Agreement shall terminate\n     on the May 1 following such Disability or death\u037e"
+ ],
+ "sources": [
+  {
+   "chunk_id": "ashworthinc-01-29-1999-ex-10-d-promotion-agreeme-e93793::0017",
+   "contract_id": "ashworthinc-01-29-1999-ex-10-d-promotion-agreeme-e93793",
+   "contract_title": "ASHWORTHINC - Promotion Agreement And Nantz Communications, Inc.",
+   "section": "INSURANCE",
+   "page_start": 2,
+   "page_end": 2,
+   "clause_types": [
+    "amendment",
+    "insurance",
+    "termination"
+   ],
+   "dense_rank": 1,
+   "sparse_rank": 1,
+   "rrf": 0.03279,
+   "rerank": 0.0556,
+   "label": "S1"
+  },
+  {
+   "chunk_id": "ashworthinc-01-29-1999-ex-10-d-promotion-agreeme-e93793::0025",
+   "contract_id": "ashworthinc-01-29-1999-ex-10-d-promotion-agreeme-e93793",
+   "contract_title": "ASHWORTHINC - Promotion Agreement And Nantz Communications, Inc.",
+   "section": "14. STOCK OPTIONS",
+   "page_start": 3,
+   "page_end": 3,
+   "clause_types": [
+    "amendment",
+    "termination"
+   ],
+   "dense_rank": 17,
+   "sparse_rank": null,
+   "rrf": 0.01299,
+   "rerank": 0.0026,
+   "label": "S2"
+  },
+  {
+   "chunk_id": "ashworthinc-01-29-1999-ex-10-d-promotion-agreeme-e93793::0022",
+   "contract_id": "ashworthinc-01-29-1999-ex-10-d-promotion-agreeme-e93793",
+   "contract_title": "ASHWORTHINC - Promotion Agreement And Nantz Communications, Inc.",
+   "section": "13. APPAREL",
+   "page_start": 3,
+   "page_end": 3,
+   "clause_types": [],
+   "dense_rank": 7,
+   "sparse_rank": null,
+   "rrf": 0.01493,
+   "rerank": 0.0009,
+   "label": "S3"
+  },
+  {
+   "chunk_id": "ashworthinc-01-29-1999-ex-10-d-promotion-agreeme-e93793::0016",
+   "contract_id": "ashworthinc-01-29-1999-ex-10-d-promotion-agreeme-e93793",
+   "contract_title": "ASHWORTHINC - Promotion Agreement And Nantz Communications, Inc.",
+   "section": "INDEMNIFICATION",
+   "page_start": 2,
+   "page_end": 2,
+   "clause_types": [
+    "indemnification"
+   ],
+   "dense_rank": 4,
+   "sparse_rank": null,
+   "rrf": 0.01562,
+   "rerank": 0.0008,
+   "label": "S4"
+  },
+  {
+   "chunk_id": "ashworthinc-01-29-1999-ex-10-d-promotion-agreeme-e93793::0030",
+   "contract_id": "ashworthinc-01-29-1999-ex-10-d-promotion-agreeme-e93793",
+   "contract_title": "ASHWORTHINC - Promotion Agreement And Nantz Communications, Inc.",
+   "section": "23. Failure to comply with the terms and conditions of this Agreement after",
+   "page_start": 4,
+   "page_end": 4,
+   "clause_types": [],
+   "dense_rank": 2,
+   "sparse_rank": 2,
+   "rrf": 0.03226,
+   "rerank": 0.0007,
+   "label": "S5"
+  },
+  {
+   "chunk_id": "ashworthinc-01-29-1999-ex-10-d-promotion-agreeme-e93793::0028",
+   "contract_id": "ashworthinc-01-29-1999-ex-10-d-promotion-agreeme-e93793",
+   "contract_title": "ASHWORTHINC - Promotion Agreement And Nantz Communications, Inc.",
+   "section": "18. Upon mutual consent of the Company, on the one hand, and Nantz",
+   "page_start": 4,
+   "page_end": 4,
+   "clause_types": [],
+   "dense_rank": 9,
+   "sparse_rank": null,
+   "rrf": 0.01449,
+   "rerank": 0.0007,
+   "label": "S6"
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['insurance'] | contracts=['ashworthinc-01-29-1999-ex-10-d-promotion-agreeme-e93793']",
+   "data": {
+    "reason": "The question asks for the insurance obligations specified in the promotion agreement between Ashworth Inc. and Nantz Communications.",
+    "search_query": "insurance required under promotion agreement",
+    "unknown_contract_ids": []
+   },
+   "ms": 1044
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'insurance required under promotion agreement' [clause filter relaxed]",
+   "data": {
+    "filters": {
+     "contracts": [
+      "ashworthinc-01-29-1999-ex-10-d-promotion-agreeme-e93793"
+     ],
+     "clause_types": [
+      "insurance"
+     ]
+    }
+   },
+   "ms": 82
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "ASHWORTHINC - Promotion Agreement And Nantz Communications, Inc.",
+      "section": "INSURANCE",
+      "score": 0.0556
+     },
+     {
+      "label": "S2",
+      "contract": "ASHWORTHINC - Promotion Agreement And Nantz Communications, Inc.",
+      "section": "14. STOCK OPTIONS",
+      "score": 0.0026
+     },
+     {
+      "label": "S3",
+      "contract": "ASHWORTHINC - Promotion Agreement And Nantz Communications, Inc.",
+      "section": "13. APPAREL",
+      "score": 0.0009
+     },
+     {
+      "label": "S4",
+      "contract": "ASHWORTHINC - Promotion Agreement And Nantz Communications, Inc.",
+      "section": "INDEMNIFICATION",
+      "score": 0.0008
+     },
+     {
+      "label": "S5",
+      "contract": "ASHWORTHINC - Promotion Agreement And Nantz Communications, Inc.",
+      "section": "23. Failure to comply with the terms and conditions of this Agreement after",
+      "score": 0.0007
+     },
+     {
+      "label": "S6",
+      "contract": "ASHWORTHINC - Promotion Agreement And Nantz Communications, Inc.",
+      "section": "18. Upon mutual consent of the Company, on the one hand, and Nantz",
+      "score": 0.0007
+     }
+    ]
+   },
+   "ms": 1159
+  },
+  {
+   "node": "draft",
+   "message": "2 claims",
+   "data": {
+    "answer": "Ashworth must maintain (1) advertising and product liability insurance with limits of at least $5,000,000, and (2) directors and officers insurance with limits of at least $25,000,000, each at its own expense and naming Nantz Communications as an insured party."
+   },
+   "ms": 14323
+  },
+  {
+   "node": "answer",
+   "message": "verdict=unverified, 1 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 16.61,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1714,
+   "output_tokens": 143,
+   "total_tokens": 1857,
+   "output_token_details": {
+    "reasoning": 54
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "input_tokens": 1754,
+   "output_tokens": 1001,
+   "total_tokens": 2755,
+   "output_token_details": {
+    "reasoning": 613
+   }
+  }
+ },
+ "llm_calls": 2
+}

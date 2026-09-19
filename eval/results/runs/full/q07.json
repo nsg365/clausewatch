@@ -1,0 +1,330 @@
+{
+ "question": "What are the auto-renewal period and the non-renewal notice period in the Corio license and hosting agreement?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "corioinc-07-20-2000-ex-10-5-license-and-hosting-e5ad84"
+ ],
+ "clause_types": [
+  "renewal"
+ ],
+ "search_query": "auto\u2011renewal period; non\u2011renewal notice period",
+ "answer": "The Corio License and Hosting Agreement automatically renews for one\u2011year periods, and either party must provide written notice at least thirty days before the end of the current term to prevent renewal [1].",
+ "draft": {
+  "answer": "The Corio License and Hosting Agreement automatically renews for one\u2011year periods, and either party must provide written notice at least thirty days before the end of the current term to prevent renewal [S1].",
+  "claims": [
+   {
+    "statement": "The agreement auto\u2011renews for subsequent one (1) year periods.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "automatically renew for subsequent one (1) year periods"
+   },
+   {
+    "statement": "A party must give written notification at least thirty (30) days prior to expiration to avoid renewal.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "written notification at least thirty (30) days prior to the expiration"
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "corioinc-07-20-2000-ex-10-5-license-and-hosting-e5ad84",
+   "contract_title": "CORIOINC - License And Hosting Agreement",
+   "section": "11.1 Term",
+   "page_start": 7,
+   "page_end": 7,
+   "chunk_id": "corioinc-07-20-2000-ex-10-5-license-and-hosting-e5ad84::0063",
+   "quote": "automatically renew for subsequent one (1) year periods",
+   "ref": "CORIOINC - License And Hosting Agreement, 11.1 Term, p. 7"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {
+  "verdict": "pass",
+  "decision": "accept",
+  "supported_ratio": 1.0,
+  "answers_question": true,
+  "claims": [
+   {
+    "statement": "The agreement auto\u2011renews for subsequent one (1) year periods.",
+    "source_ids": [
+     "S1"
+    ],
+    "quote": "automatically renew for subsequent one (1) year periods",
+    "status": "supported",
+    "explanation": "Source S1 states the agreement automatically renews for subsequent one (1) year periods.",
+    "quote_verified": true
+   },
+   {
+    "statement": "A party must give written notification at least thirty (30) days prior to expiration to avoid renewal.",
+    "source_ids": [
+     "S1"
+    ],
+    "quote": "written notification at least thirty (30) days prior to the expiration",
+    "status": "supported",
+    "explanation": "Source S1 states a party must give written notification at least thirty (30) days prior to expiration to avoid renewal.",
+    "quote_verified": true
+   }
+  ],
+  "attempt": 0
+ },
+ "contexts": [
+  "11.1    Term. The term of this Agreement shall commence on the Effective Date\n        and shall continue in full force and effect for an initial period of\n        five (5) years. Thereafter, this Agreement shall automatically renew for\n        subsequent one (1) year periods unless either party provides the other\n        party with written notification at least thirty (30) days prior to the\n        expiration of the initial five (5) year term or any one (1) year renewal\n        thereof of its intention to terminate this Agreement.",
+  "7.3     Product Warranty. Commerce One warrants that the Software and\n        MarketSite.net Service will perform in substantial accordance with the\n        Documentation, and the media on which the Software is distributed will\n        be free from defects in materials and workmanship under normal use, for\n        a period of sixty (60) days from the Effective Date, but in no event not\n        later than December 31, 1999 (the \"Warranty Period\"). In addition,\n        Commerce One warrants that during the Warranty Period the Software and\n        MarketSite.net Service is free of any willfully introduced computer\n        virus, or any other similar harmful, malicious or hidden program or\n        data, which is designed to disable, erase, or alter the Software, or any\n        other files, data, or software.",
+  "12.2    Release. Corio shall notify Commerce One in writing if it believes that\n        one of the following events (the \"RELEASE CONDITIONS\") has occurred and\n        that it intends to seek release of the Source Code from the escrow\n        account: (i) Commerce One's dissolution or ceasing to do business in the\n        normal course, or (ii) Commerce One's repeated and material breach of\n        its support and maintenance obligations under Section 5 of this\n        Agreement and such breach is not cured within sixty (60) days of receipt\n        of written notice thereof from Corio. If Commerce One notifies Corio in\n        writing that it disputes whether any such event has occurred, officers\n        of each of the parties shall negotiate for a period of ten (10) business\n        days to attempt to resolve the dispute. At the end of such ten (10)\n        business day period, if the parties have not resolved the dispute, the\n        matter shall be referred to arbitration in the manner provided in",
+  "11.2    Termination. If either party materially breaches any term or condition\n        of this Agreement and fails to cure such breach within-thirty (30) days\n        after receiving written notice of the breach, the nonbreaching party may\n        terminate this Agreement on written notice at any time following the end\n        of such-thirty (30) day period. This Agreement shall terminate\n        immediately upon notice if either party becomes insolvent (i.e., becomes\n        unable to pay its debts in the ordinary course of business as they come\n        due) or makes an assignment for the benefit of creditors. Compliance by\n        the Software with the Software's specifications after expiration of the\n        Warranty Period shall be deemed a material condition of this Agreement.",
+  "data, which is designed to disable, erase, or alter the Software, or any\n        other files, data, or software. If during the Warranty Period the\n        Software and MarketSite.net Service does not perform in substantial\n        compliance with the Documentation, Commerce One shall take all\n        commercially reasonable efforts to correct the Software and\n        MarketSite.net Service, or if correction of the Software and\n        MarketSite.net Service is reasonably not possible, replace such Software\n        and MarketSite.net Service free of charge. Commerce One will replace any\n        defective media returned to Commerce One during the Warranty Period. In\n        the event any such breach of warranty can not be reasonably corrected at\n        Commerce One's sole expense, Corio has the right to terminate this\n        Agreement and receive a refund of all prepaid fees. The foregoing are\n        Corio's sole and exclusive remedies for breach of product warranty. The\n        warranty set forth above is made to and for the benefit of Corio only.",
+  "14.4    Notices. All notices, demands or consents required or permitted under\n        this Agreement shall be in writing. Notice shall be considered delivered\n        and effective on the earlier of actual receipt or when (a) personally\n        delivered\u037e (b) the day following transmission if sent by telex, telegram\n        or facsimile followed by written confirmation by registered overnight\n        carrier or certified United States mail\u037e or (c) one (1) day after\n        posting when sent by registered private overnight carrier (e.g., DHL,\n        Federal Express, etc.)\u037e or (d) five (5) days after posting when sent by\n        certified United States mail. Notice shall be sent to the parties at the\n        addresses set forth on the first page of this Agreement or at such other\n        address as shall be specified by either party to the other in writing."
+ ],
+ "sources": [
+  {
+   "chunk_id": "corioinc-07-20-2000-ex-10-5-license-and-hosting-e5ad84::0063",
+   "contract_id": "corioinc-07-20-2000-ex-10-5-license-and-hosting-e5ad84",
+   "contract_title": "CORIOINC - License And Hosting Agreement",
+   "section": "11.1 Term",
+   "page_start": 7,
+   "page_end": 7,
+   "clause_types": [
+    "renewal",
+    "term"
+   ],
+   "dense_rank": 1,
+   "sparse_rank": 1,
+   "rrf": 0.03279,
+   "rerank": 0.657,
+   "label": "S1",
+   "supported": true
+  },
+  {
+   "chunk_id": "corioinc-07-20-2000-ex-10-5-license-and-hosting-e5ad84::0042",
+   "contract_id": "corioinc-07-20-2000-ex-10-5-license-and-hosting-e5ad84",
+   "contract_title": "CORIOINC - License And Hosting Agreement",
+   "section": "7.3 Product Warranty",
+   "page_start": 6,
+   "page_end": 6,
+   "clause_types": [
+    "term",
+    "warranty"
+   ],
+   "dense_rank": 6,
+   "sparse_rank": 3,
+   "rrf": 0.03102,
+   "rerank": 0.0953,
+   "label": "S2",
+   "supported": false
+  },
+  {
+   "chunk_id": "corioinc-07-20-2000-ex-10-5-license-and-hosting-e5ad84::0067",
+   "contract_id": "corioinc-07-20-2000-ex-10-5-license-and-hosting-e5ad84",
+   "contract_title": "CORIOINC - License And Hosting Agreement",
+   "section": "12.2 Release",
+   "page_start": 8,
+   "page_end": 8,
+   "clause_types": [
+    "governing_law"
+   ],
+   "dense_rank": 3,
+   "sparse_rank": 4,
+   "rrf": 0.0315,
+   "rerank": 0.0788,
+   "label": "S3",
+   "supported": false
+  },
+  {
+   "chunk_id": "corioinc-07-20-2000-ex-10-5-license-and-hosting-e5ad84::0064",
+   "contract_id": "corioinc-07-20-2000-ex-10-5-license-and-hosting-e5ad84",
+   "contract_title": "CORIOINC - License And Hosting Agreement",
+   "section": "11.2 Termination",
+   "page_start": 7,
+   "page_end": 7,
+   "clause_types": [
+    "termination",
+    "warranty"
+   ],
+   "dense_rank": 2,
+   "sparse_rank": 2,
+   "rrf": 0.03226,
+   "rerank": 0.042,
+   "label": "S4",
+   "supported": false
+  },
+  {
+   "chunk_id": "corioinc-07-20-2000-ex-10-5-license-and-hosting-e5ad84::0043",
+   "contract_id": "corioinc-07-20-2000-ex-10-5-license-and-hosting-e5ad84",
+   "contract_title": "CORIOINC - License And Hosting Agreement",
+   "section": "7.3 Product Warranty",
+   "page_start": 6,
+   "page_end": 6,
+   "clause_types": [
+    "exclusivity",
+    "warranty"
+   ],
+   "dense_rank": 12,
+   "sparse_rank": 5,
+   "rrf": 0.02927,
+   "rerank": 0.0159,
+   "label": "S5",
+   "supported": false
+  },
+  {
+   "chunk_id": "corioinc-07-20-2000-ex-10-5-license-and-hosting-e5ad84::0081",
+   "contract_id": "corioinc-07-20-2000-ex-10-5-license-and-hosting-e5ad84",
+   "contract_title": "CORIOINC - License And Hosting Agreement",
+   "section": "14.4 Notices",
+   "page_start": 9,
+   "page_end": 9,
+   "clause_types": [],
+   "dense_rank": 4,
+   "sparse_rank": 11,
+   "rrf": 0.02971,
+   "rerank": 0.0156,
+   "label": "S6",
+   "supported": false
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['renewal'] | contracts=['corioinc-07-20-2000-ex-10-5-license-and-hosting-e5ad84']",
+   "data": {
+    "reason": "The question asks for specific renewal terms in the Corio license and hosting agreement.",
+    "search_query": "auto\u2011renewal period; non\u2011renewal notice period",
+    "unknown_contract_ids": []
+   },
+   "ms": 1889
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'auto\u2011renewal period; non\u2011renewal notice period' [clause filter relaxed]",
+   "data": {
+    "filters": {
+     "contracts": [
+      "corioinc-07-20-2000-ex-10-5-license-and-hosting-e5ad84"
+     ],
+     "clause_types": [
+      "renewal"
+     ]
+    }
+   },
+   "ms": 365
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "CORIOINC - License And Hosting Agreement",
+      "section": "11.1 Term",
+      "score": 0.657
+     },
+     {
+      "label": "S2",
+      "contract": "CORIOINC - License And Hosting Agreement",
+      "section": "7.3 Product Warranty",
+      "score": 0.0953
+     },
+     {
+      "label": "S3",
+      "contract": "CORIOINC - License And Hosting Agreement",
+      "section": "12.2 Release",
+      "score": 0.0788
+     },
+     {
+      "label": "S4",
+      "contract": "CORIOINC - License And Hosting Agreement",
+      "section": "11.2 Termination",
+      "score": 0.042
+     },
+     {
+      "label": "S5",
+      "contract": "CORIOINC - License And Hosting Agreement",
+      "section": "7.3 Product Warranty",
+      "score": 0.0159
+     },
+     {
+      "label": "S6",
+      "contract": "CORIOINC - License And Hosting Agreement",
+      "section": "14.4 Notices",
+      "score": 0.0156
+     }
+    ]
+   },
+   "ms": 1729
+  },
+  {
+   "node": "draft",
+   "message": "2 claims",
+   "data": {
+    "answer": "The Corio License and Hosting Agreement automatically renews for one\u2011year periods, and either party must provide written notice at least thirty days before the end of the current term to prevent renewal [S1]."
+   },
+   "ms": 15081
+  },
+  {
+   "node": "verify",
+   "message": "2/2 claims supported, verdict=PASS -> ACCEPT",
+   "data": {
+    "claims": [
+     {
+      "statement": "The agreement auto\u2011renews for subsequent one (1) year periods.",
+      "source_ids": [
+       "S1"
+      ],
+      "quote": "automatically renew for subsequent one (1) year periods",
+      "status": "supported",
+      "explanation": "Source S1 states the agreement automatically renews for subsequent one (1) year periods.",
+      "quote_verified": true
+     },
+     {
+      "statement": "A party must give written notification at least thirty (30) days prior to expiration to avoid renewal.",
+      "source_ids": [
+       "S1"
+      ],
+      "quote": "written notification at least thirty (30) days prior to the expiration",
+      "status": "supported",
+      "explanation": "Source S1 states a party must give written notification at least thirty (30) days prior to expiration to avoid renewal.",
+      "quote_verified": true
+     }
+    ],
+    "retry_query": ""
+   },
+   "ms": 7301
+  },
+  {
+   "node": "answer",
+   "message": "verdict=pass, 1 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 26.37,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1686,
+   "output_tokens": 143,
+   "total_tokens": 1829,
+   "output_token_details": {
+    "reasoning": 51
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "output_token_details": {
+    "reasoning": 771
+   },
+   "input_tokens": 2504,
+   "output_tokens": 1064,
+   "input_token_details": {
+    "cache_read": 256
+   },
+   "total_tokens": 3568
+  }
+ },
+ "llm_calls": 3
+}

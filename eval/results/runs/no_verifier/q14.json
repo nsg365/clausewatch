@@ -1,0 +1,261 @@
+{
+ "question": "What liquidated damages apply if the distributor fails to make its guaranteed minimum purchases under the European Micro (WGT) distributor agreement?",
+ "query_type": "clause_lookup",
+ "target_contracts": [
+  "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2"
+ ],
+ "clause_types": [
+  "minimum_commitment",
+  "liquidated_damages"
+ ],
+ "search_query": "liquidated damages for failure to meet guaranteed minimum purchase",
+ "answer": "If the Distributor fails to make the guaranteed minimum purchases, it must pay WGT liquidated damages equal to fifty percent (50%) of the unpaid balance of the cumulative Guaranteed Minimum Purchase amounts [1].",
+ "draft": {
+  "answer": "If the Distributor fails to make the guaranteed minimum purchases, it must pay WGT liquidated damages equal to fifty percent (50%) of the unpaid balance of the cumulative Guaranteed Minimum Purchase amounts [S1].",
+  "claims": [
+   {
+    "statement": "Distributor must pay liquidated damages equal to 50% of the unpaid balance of cumulative Guaranteed Minimum Purchase amounts when it fails to meet the guaranteed minimum purchases.",
+    "source_ids": [
+     "S1"
+    ],
+    "supporting_quote": "Distributor shall pay WGT fifty percent (50%) of the unpaid balance of cumulative Guaranteed Minimum Purchase amounts as liquidated damages."
+   }
+  ],
+  "insufficient_context": false,
+  "missing_information": ""
+ },
+ "citations": [
+  {
+   "n": 1,
+   "contract_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2",
+   "contract_title": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+   "section": "5.3 Failure to Make Guaranteed Minimum Purchases",
+   "page_start": 4,
+   "page_end": 4,
+   "chunk_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2::0024",
+   "quote": "Distributor shall pay WGT fifty percent (50%) of the unpaid balance of cumulative Guaranteed Minimum Purchase amounts as liquidated damages.",
+   "ref": "EUROPEANMICROHOLDINGSINC - Distributor Agreement, 5.3 Failure to Make Guaranteed Minimum Purchases, p. 4"
+  }
+ ],
+ "risk_flags": [],
+ "rejected_flags": [],
+ "verification": {},
+ "contexts": [
+  "5.3  Failure to Make Guaranteed Minimum Purchases. Upon any failure by\n     Distributor to make Gross Purchases in sufficient amounts to meet or exceed\n     the applicable cumulative Guaranteed Minimum Purchases, WGT may, at its\n     sole option and effective upon notice to Distributor, terminate this\n     Agreement. Distributor shall pay WGT fifty percent (50%) of the unpaid\n     balance of cumulative Guaranteed Minimum Purchase amounts as liquidated\n     damages. The parties acknowledge and agree that it would be difficult or\n     impossible to calculate WGT's actual damages arising from Distributor's\n     failure to timely pay all of the Guaranteed Minimum Purchases. Therefore,\n     the parties have agreed upon the above payment of liquidated damages in\n     lieu of WGT's claim for actual damages from such breach.",
+  "5.4  Termination by Distributor. Upon the occurrence of any of the following,\n     Distributor may terminate the Term by giving WGT written notice of such\n     termination\u037e\n(a)  the insolvency of WGT, the filing of a petition by or against WGT, the\n     appointment of a receiver for WGT or WGT's property, or the execution of an\n     assignment by WGT of all or substantially all of its assets for the benefit\n     of its creditors\u037e\n(b)  any failure by WGT to perform any of its obligations under this Agreement\n     where such failure continues for thirty (30) days after written notice\n     thereof by Distributor to WGT\u037e or\n(c)  for convenience whether or not extended beyond the Initial Term, provided\n     Distributor gives WGT thirty (30) days' advance written notice and, within\n     such thirty (30) day period, Distributor pays to WGT a lump-sum payment\n     equal to fifty (50%) of the unpaid balance of cumulative Guaranteed Minimum\n     Purchase amounts.",
+  "5.2  Termination by WGT. Upon the occurrence of any of the following, WGT may\n     terminate the Term by giving Distributor written notice of such termination\n     for:\n(a)  any failure of Distributor to comply with the marketing requirements under\n     paragraph 4.1(b)\u037e\n(b)  any material change in the general management, ownership or control of\n     Distributor, including without limitation the sale, transfer or\n     relinquishment by Distributor of any substantial interest in the ownership\n     of the business to be carried on by Distributor under this Agreement,\n     unless such change is approved in advance and in writing by an officer of\n     WGT\u037e\n(c)  any assignment or attempted assignment of this Agreement by Distributor\n     without the prior written consent of WGT\u037e\n(d)  any solicitation by Distributor for the sale of the Product to resellers\n     located outside the Territory\u037e\n(e)  the insolvency of Distributor, the filing of a petition in bankruptcy by or\n     against Distributor, the appointment of a receiver for Distributor or\n     Distributor's property, the execution of an assignment by Distributor of\n     all or substantially all of its assets for the benefit of its",
+  "17.  Representations. Distributor will be solely responsible for any\n     representations or warranties Distributor may make to any reseller with\n     respect to the Product or any products, goods, services or other items\n     provided by Distributor. Except to the extent inconsistent with paragraph\n     15, Distributor releases and will defend, indemnify and hold harmless WGT\n     and its officers, directors, employees, agents and representatives from any\n     and all claims, losses, damages, liens, liabilities, costs and expenses\n     (including, but not limited, reasonable attorneys' fees) incurred or\n     asserted by any reseller or otherwise arising out of or in connection with\n     (a) any misrepresentation, negligent or tortious act or omission, or breach\n     of or default under this Agreement by Distributor or by anyone else acting\n     for or on behalf of Distributor in connection with the promotion,\n     distribution or other dealings with respect to the Product\u037e (b) any\n     reseller or end-user's use of the Product or any products or services of\n     Distributor\u037e or (c) any representations and warranties made by Distributor\n     that are inconsistent with or in additio",
+  "end-user have compiled with the applicable warranty terms and conditions.\n     In order to receive the remedy provided for hereunder, Distributor shall\n     deliver to WGT a sample of the Product which Distributor finds to be\n     defective in workmanship or materials, or damaged in shipment prior to\n     Distributor assuming the risk of loss or damage , along with a written\n     explanation of the alleged defect within thirty (30) days from the later of\n     Distributor's initial receipt of such Product from WGT or from the delivery\n     of such Product to an end-user. In the event WGT verifies a defect reported\n     by Distributor and such defect affects more than one (1) Product, then at\n     WGT's option, Distributor shall either certify destruction of all defective\n     Products or return all Products which it alleges are defective to WGT.\n     Distributor, reseller or the end user will be responsible for\n     transportation charges for such Product units sent to WGT's facilities for\n     service.",
+  "representation, warranty or guarantee to any reseller with respect to\n     specifications, features or capabilities of the Product that is\n     inconsistent with the literature distributed by WGT or this Agreement\u037e\n(m)  conduct its business in a manner under its own control, provided that\n     Distributor will at all times comply with all applicable laws and\n     regulations and will not engage in, or permit its employees or agents to\n     engage in, any activities or practices which could reflect negatively upon\n     the reputation or prospects of WGT or the Product or expose WGT to any\n     liability of any nature whatsoever\u037e and"
+ ],
+ "sources": [
+  {
+   "chunk_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2::0024",
+   "contract_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2",
+   "contract_title": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+   "section": "5.3 Failure to Make Guaranteed Minimum Purchases",
+   "page_start": 4,
+   "page_end": 4,
+   "clause_types": [
+    "liquidated_damages",
+    "minimum_commitment"
+   ],
+   "dense_rank": 1,
+   "sparse_rank": 1,
+   "rrf": 0.06557,
+   "rerank": 0.9993,
+   "label": "S1"
+  },
+  {
+   "chunk_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2::0025",
+   "contract_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2",
+   "contract_title": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+   "section": "5.4 Termination by Distributor",
+   "page_start": 4,
+   "page_end": 4,
+   "clause_types": [
+    "term",
+    "termination"
+   ],
+   "dense_rank": 8,
+   "sparse_rank": 4,
+   "rrf": 0.03033,
+   "rerank": 0.1396,
+   "label": "S2"
+  },
+  {
+   "chunk_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2::0022",
+   "contract_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2",
+   "contract_title": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+   "section": "5.2 Termination by WGT",
+   "page_start": 3,
+   "page_end": 4,
+   "clause_types": [
+    "assignment",
+    "non_solicit",
+    "termination"
+   ],
+   "dense_rank": 26,
+   "sparse_rank": 19,
+   "rrf": 0.02429,
+   "rerank": 0.1122,
+   "label": "S3"
+  },
+  {
+   "chunk_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2::0067",
+   "contract_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2",
+   "contract_title": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+   "section": "17. Representations",
+   "page_start": 9,
+   "page_end": 10,
+   "clause_types": [
+    "indemnification",
+    "warranty"
+   ],
+   "dense_rank": 16,
+   "sparse_rank": 17,
+   "rrf": 0.02614,
+   "rerank": 0.0885,
+   "label": "S4"
+  },
+  {
+   "chunk_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2::0058",
+   "contract_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2",
+   "contract_title": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+   "section": "13. Implementation",
+   "page_start": 8,
+   "page_end": 9,
+   "clause_types": [
+    "warranty"
+   ],
+   "dense_rank": 7,
+   "sparse_rank": 16,
+   "rrf": 0.02808,
+   "rerank": 0.0781,
+   "label": "S5"
+  },
+  {
+   "chunk_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2::0018",
+   "contract_id": "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2",
+   "contract_title": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+   "section": "4.1 Obligations of Distributor",
+   "page_start": 3,
+   "page_end": 3,
+   "clause_types": [
+    "warranty"
+   ],
+   "dense_rank": 19,
+   "sparse_rank": null,
+   "rrf": 0.01266,
+   "rerank": 0.0709,
+   "label": "S6"
+  }
+ ],
+ "trace": [
+  {
+   "node": "router",
+   "message": "clause_lookup | clauses=['minimum_commitment', 'liquidated_damages'] | contracts=['europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2']",
+   "data": {
+    "reason": "The question seeks the specific liquidated damages clause tied to the guaranteed minimum purchase requirement in the distributor agreement.",
+    "search_query": "liquidated damages for failure to meet guaranteed minimum purchase",
+    "unknown_contract_ids": []
+   },
+   "ms": 1655
+  },
+  {
+   "node": "retrieve",
+   "message": "attempt 0: 30 candidates (dense+BM25, RRF) for 'liquidated damages for failure to meet guaranteed minimum purchase'",
+   "data": {
+    "filters": {
+     "contracts": [
+      "europeanmicroholdingsinc-03-06-1998-ex-10-6-dist-9740c2"
+     ],
+     "clause_types": [
+      "minimum_commitment",
+      "liquidated_damages"
+     ]
+    }
+   },
+   "ms": 131
+  },
+  {
+   "node": "rerank",
+   "message": "cross-encoder kept 6/30",
+   "data": {
+    "top": [
+     {
+      "label": "S1",
+      "contract": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+      "section": "5.3 Failure to Make Guaranteed Minimum Purchases",
+      "score": 0.9993
+     },
+     {
+      "label": "S2",
+      "contract": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+      "section": "5.4 Termination by Distributor",
+      "score": 0.1396
+     },
+     {
+      "label": "S3",
+      "contract": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+      "section": "5.2 Termination by WGT",
+      "score": 0.1122
+     },
+     {
+      "label": "S4",
+      "contract": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+      "section": "17. Representations",
+      "score": 0.0885
+     },
+     {
+      "label": "S5",
+      "contract": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+      "section": "13. Implementation",
+      "score": 0.0781
+     },
+     {
+      "label": "S6",
+      "contract": "EUROPEANMICROHOLDINGSINC - Distributor Agreement",
+      "section": "4.1 Obligations of Distributor",
+      "score": 0.0709
+     }
+    ]
+   },
+   "ms": 1468
+  },
+  {
+   "node": "draft",
+   "message": "1 claims",
+   "data": {
+    "answer": "If the Distributor fails to make the guaranteed minimum purchases, it must pay WGT liquidated damages equal to fifty percent (50%) of the unpaid balance of the cumulative Guaranteed Minimum Purchase amounts [S1]."
+   },
+   "ms": 16756
+  },
+  {
+   "node": "answer",
+   "message": "verdict=unverified, 1 citations",
+   "data": {},
+   "ms": 0
+  }
+ ],
+ "latency_s": 20.01,
+ "usage": {
+  "openai/gpt-oss-20b": {
+   "input_tokens": 1725,
+   "output_tokens": 174,
+   "total_tokens": 1899,
+   "output_token_details": {
+    "reasoning": 68
+   }
+  },
+  "openai/gpt-oss-120b": {
+   "input_tokens": 1927,
+   "output_tokens": 458,
+   "total_tokens": 2385,
+   "output_token_details": {
+    "reasoning": 295
+   }
+  }
+ },
+ "llm_calls": 2
+}

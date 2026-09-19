@@ -1,0 +1,20 @@
+{
+ "id": "q12",
+ "type": "clause_lookup",
+ "query_type": "clause_lookup",
+ "verdict": "pass",
+ "latency_s": 29.89,
+ "tokens": 5730,
+ "routing_ok": true,
+ "n_citations": 1,
+ "citation_grounding": 1.0,
+ "evidence_in_context": 1.0,
+ "judges": {
+  "faithfulness": "openai/gpt-oss-20b",
+  "context_precision": "qwen/qwen3.8-27b"
+ },
+ "faithfulness": 1.0,
+ "answer_relevancy": 0.9517123204193657,
+ "context_precision": 0.9999999999,
+ "judge_model": "qwen/qwen3.8-27b"
+}
