@@ -4,7 +4,6 @@
 
 It is built on LangGraph with hybrid retrieval, a cross-encoder reranker, and a two-layer **verifier** that rejects unsupported claims and re-retrieves before anything reaches the user. It is evaluated with **RAGAS** on a hand-written QA set over the [CUAD](https://www.atticusprojectai.org/cuad) contract corpus.
 
-> Runs entirely on free infrastructure: Groq free tier for LLMs, local open-source embeddings and reranker, and embedded Qdrant.
 
 ---
 
@@ -19,8 +18,8 @@ flowchart LR
     RR --> D[draft<br/>claims + verbatim quotes]
     D --> V{verify}
     RS --> V
-    V -- unsupported / insufficient<br/>and retries left --> RT
-    V -- accept --> A[answer<br/>inline citations]
+    V -- answer not grounded:<br/>search again --> RT
+    V -- answer grounded --> A[answer<br/>inline citations]
     A --> OUT([answer, citations,<br/>risk flags, trace])
 ```
 
@@ -131,7 +130,6 @@ Full field-level schemas: [`docs/mcp_tools.md`](docs/mcp_tools.md) (generated fr
 
 ## Example queries
 
-The outputs below are real, copied from `eval/results/`.
 
 ### 1. The verifier recovers a missed clause
 
@@ -269,23 +267,6 @@ is roughly 1.7x latency and 1.6x tokens.
 <!-- /RESULTS -->
 
 ---
-
-## Project layout
-
-```
-clausewatch/
-  agent/        graph.py (LangGraph), nodes.py, schemas.py (state + structured outputs), prompts.py
-  ingest/       cuad.py (download + subset selection), chunking.py (PDF -> section/page-aware chunks), pipeline.py
-  retrieval/    hybrid.py (dense + BM25 + RRF + rerank), store.py (Qdrant + chunk store), models.py
-  taxonomy.py   clause categories, keyword tagger, CUAD label mapping
-  risk_patterns.py
-  llm.py        provider factory + structured-output helper
-  api.py  mcp_server.py  cli.py  config.py
-app/streamlit_app.py
-eval/           qa_set.jsonl, run_eval.py, ragas_adapter.py, results/
-docs/           mcp_tools.md / .json
-tests/          offline unit + graph tests (scripted LLM)
-```
 
 ## Limitations and next steps
 
